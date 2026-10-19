@@ -1,0 +1,1662 @@
+entry	course_gloss	course_reg	dict_gloss	dict_level	verdict
+tiang	I	Alus/Andap (Neutral/Polite)	I; me	Kasar / Andap / Alus sor / Alus madya	ok
+icang	I	Andap (Informal)	I; me (informal/impolite form)	Kasar / Andap / Alus sor / Alus madya	ok
+ragane	you	Alus	doing; you	Kasar / Alus mider / Alus singgih	ok
+cai	you (male)	Andap	you (male)	Kasar / Andap	ok
+nyai	you (female)	Andap	you	Andap	ok
+ia	he/she/it	Andap	he	Kasar / Andap / Alus sor / Alus singgih	ok
+ipun	he/she/it	Alus			ok
+ida	he/she (respectful)	Alus (Singgih)	god, kind of a; you; people	Kasar / Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+nggih	yes	Alus	yes	Andap / Alus madya / Alus mider	ok
+inggih	yes	Alus (Very formal)	yes	Andap / Alus madya / Alus mider	ok
+saja	yes (true)	Andap	true; real	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+aa	yes	Andap (Informal)	yes	Kasar / Andap	ok
+patut	correct/yes	Alus	correct; appropriate; proper; right; suitable; reasonable	Andap / Alus mider	ok
+beneh	correct	Andap	correct	Andap	ok
+ten	no	Alus	No	Andap / Mider / Alus mider	ok
+sing	no	Andap	rude; not; don't; coward; unnecessary	Kasar / Andap / Alus madya / Alus singgih	ok
+tusing	no	Andap	not	Andap / Alus madya / Alus mider	ok
+nenten	no	Alus	doesn't; no	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider	ok
+wénten	is/are/exist	Alus			NOT-IN-DICTIONARY
+ada	is/are/exist	Andap	there are; there is	Andap / Alus mider	GLOSS-MISMATCH
+niki	this	Alus	this	Andap / Alus madya / Alus mider	ok
+ene	this	Andap	this	Kasar / Andap	ok
+nika	that	Alus	that	Andap / Alus madya / Alus mider	ok
+ento	that	Andap	that; the	Kasar / Andap	ok
+dini	here	Andap	go; be	Andap / Alus mider	ok
+driki	here	Alus	here; over here	Andap / Alus mider / Alus singgih	ok
+ditu	there	Andap	go; there	Kasar / Andap / Alus mider	ok
+drika	there	Alus	over there; there	Andap / Alus mider / Alus singgih	ok
+miwah	and	Alus	and	Andap / Alus sor / Alus singgih	ok
+lan	and	Mider	let's; and	Kasar / Andap	ok
+nanging	but	Mider	nevertheless	Andap / Alus mider	GLOSS-MISMATCH
+sakewanten	but	Alus	but; only	Andap / Alus mider	ok
+Om Swastiastu	Hello (Hindu greeting)	Mider			NOT-IN-DICTIONARY
+rahajeng	good/blessed	Alus	secure; peace; prosperous	Mider	GLOSS-MISMATCH
+rahayu	safe/blessed	Mider	presprous		GLOSS-MISMATCH
+semeng	morning	Andap/Alus	morning	Mider	ok
+tengai	afternoon	Andap	early afternoon; late morning	Andap	ok
+siang	afternoon (loan)	Mider			NOT-IN-DICTIONARY
+sanja	evening	Andap	afternoon; evening	Andap / Alus mider	ok
+sore	evening (loan)	Mider	evening	Kasar / Andap	ok
+peteng	night	Andap	night; dark	Andap / Alus mider	ok
+wengi	night	Alus	dark; night	Andap / Alus mider	ok
+sapunapi	how	Alus	what; how; thus	Andap / Alus mider	ok
+kenken	how	Andap	how; give orders	Andap / Alus mider	ok
+gatra	news	Mider	news	Kasar / Andap	ok
+kabar	news	Mider	news	Andap / Alus singgih	ok
+sapunapi gatrane	how are you?	Alus			NOT-IN-DICTIONARY
+kenken kabare	how are you?	Andap			NOT-IN-DICTIONARY
+becik	good/fine	Alus	good; excelent; perfect	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+luung	good/fine	Andap	good	Andap / Alus mider	ok
+tiang becik	I am fine	Alus			NOT-IN-DICTIONARY
+sampun	already	Alus	already; afterwards	Andap / Alus madya / Alus mider	ok
+suba	already	Andap	finished; already	Andap / Alus madya / Alus mider	ok
+durung	not yet	Alus (Mider)	not yet	Andap / Alus madya / Alus mider	ok
+tonden	not yet	Andap	not yet	Andap / Alus madya / Alus mider	ok
+pamit	goodbye/leave	Alus	leave	Andap / Alus sor / Alus singgih	ok
+mepamit	to take one's leave	Alus		Mider / Alus mider	ok
+rauh	come/arrive	Alus		Andap / Alus mider	ok
+teka	come/arrive	Andap	Came	Kasar / Andap / Mider / Alus sor / Alus madya / Alus singgih	GLOSS-MISMATCH
+rahajeng rauh	welcome	Alus			NOT-IN-DICTIONARY
+dumogi	hopefully/may you	Mider	hopefully; wishing		ok
+dumogi rahayu	may you be safe	Mider			NOT-IN-DICTIONARY
+lantang yusa	long life	Mider			NOT-IN-DICTIONARY
+sing kenken	it's fine / no problem (reply to kenken kabare)	Andap			NOT-IN-DICTIONARY
+suksma	thank you	Mider	thank you; purpose; mean	Mider	ok
+matur	to say/offer	Alus	talk; organized	Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+matur suksma	thank you very much	Alus			NOT-IN-DICTIONARY
+mewali	to return	Alus			ok
+ampura	excuse me/sorry	Alus	forgive	Mider	GLOSS-MISMATCH
+ampurayang	please forgive	Alus	to pardon; to excuse	Mider	GLOSS-MISMATCH
+sinampura	apologies	Alus	forgive	Andap	GLOSS-MISMATCH
+pelih	wrong/sorry	Andap	wrong; incorrect; false	Andap / Alus mider	ok
+iwang	wrong/sorry	Alus	wrong; mistake	Kasar / Andap / Alus mider	ok
+tulung	help; a call for help (noun/root — verbs: nulungin / ngwantu)	Mider	help	Andap	ok
+nunas	ask for (polite)	Alus	to ask for	Andap / Alus sor / Alus singgih	ok
+idih	ask for	Andap	beg; ask	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+nunas tulung	ask for help	Alus			NOT-IN-DICTIONARY
+ngidih tulung	ask for help	Andap			NOT-IN-DICTIONARY
+durus	please go ahead	Alus	emphatic	Andap / Alus mider	GLOSS-MISMATCH
+raris	please go ahead	Alus	please go ahead	Andap	ok
+silakan	please	Mider			NOT-IN-DICTIONARY
+jalan	let's go/walk	Andap	travel; walk; a road	Andap / Alus mider	ok
+ngiring	let's go	Alus	accompany; follow	Andap	GLOSS-MISMATCH
+memargi	to walk/go	Alus		Mider	ok
+majalan	to walk/go	Andap	go; to be on one's way; to move	Kasar / Andap / Alus mider	GLOSS-MISMATCH
+kija	where to	Andap	where	Mider	ok
+lunga kija	where are you going?	Alus			NOT-IN-DICTIONARY
+lakar kija	where are you going?	Andap			NOT-IN-DICTIONARY
+ngudiang	what are you doing	Andap			ok
+napi karya	what are you doing	Alus			NOT-IN-DICTIONARY
+ten wenten	there is none / no problem	Alus			NOT-IN-DICTIONARY
+sing ada	there is none / no problem	Andap			NOT-IN-DICTIONARY
+nunas ampura	please forgive me; I apologize	Alus			NOT-IN-DICTIONARY
+suksma mewali	you're welcome	Alus			NOT-IN-DICTIONARY
+sira	who	Alus	who; what; anybody	Andap / Alus mider	ok
+nyen	who	Andap	who; which	Andap / Alus madya / Alus mider	ok
+pesengan	name	Alus	squeeze	Andap / Alus mider / Alus singgih	GLOSS-MISMATCH
+adan	name	Andap	name	Kasar / Andap	ok
+parab	name	Alus (Singgih)	name	Kasar / Andap	ok
+sira pesengan ragane?	what is your name?	Alus			NOT-IN-DICTIONARY
+nyen adan caine?	what is your name?	Andap			NOT-IN-DICTIONARY
+tiang mawasta	my name is...	Alus			NOT-IN-DICTIONARY
+wastan tiang	my name is...	Alus			NOT-IN-DICTIONARY
+adan icange	my name is...	Andap			NOT-IN-DICTIONARY
+wastan	name	Alus	name	Andap / Alus sor / Alus singgih	ok
+linggih	to reside / stay (respectful)	Alus	house; place	Andap	GLOSS-MISMATCH
+nongos	live/stay	Andap	stay	Alus sor / Alus singgih	ok
+saking	from	Alus	from	Andap / Alus mider	ok
+uli	from	Andap	since; from; sticky rice snacks; brownsugar	Kasar / Andap	ok
+uli dija?	where are you from?	Andap			NOT-IN-DICTIONARY
+jagat	world/country	Alus	world	Mider	ok
+gumi	world/country	Andap	world	Andap / Alus mider	ok
+Bali	Bali	Mider	Bali; Bali Island	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+Jawa	Java	Mider	millet; outsider	Andap	GLOSS-MISMATCH
+tamiu	guest	Mider		Alus mider	ok
+toris	tourist	Mider			NOT-IN-DICTIONARY
+timpal	friend	Andap			ok
+sawitra	friend	Alus	best friend		ok
+malajah	to learn	Mider	to learn	Mider	ok
+basa	language	Mider	spice; language	Mider	ok
+Basa Bali	Balinese language	Mider			NOT-IN-DICTIONARY
+uning	know/understand	Alus	know; as	Kasar / Andap / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+nawang	know/understand	Andap	know	Andap / Alus singgih	ok
+ten uning	don't know	Alus	don't know	Alus madya	ok
+sing nawang	don't know	Andap			NOT-IN-DICTIONARY
+pundi	where (respectful)	Alus			NOT-IN-DICTIONARY
+saking pundi?	where are you from? (respectful)	Alus			NOT-IN-DICTIONARY
+ajeng	eat (polite to others)	Alus	in front; to eat	Kasar / Andap / Alus madya / Alus mider / Alus singgih	ok
+neda	eat (for oneself)	Alus	eat	Andap	ok
+madaar	eat	Andap	eat	Kasar / Andap / Alus sor / Alus madya / Alus singgih	ok
+ngajeng	to eat	Alus	eat, eating	Andap / Alus singgih	ok
+nginem	drink (polite)	Alus	drink (v)	Kasar / Andap	ok
+rayunan	food/meal (respectful)	Alus	meal	Alus singgih	ok
+ajengan	food/meal	Alus	food	Kasar / Andap	ok
+dedaaran	food/meal	Andap	food, kind of	Andap	ok
+nasi	cooked rice	Mider	steamed rice	Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+beras	raw rice	Mider	rice	Kasar / Andap	ok
+padi	rice plant	Mider	rice	Andap / Alus singgih	ok
+toya	water	Alus	holy water; water	Andap / Alus mider	ok
+yeh	water	Andap	water; an expression of being astonished, surprised or upset.	Kasar / Andap / Alus mider / Alus singgih	ok
+kopi	coffee	Mider	coffee; milk	Andap / Alus singgih	ok
+teh	tea	Mider	tea	Mider	ok
+susu	milk	Mider	milk	Andap	ok
+gula	sugar	Mider	sugar	Andap / Alus mider	ok
+uyah	salt	Mider	salt	Andap / Alus mider	ok
+jaen	delicious	Andap	delicious	Kasar / Andap	ok
+becik pisan	very good	Alus			NOT-IN-DICTIONARY
+jaen gati	very delicious	Andap			NOT-IN-DICTIONARY
+luwe	hungry	Andap	i am hungry	Andap / Alus sor / Alus singgih	ok
+seduk	hungry	Alus	hungry	Kasar / Andap / Alus singgih	ok
+bedak	thirsty	Andap	thirsty	Andap / Alus singgih	ok
+nyampah	breakfast	Andap	breakfast	Andap	ok
+ngajeng semeng	breakfast	Alus			NOT-IN-DICTIONARY
+madaar tengai	lunch	Andap			NOT-IN-DICTIONARY
+madaar peteng	dinner	Andap			NOT-IN-DICTIONARY
+piring	plate	Mider	plate	Mider	ok
+gelas	glass	Mider	cup	Kasar / Andap	GLOSS-MISMATCH
+sendok	spoon	Mider	spoon	Andap	ok
+nginum	drink	Andap	drink	Andap	ok
+ngunjuk	drink (honouring others)	Alus (Singgih)		Alus singgih	ok
+buron	animal	Andap	animal	Kasar / Andap	ok
+sato	animal	Alus	animal		ok
+cicing	dog	Andap	dog, kind of	Andap / Alus singgih	ok
+asu	dog	Alus	dog	Kasar / Andap / Alus mider	ok
+meong	cat	Andap	cat		ok
+kucing	cat (loan)	Mider	cat	Kasar / Andap	ok
+celeng	pig	Andap	pig; Convolvulus pluricaulis	Andap / Alus mider	ok
+bawi	pig	Alus	pig	Andap / Alus mider	ok
+siap	chicken	Andap	chicken	Kasar / Andap / Alus mider	ok
+ayam	chicken	Alus	chicken	Kasar / Andap / Alus mider	ok
+kedis	bird	Andap	two; munia	Andap / Alus mider	GLOSS-MISMATCH
+paksi	bird	Alus	bird	Andap / Alus mider	ok
+bojog	monkey	Andap	monkey	Andap	ok
+wanara	monkey	Alus	the monkey in the ramayana's story	Andap / Alus singgih	ok
+sampi	cow	Andap	steer; cow	Andap / Alus mider	ok
+lembu	cow	Alus	bull	Andap	GLOSS-MISMATCH
+bebek	duck	Mider	a duck or ducks; herbs and spices	Kasar / Andap	ok
+kambing	goat	Mider	goat	Andap	ok
+jaran	horse	Andap	horse	Andap	ok
+kuda	horse	Alus	how much?; how many?; horse		ok
+lipi	snake	Andap	snacke	Andap	GLOSS-MISMATCH
+ula	snake	Alus	snake	Mider / Alus singgih	ok
+bikul	mouse/rat	Andap	mouse	Andap	ok
+jero ketut	mouse (polite term)	Alus	mouse	Mider	ok
+lelipi	snake	Andap	snake	Mider	ok
+lawa	bat	Mider			NOT-IN-DICTIONARY
+yuyu	crab	Andap	soft shelled crab	Andap	ok
+penyu	turtle	Mider	turtle	Andap	ok
+buaya	crocodile	Mider	crocodile	Andap	ok
+iwak	fish	Alus			ok
+be	fish/meat	Andap	fish; meat	Kasar / Andap / Alus singgih	ok
+lele	catfish	Mider	Catfish	Andap	ok
+gelah	mine/own	Andap	claim; me (pronoun)	Kasar / Andap / Alus sor / Alus madya / Alus singgih	GLOSS-MISMATCH
+druwe	mine/own	Alus	property	Kasar / Andap	GLOSS-MISMATCH
+buku	book	Mider	bamboo; book; drawing	Andap	ok
+umah	house	Andap	house; home	Andap / Alus sor / Alus mider / Alus singgih	ok
+jero	house/home	Alus	title for someone respected or for someone you don't know; house; name	Andap / Mider	ok
+baju	shirt	Mider	clothes; shirt/tshirt	Andap / Alus singgih	ok
+hp	phone	Mider			NOT-IN-DICTIONARY
+montor	motorbike	Mider	automobile	Andap	GLOSS-MISMATCH
+gelah tiange	my (belonging)	Andap			NOT-IN-DICTIONARY
+gelah icange	my (belonging)	Andap			NOT-IN-DICTIONARY
+druwen ragane	your (belonging)	Alus			NOT-IN-DICTIONARY
+gelah caine	your (belonging, male)	Andap			NOT-IN-DICTIONARY
+gelah nyaine	your (belonging, female)	Andap			NOT-IN-DICTIONARY
+gelahne	his/her (belonging)	Andap			NOT-IN-DICTIONARY
+druwen ida	his/her (belonging, respectful)	Alus			NOT-IN-DICTIONARY
+napi	what	Alus	what	Andap / Alus madya / Alus mider	ok
+apa	what	Andap	what; baby monkey	Andap	ok
+napi niki?	what is this?	Alus			NOT-IN-DICTIONARY
+apa ene?	what is this?	Andap			NOT-IN-DICTIONARY
+napi nika?	what is that?	Alus			NOT-IN-DICTIONARY
+apa ento?	what is that?	Andap			NOT-IN-DICTIONARY
+ngaba	to bring/carry	Andap	carry	Andap / Alus mider	ok
+makta	to bring/carry	Alus	bring	Andap / Alus mider	ok
+baang	give	Andap	give	Andap / Alus sor / Alus singgih	ok
+wehin	give	Alus	give	Andap / Alus singgih	ok
+dadi	can/may	Andap	become; be able; thus	Kasar / Andap / Alus mider / Alus singgih	GLOSS-MISMATCH
+dados	can/may	Alus	Can	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+nyelang	borrow	Alus	borrow; excuse	Andap	ok
+silih	borrow	Andap	borrow	Andap	ok
+niki druwen tiang	this is mine	Alus			NOT-IN-DICTIONARY
+ene gelah cang	this is mine	Andap			NOT-IN-DICTIONARY
+angka	number	Mider	numeral	Andap / Alus mider	GLOSS-MISMATCH
+besik	one	Andap	one	Andap / Alus mider	ok
+siki	one	Alus	one	Andap / Alus mider	ok
+a	one (prefix)	Mider	one; non-; anti	Andap	ok
+dua	two	Andap	two	Andap / Alus mider	ok
+kalih	two	Alus	two; second	Andap / Alus mider	ok
+telu	three	Andap	three	Andap / Alus mider	ok
+tiga	three	Alus	spirit; three; tree	Andap	ok
+papat	four	Mider	four	Kasar / Andap / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+lima	five	Mider	hand; five	Andap / Mider / Alus singgih	ok
+nenem	six	Andap	six	Andap / Alus mider	ok
+enam	six	Alus			NOT-IN-DICTIONARY
+pitu	seven	Mider	seven	Mider	ok
+kutus	eight	Mider	eight	Mider	ok
+sia	nine	Mider	nine	Kasar / Andap / Alus mider	ok
+dasa	ten	Mider	ten	Kasar / Andap / Mider	ok
+aji	price	Alus	price; father (Alus Singgih: high level of balinese language)	Mider / Alus singgih	ok
+aji kuda?	how much (price)?	Alus			NOT-IN-DICTIONARY
+kude regane?	how much is it?	Andap			NOT-IN-DICTIONARY
+pinten	how many/how much	Alus			NOT-IN-DICTIONARY
+kude	how much/many	Andap		Mider / Alus mider	ok
+akeh	many/a lot	Alus	lost	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	GLOSS-MISMATCH
+liu	many/a lot	Andap	many	Andap / Alus mider	ok
+kidik	a few/little	Alus	a little; a small number	Kasar / Andap	ok
+bedik	a few/little	Andap	small	Andap / Alus mider	GLOSS-MISMATCH
+akidik	just a little	Alus	small; little	Kasar / Andap	ok
+abedik	just a little	Andap	a little; slight; few	Kasar / Andap / Alus singgih	ok
+puput	finished	Alus	completed; finished	Kasar / Andap / Alus singgih	ok
+pragat	finished	Andap	finished	Andap	ok
+telah	empty/all gone	Andap	all gone	Andap	ok
+duang	two (linking form)	Mider			ok
+telung	three (linking form)	Mider	three	Andap	ok
+tigang	three (polite linking form)	Mider	three	Kasar / Andap	ok
+patang	four (linking form)	Mider			NOT-IN-DICTIONARY
+limang	five (linking form)	Mider	five	Andap	ok
+sangang	nine (linking form)	Mider			NOT-IN-DICTIONARY
+agelas	one glass	Mider			NOT-IN-DICTIONARY
+keluarga	family	Mider	Nyama	Mider	GLOSS-MISMATCH
+meme	mother	Andap	mother	Kasar / Andap	ok
+biang	mother	Alus	mother	Andap / Alus singgih	ok
+ibu	mother	Mider	mother	Andap / Mider / Alus singgih	ok
+bapa	father	Andap	father	Kasar / Andap / Alus sor / Alus singgih	ok
+nanang	father	Andap (rural)		Kasar / Andap / Mider / Alus sor / Alus madya / Alus singgih	ok
+panak	child	Andap	child	Andap / Alus sor / Alus mider / Alus singgih	ok
+oka	child	Alus	child	Kasar / Andap	ok
+pianak	child	Andap	child; kid	Andap / Alus sor / Alus singgih	ok
+nyama	sibling/relative	Andap	family; sibling; relatives	Andap / Alus singgih	ok
+semeton	sibling/relative	Alus	relatives; kinsfolk; brother/sister	Andap / Alus singgih	GLOSS-MISMATCH
+beli	older brother (or term for young man)	Mider	buy; brother	Andap / Alus mider	ok
+mbok	older sister	Mider	older sister; older woman	Kasar / Andap	ok
+gek	younger woman (term of address)	Andap	name, kind of a; call for girls	Kasar / Andap	GLOSS-MISMATCH
+adi	younger sibling	Andap	younger sibling smaller siblings; pronoun for a younger woman; how	Andap / Alus sor / Alus singgih	ok
+ari	younger sibling	Alus	brother	Kasar / Andap	GLOSS-MISMATCH
+pekak	grandfather	Andap	grandfather	Kasar / Andap / Alus singgih	ok
+dadong	grandmother	Andap	grandmother	Kasar / Andap / Alus singgih	ok
+niang	grandmother	Alus	grandmother	Andap / Alus singgih	ok
+lanang	male	Alus	gamelan instrument; male	Andap	ok
+muani	male	Andap	man; guy; boy	Kasar / Andap / Alus singgih	GLOSS-MISMATCH
+istri	female	Alus	woman; female	Kasar / Andap / Alus mider / Alus singgih	ok
+luh	female	Andap	female	Kasar / Andap / Alus singgih	ok
+mepanak	to have children	Andap			NOT-IN-DICTIONARY
+misan	cousin	Mider	cousin	Andap / Alus singgih	ok
+mindon	second cousin	Mider	Mindoan is a brother from the descendants of one grandfather. The grandchildren of the prayers of siblings. The sons and daughters of two people who have kinship as cousins are said to inherit kinship relationships as mindoan, or mindon.	Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+mantu	child-in-law	Mider	help; son in law	Kasar / Andap	ok
+mertua	parent-in-law	Mider	parents-in-law	Andap	ok
+cucu	grandchild	Mider	grandchild	Andap / Alus singgih	ok
+dija	where	Andap	anywhere; everywhere; nowhere; somewhere; where	Mider	ok
+ring dija	where	Alus			NOT-IN-DICTIONARY
+jagi kija	going where	Alus			NOT-IN-DICTIONARY
+uling dija	from where	Andap			NOT-IN-DICTIONARY
+saking dija	from where	Alus			NOT-IN-DICTIONARY
+pidan	when	Andap	formerly; when?  what time?	Andap	ok
+ring pidan	when	Alus			NOT-IN-DICTIONARY
+ngapain	doing what (slang)	Andap			NOT-IN-DICTIONARY
+kenapa	why (loan)	Mider	how; why	Kasar / Andap	ok
+ngawinan napi	why	Alus			NOT-IN-DICTIONARY
+encen	which one	Andap	which; that; that is	Andap	ok
+sane encen	which one	Alus			NOT-IN-DICTIONARY
+dot	want	Andap	crave	Andap / Alus singgih	GLOSS-MISMATCH
+meled	want	Alus	to desire; to want to very much	Andap / Mider / Alus sor / Alus madya / Alus singgih	ok
+kayun	want (respectful)	Alus	mind; desire; intention	Andap	GLOSS-MISMATCH
+engken	what's up/how	Andap	wich one	Andap / Alus mider	GLOSS-MISMATCH
+nyak	willing to	Andap	want; be willing; to accept	Kasar / Andap	ok
+arsa	willing to	Alus	satisfaction	Kasar / Andap	GLOSS-MISMATCH
+sirep	sleep (respectful)	Alus	sleep	Kasar / Andap / Alus mider / Alus singgih	ok
+pules	sleep	Andap	sleep	Kasar / Andap	ok
+medem	sleep (for oneself)	Alus/Andap	sleep	Kasar / Andap / Alus singgih	ok
+mesare	sleep	Alus	sleep	Kasar / Andap	ok
+bangun	wake up	Andap	wake up	Andap / Alus sor / Alus mider / Alus singgih	ok
+matangi	wake up	Alus	rise up; stand up; wake (from sleep)	Andap / Alus singgih	ok
+mandi	bathe	Andap			NOT-IN-DICTIONARY
+maseh	bathe	Andap	change	Andap	GLOSS-MISMATCH
+masiram	bathe	Alus	wash something	Andap	GLOSS-MISMATCH
+manjus	bathe	Andap	take a bath	Kasar / Andap	GLOSS-MISMATCH
+pagawean	work	Andap			NOT-IN-DICTIONARY
+pakaryan	work	Alus	working result; profession	Andap / Alus mider	GLOSS-MISMATCH
+megawe	to work	Andap			NOT-IN-DICTIONARY
+makarya	to work	Alus		Andap / Alus mider	ok
+negak	sit	Andap	to sit	Andap / Alus singgih	ok
+malinggih	sit	Alus	sit	Andap	ok
+ngadeg	stand	Mider	stand up; ceremony, type of	Andap	ok
+majan	to stand	Andap	Using the stairs	Mider	GLOSS-MISMATCH
+malaib	run	Andap	elope; run	Kasar / Andap	ok
+mlayu	run	Alus			NOT-IN-DICTIONARY
+jumah	at home	Andap/Alus	at home; at house	Andap / Alus singgih	ok
+mantuk	go home	Alus	go home; die	Kasar / Andap / Alus singgih	ok
+mulih	go home	Andap	return; go home	Andap / Alus singgih	ok
+gati	fast	Andap	in a hurry; very; so; enterprising	Kasar / Andap	GLOSS-MISMATCH
+enggal	fast	Andap	fast	Andap / Alus mider	ok
+gelis	fast	Alus	fast; quickly	Kasar / Andap	ok
+adeng	slow	Andap	charcoal; slow; egg	Kasar / Andap	ok
+alon	slow	Alus	slow	Andap / Alus mider	ok
+tongos	place	Andap		Andap / Alus mider	ok
+genah	place	Alus		Andap / Alus singgih	ok
+peken	market	Andap	market	Andap / Alus mider	ok
+pasar	market	Alus	public market	Andap	ok
+desa	village	Mider	village	Andap	ok
+banjar	community hall/ward; local community	Mider	community	Mider	ok
+pura	temple	Mider	temple	Andap	ok
+merajan	family temple	Mider	family shrine	Andap	ok
+sanggah	family shrine	Andap	shrine; family shrine; family temple	Andap / Alus singgih	ok
+sekolah	school	Mider	school	Kasar / Andap	ok
+kantor	office	Mider	office	Andap	ok
+margi	street/road	Alus	road	Andap / Alus mider	ok
+rurung	alley/small street	Andap	way; hallway; street; road	Andap	ok
+tukad	river	Mider	river	Mider	ok
+pasih	beach/sea	Andap	beach; sea	Andap / Alus mider	ok
+segara	beach/sea	Alus	sea	Andap / Alus mider	ok
+alas	forest	Mider	forest	Kasar / Andap / Alus mider	ok
+carik	rice field	Mider		Andap	ok
+kota	city	Mider	town	Andap	GLOSS-MISMATCH
+warung	small shop/food stall	Mider	store	Andap / Mider	GLOSS-MISMATCH
+toko	store	Mider	shop	Andap	GLOSS-MISMATCH
+kema	go there	Andap			ok
+mrika	go there	Alus			NOT-IN-DICTIONARY
+mai	come here	Andap		Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+mriki	come here	Alus	here	Alus sor	ok
+ka	to (a place)	Andap	to; towards; to go to	Andap	GLOSS-MISMATCH
+ring	at/in (a place)	Alus	In; On	Andap / Alus mider	ok
+di	at/in (a place)	Andap	after; at; between; during; in front; on; outside; sometimes; when	Mider	GLOSS-MISMATCH
+rumah sakit	hospital	Mider			NOT-IN-DICTIONARY
+kaja	north (towards mountains)	Mider	north	Kasar / Andap	ok
+kelod	south (towards sea)	Mider	south	Kasar / Andap / Alus mider	ok
+kangin	east	Mider	east	Andap / Alus mider	ok
+kauh	west	Mider	west	Andap / Mider / Alus singgih	ok
+luhur	up/high	Alus			NOT-IN-DICTIONARY
+baduwur	up	Andap			NOT-IN-DICTIONARY
+beten	down	Andap	under; below	Andap / Alus mider	GLOSS-MISMATCH
+ring sor	down	Alus			NOT-IN-DICTIONARY
+harep	front	Andap			NOT-IN-DICTIONARY
+duri	back/behind	Andap	in the back	Andap	ok
+pungkur	back/behind	Alus	back; hinder	Andap / Alus mider	ok
+tengen	right	Mider	right,right side	Andap / Alus mider	ok
+kiwa	left	Mider	left	Andap / Alus mider	ok
+paek	near	Andap	near	Andap / Alus madya / Alus mider	ok
+nampek	near	Alus	close	Kasar / Andap	GLOSS-MISMATCH
+joh	far	Andap	distance; far	Andap	ok
+adoh	far (loan)	Mider	far	Andap / Alus singgih	ok
+padoh	far	Alus			NOT-IN-DICTIONARY
+tanggu	end/edge	Andap	end	Andap	ok
+tengah	middle/inside	Mider	handicapped; halfway; noon; inside		ok
+sisi	outside/side	Mider	side	Andap	ok
+jaba	outside	Alus	outside; commoner	Kasar / Andap	ok
+jalan lurus	go straight	Mider			NOT-IN-DICTIONARY
+simpangan	intersection	Mider			NOT-IN-DICTIONARY
+galah	time	Alus	opportunity; time; timeline	Mider	ok
+waktu	time	Andap			NOT-IN-DICTIONARY
+jam	hour/clock	Mider	clock; areca	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+menit	minute	Mider			NOT-IN-DICTIONARY
+rahina	day	Alus	day; noon	Andap / Alus mider	ok
+wai	day	Andap	daylight; day	Andap / Alus mider	ok
+jani	now	Andap	now	Andap / Alus mider	ok
+mangkin	now	Alus	now; in a moment	Andap / Alus mider	ok
+dibi	yesterday	Andap	yesterday; last night	Andap	ok
+dibeng	yesterday	Alus			NOT-IN-DICTIONARY
+mani	tomorrow	Andap	tomorrow	Andap	ok
+benjang	tomorrow	Alus	later; tomorrow	Kasar / Andap	ok
+puan	day after tomorrow	Andap	(adv) of time involving two days	Andap	GLOSS-MISMATCH
+ih puan	day after tomorrow	Alus			NOT-IN-DICTIONARY
+buin mani	tomorrow	Andap			NOT-IN-DICTIONARY
+sasih	month	Alus	lunar; month; moon	Andap / Mider	ok
+bulan	month/moon	Andap	month; moon; lunar	Andap	ok
+warsa	year	Alus	year	Andap / Alus mider	ok
+tiban	year	Andap	year	Kasar / Andap	ok
+suwe	long time	Alus	Old, ancient, worn-out, outdated	Mider	GLOSS-MISMATCH
+makelo	long time	Andap	last; time	Andap / Alus madya / Alus singgih	ok
+mara	just now	Andap			ok
+wau	just now	Alus	recently; just now	Andap	ok
+awai	one day	Andap	all day long (one day)	Kasar / Andap	ok
+abulan	one month	Andap			NOT-IN-DICTIONARY
+atiban	one year	Andap		Andap / Alus mider	ok
+tuni	earlier	Andap	time; past, just now	Andap / Alus mider	GLOSS-MISMATCH
+iwau	earlier	Alus			NOT-IN-DICTIONARY
+nyanan	later	Andap	likely; later	Kasar / Andap	ok
+malih jebos	later	Alus	In a moment	Andap	GLOSS-MISMATCH
+gede	big	Andap	big; large	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+agung	big	Alus	exalted; noble; big	Kasar / Andap	ok
+cenik	small	Andap	small; tiny	Andap / Alus mider / Alus singgih	ok
+alit	small	Alus	small; young	Andap / Alus mider	ok
+jegeg	beautiful (female)	Mider	pretty; beautiful; gorgeous	Andap / Alus mider	ok
+bagus	handsome (male)	Mider	handsome (about man&rsquo;s face); good	Mider	ok
+jelek	bad/ugly	Andap	bad	Andap	ok
+kaon	bad/ugly	Alus		Andap / Alus mider	ok
+anyar	new	Alus	new; unused; fresh	Mider	ok
+baru	new	Andap	new	Andap	ok
+lawas	old (thing)	Andap	bamboo	Kasar / Andap	GLOSS-MISMATCH
+kuna	old (thing)	Alus	old	Andap	ok
+wayah	old (mature)	Andap	mature; ripe; old	Andap / Mider	ok
+tua	old (person)	Andap	old	Andap	ok
+lingsir	old (person)	Alus	old; late afternoon	Andap / Alus mider / Alus singgih	ok
+muda	young	Andap	young; unripe	Andap	ok
+anom	young	Alus	unmarried	Alus singgih	GLOSS-MISMATCH
+bajang	teenager/young adult	Mider	girl, kind of	Andap / Alus singgih	GLOSS-MISMATCH
+banyol	funny	Andap	funny	Andap	ok
+jemet	diligent / hard-working	Mider	industrious; conscientious; diligent	Andap / Mider	ok
+mayus	lazy	Andap	lazy	Andap / Mider	ok
+tegeh	tall/high	Mider	high	Mider	ok
+endep	short (height)	Mider	low; short; plants whose skin is good for boils	Mider	ok
+panjang	long	Mider	long	Andap	ok
+bawak	short (length)	Andap	short	Andap	ok
+seken	serious/real	Andap	certain; assertive; persevering; seriously	Andap / Alus mider	GLOSS-MISMATCH
+kuat	strong	Mider	strong	Andap	ok
+gemuk	fat	Mider	a type of oil to lubricate engine parts	Andap	GLOSS-MISMATCH
+berag	thin	Andap	lean; thin; bony; skinny	Andap / Alus singgih	ok
+rasa	feeling/taste	Mider	taste; judgement	Mider	ok
+ngrasa	to feel	Andap	taste; feel	Mider	ok
+liang	happy	Andap	happy	Andap / Alus singgih	ok
+ledang	happy	Alus	happy; joyful	Andap / Alus singgih	ok
+kendel	happy/glad	Andap	satisfaction; joy	Andap	GLOSS-MISMATCH
+sedih	sad	Mider	sad	Andap / Alus singgih	ok
+sebet	sad	Alus	sad	Andap / Alus singgih	ok
+pedih	angry	Andap	angry	Andap / Alus sor / Alus singgih	ok
+krodha	angry	Alus	angry	Andap	ok
+gedeg	annoyed/angry	Andap	upset; anger	Andap	GLOSS-MISMATCH
+jejeh	scared	Andap	anxious	Andap / Alus mider	GLOSS-MISMATCH
+ajrih	scared	Alus			NOT-IN-DICTIONARY
+takut	scared	Andap	afraid	Andap	GLOSS-MISMATCH
+kenyel	tired	Andap	tired	Andap / Alus singgih	ok
+lesu	tired	Alus	tired; lousy	Andap / Alus singgih	ok
+jengah	embarrassed/motivated by shame	Mider	embarrassed; shamed	Andap	ok
+elek	shy	Andap	ashamed; embarrassed	Kasar / Andap / Alus sor	GLOSS-MISMATCH
+kimud	shy	Alus	shy;embarrassed; ashamed	Andap / Alus mider	ok
+bingung	confused	Mider		Andap	ok
+janten	sure/certain	Alus	definite	Andap / Alus mider	GLOSS-MISMATCH
+sabar	patient	Mider	patient (adj.)	Andap	ok
+demen	like/glad	Andap	enjoy; approve	Andap / Alus sor / Alus mider	GLOSS-MISMATCH
+seneng	like/glad	Alus	glad; like	Andap / Alus mider / Alus singgih	ok
+bangga	proud	Mider	proud		ok
+sepi	lonely	Mider	quiet	Andap	GLOSS-MISMATCH
+sakit	sick/in pain	Andap	contagious; sick	Andap / Alus singgih	ok
+sungkan	sick	Alus	grief; illness	Andap / Alus singgih	GLOSS-MISMATCH
+buah	fruit	Mider	fruit; areca nut; betelnut	Andap	ok
+jukut	vegetable	Mider	vegetable; to be green	Andap / Alus mider	ok
+be celeng	pork	Andap			NOT-IN-DICTIONARY
+be bawi	pork	Alus			NOT-IN-DICTIONARY
+madaging celeng	containing pork	Andap			NOT-IN-DICTIONARY
+be siap	chicken meat	Andap			NOT-IN-DICTIONARY
+be sampi	beef	Andap			NOT-IN-DICTIONARY
+be pasih	fish (from sea)	Andap			NOT-IN-DICTIONARY
+taluh	egg	Andap	egg	Kasar / Andap / Alus mider / Alus singgih	ok
+antiga	egg	Alus	egg	Andap / Alus singgih	ok
+numbas	to buy	Alus	buy; bought; purchase	Andap / Alus mider	ok
+meli	to buy	Andap	to buy; purchase; bought	Kasar / Andap / Alus mider	ok
+ngadep	to sell	Andap	sell	Andap	ok
+ngadol	to sell	Alus	sell; offer for sale	Andap / Alus mider	ok
+baas	uncooked rice	Andap	rice	Andap / Alus mider / Alus singgih	ok
+lenga	cooking oil	Alus	sesame	Andap	GLOSS-MISMATCH
+lengis	oil	Andap		Andap	ok
+bawang	onion/garlic	Mider	leek; shallot	Andap	GLOSS-MISMATCH
+kesuna	garlic	Andap	garlic	Andap	ok
+tabia	chili	Andap	chili	Andap / Alus mider	ok
+lombok	chili	Alus			NOT-IN-DICTIONARY
+kacang	peanut/bean	Mider	beans, peas, lentils	Andap	GLOSS-MISMATCH
+tahu	tofu	Mider	soybean	Andap	GLOSS-MISMATCH
+tempe	tempeh	Mider	food, kind of	Andap	GLOSS-MISMATCH
+payu	happen to buy/agree	Andap	confirm; so (not cancelled); in demand	Andap / Alus mider	GLOSS-MISMATCH
+bungkusan	package/takeaway	Mider	package	Kasar / Andap	ok
+ngaba mulih	take away	Andap			NOT-IN-DICTIONARY
+awak	body	Andap	body; iam	Kasar / Andap	ok
+angga	body	Alus	body	Kasar / Andap	ok
+sirah	head	Andap	head	Kasar / Andap / Alus sor / Alus mider / Alus singgih	ok
+bok	hair	Andap	hair	Andap / Alus singgih	ok
+rambut	hair	Alus	hair	Andap / Alus singgih	ok
+mata	eye	Andap	eyes	Kasar / Andap	GLOSS-MISMATCH
+peningalan	eye	Alus			NOT-IN-DICTIONARY
+cunguh	nose	Andap	nose	Andap / Alus singgih	ok
+irung	nose	Alus	nose	Andap / Alus singgih	ok
+bibih	mouth	Andap	lip	Kasar / Andap / Alus sor / Alus mider / Alus singgih	GLOSS-MISMATCH
+cangkem	mouth	Alus	mouth	Kasar / Alus singgih	ok
+kuping	ear	Andap	ears	Andap / Alus singgih	GLOSS-MISMATCH
+karna	ear	Alus	ear	Andap / Alus singgih	ok
+tangan	hand	Alus	hand	Kasar / Andap / Alus mider / Alus singgih	ok
+batis	foot/leg	Andap	foot	Kasar / Andap / Alus sor / Alus singgih	ok
+cokor	foot/leg (very high)	Alus	foot	Kasar / Andap / Alus sor / Alus singgih	ok
+basang	stomach	Andap	stomach	Andap / Alus singgih	ok
+weteng	stomach	Alus	stomach	Andap / Alus singgih	ok
+gigi	tooth	Andap	tooth	Andap / Alus singgih	ok
+untu	tooth	Alus	teeth	Andap / Alus singgih	GLOSS-MISMATCH
+tulang	bone	Mider	bone	Kasar / Andap	ok
+getih	blood	Andap	blood	Kasar / Andap / Alus mider	ok
+rah	blood	Alus	blood; descendant	Andap / Alus mider	ok
+baong	neck	Andap	collar; neck	Andap / Alus singgih	ok
+tundun	back	Andap	back; instep	Kasar / Andap / Alus singgih	ok
+dada	chest	Mider	chest	Andap / Alus singgih	ok
+kuku	nail	Mider	nail	Andap / Alus singgih	ok
+kulit	skin	Mider	skin; container	Andap	ok
+sakit basang	stomachache	Andap			NOT-IN-DICTIONARY
+sungkan weteng	stomachache	Alus			NOT-IN-DICTIONARY
+warna	color	Mider	five	Andap	GLOSS-MISMATCH
+pelung	blue	Andap	blue	Kasar / Andap	ok
+barak	red	Andap	red; rust	Kasar / Andap / Alus mider	ok
+bang	red	Alus	red		ok
+putih	white	Mider		Kasar / Andap / Alus mider / Alus singgih	ok
+petak	white	Alus	white	Andap	ok
+selem	black	Andap	black	Kasar / Andap / Alus mider	ok
+ireng	black	Alus	black	Kasar / Andap	ok
+kuning	yellow	Mider	yellow	Andap	ok
+gadang	green	Andap	green	Kasar / Andap	ok
+ijo	green	Alus	green		ok
+biru	blue	Mider			NOT-IN-DICTIONARY
+mas	gold	Mider	gold	Mider	ok
+perak	silver	Mider	silver	Andap	ok
+klawu	grey	Mider			NOT-IN-DICTIONARY
+coklat	brown	Mider	chocolate	Andap	GLOSS-MISMATCH
+barak nguda	pink	Andap			NOT-IN-DICTIONARY
+magenep	various/mixed	Andap	complete; concerned	Andap	GLOSS-MISMATCH
+pulas	paint/color	Andap			ok
+warnane	the color is	Mider			NOT-IN-DICTIONARY
+nyentak	scorching hot	Andap	blazing; blistering;sweltering	Andap	GLOSS-MISMATCH
+gadang nguda	light green	Andap			NOT-IN-DICTIONARY
+selem kotor	dark and dirty	Andap			NOT-IN-DICTIONARY
+cemer	dirty/polluted color	Andap		Andap / Alus madya / Alus singgih	ok
+melah	nice (color)	Andap	beautiful; good; split or crack (from belah)	Kasar / Andap	GLOSS-MISMATCH
+ungu	purple (loan)	Mider	purple	Andap	ok
+pakaian	clothing	Mider			NOT-IN-DICTIONARY
+pangangge	clothes	Alus	clothes	Andap	ok
+kamben	sarong/cloth	Andap	cloth, kind of	Kasar / Andap / Alus mider	ok
+wastra	sarong/cloth	Alus	dress	Kasar / Andap	GLOSS-MISMATCH
+kuaca	shirt	Alus	shirt	Andap / Alus singgih	ok
+udeng	male headdress	Mider	balinese headcovering	Andap	GLOSS-MISMATCH
+destar	male headdress	Alus	head	Andap / Alus mider	GLOSS-MISMATCH
+senteng	sash	Mider	scarf	Kasar / Andap	GLOSS-MISMATCH
+anteng	sash	Alus		Andap	ok
+sabuk	belt	Mider	belt; bra; talisman	Andap	ok
+kamen	lower garment	Mider			NOT-IN-DICTIONARY
+sandal	sandals	Mider	sandal	Andap	GLOSS-MISMATCH
+sepatu	shoes	Mider			NOT-IN-DICTIONARY
+celana	pants	Mider		Andap	ok
+kacamata	glasses	Mider			NOT-IN-DICTIONARY
+gelang	bracelet	Mider	bracelet; bright	Andap / Alus singgih	ok
+bungkung	ring	Andap	ring finger	Andap	ok
+ali-ali	ring	Alus	rings	Andap / Alus singgih	GLOSS-MISMATCH
+kalung	necklace	Mider	towel	Mider	GLOSS-MISMATCH
+anting	earring	Mider	wait; please wait	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	GLOSS-MISMATCH
+nganggo	to wear	Andap	to use	Andap	GLOSS-MISMATCH
+nganggen	to wear	Alus	use; take	Andap	GLOSS-MISMATCH
+mabaju	wearing a shirt	Andap	dressed	Andap	GLOSS-MISMATCH
+mepayas	dressed up	Andap			NOT-IN-DICTIONARY
+makamben	wearing a sarong	Andap	put on clothes; get dressed for ceremony	Andap	GLOSS-MISMATCH
+busana	traditional dress	Alus	clothes	Andap / Alus mider	GLOSS-MISMATCH
+daki	dirty (clothes)	Andap	dirt	Kasar / Andap	GLOSS-MISMATCH
+kotor	dirty	Mider			NOT-IN-DICTIONARY
+bersih	clean	Mider			NOT-IN-DICTIONARY
+kedas	clean	Andap	clean	Andap / Alus mider	ok
+rega	price	Andap	price	Alus mider	ok
+aji kuda niki?	how much is this?	Alus			NOT-IN-DICTIONARY
+mahal	expensive	Andap			NOT-IN-DICTIONARY
+maal	expensive	Andap			NOT-IN-DICTIONARY
+pengaji	expensive	Alus			NOT-IN-DICTIONARY
+mudah	cheap	Andap	cheap		ok
+kirang	less/reduce	Alus	lacking; less	Kasar / Andap	ok
+kuang	less/reduce	Andap	tree, kind of a, less	Kasar / Andap	ok
+dados kirang?	can you lower the price?	Alus			NOT-IN-DICTIONARY
+dadi kuang?	can you lower the price?	Andap			NOT-IN-DICTIONARY
+tawar	bargain	Mider	plain, sorcery	Andap	GLOSS-MISMATCH
+pas	exact price	Mider		Andap	ok
+susuk	change (money)	Andap	change; stick in	Andap	ok
+papesu	change (money)	Alus			NOT-IN-DICTIONARY
+jinah	money	Alus	money	Andap / Alus mider	ok
+pis	money	Andap	coin, kind of; money	Andap	ok
+pipis	money	Andap	money	Andap / Alus mider	ok
+arta	wealth/money	Alus	property	Kasar / Andap	GLOSS-MISMATCH
+bayar	to pay	Mider			NOT-IN-DICTIONARY
+naur	to pay	Alus	pay (v)	Kasar / Andap	ok
+mayar	to pay	Andap			NOT-IN-DICTIONARY
+utang	debt	Mider	debt	Kasar / Andap	ok
+diskon	discount	Mider			NOT-IN-DICTIONARY
+lakar	will (buy)	Andap	material; will	Kasar / Andap / Alus sor / Alus singgih	ok
+tiang jagi numbas niki	I will buy this	Alus			NOT-IN-DICTIONARY
+solas	eleven	Mider	eleven	Mider	ok
+roras	twelve	Mider	twelve	Andap / Mider	ok
+telulas	thirteen	Mider	thirteen	Andap / Mider	ok
+patbelas	fourteen	Mider	fourteen	Andap / Mider	ok
+enembelas	sixteen	Mider			NOT-IN-DICTIONARY
+pitulas	seventeen	Mider	seventeen	Kasar / Andap / Mider	ok
+pelekutus	eighteen	Mider	eighteen	Kasar / Andap	ok
+siangolas	nineteen	Mider	nineteen	Kasar / Andap / Mider	ok
+duang dasa	twenty	Andap	twenty	Kasar / Andap / Alus mider	ok
+kalih dasa	twenty	Alus			NOT-IN-DICTIONARY
+selae	twenty-five	Mider	twenty five	Mider	ok
+telung dasa	thirty	Mider		Andap	ok
+pasasur	thirty-five	Mider	thirty-five	Mider	ok
+patang dasa	forty	Mider			NOT-IN-DICTIONARY
+setiman	forty-five	Mider	forty-five	Kasar / Andap / Mider	ok
+seket	fifty	Mider	fifty; stiff; sluggish	Kasar / Andap / Mider	ok
+satus	one hundred	Mider	one hundred	Mider	ok
+satak	two hundred	Mider	two hundreds (200)	Mider	ok
+telung atus	three hundred	Mider			NOT-IN-DICTIONARY
+samas	four hundred	Mider	four hundred	Mider	ok
+limang atus	five hundred	Mider	five hundred	Andap	ok
+enam atus	six hundred	Mider			NOT-IN-DICTIONARY
+domas	eight hundred	Mider	eight hundred	Mider	ok
+siu	one thousand	Mider	one thousand	Mider	ok
+limang tali	five thousand	Mider	five thousand	Andap	ok
+adasa tali	ten thousand	Mider			NOT-IN-DICTIONARY
+selawe tali	twenty-five thousand	Mider			NOT-IN-DICTIONARY
+seket tali	fifty thousand	Mider			NOT-IN-DICTIONARY
+laksa	ten thousand	Mider	Ten thousand	Mider	ok
+limolas	fifteen	Mider	fifteen	Andap / Mider	ok
+pitung dasa lima	seventy-five	Mider			NOT-IN-DICTIONARY
+cuaca	weather	Mider			NOT-IN-DICTIONARY
+kebus	hot	Andap	hot	Andap	ok
+panas	hot	Alus	hot	Andap / Alus mider	ok
+dingin	cold	Mider	cold	Kasar / Andap	ok
+bediding	cold season	Andap			NOT-IN-DICTIONARY
+ujan	rain	Andap	rain	Andap / Alus mider	ok
+sabeh	rain	Alus	rain	Andap / Alus mider	ok
+bales	heavy (rain)	Andap	heavy (about rain or stream); reply	Andap	ok
+guisi	drizzle	Andap			NOT-IN-DICTIONARY
+matan ai	sun	Andap	sun	Andap / Alus mider	ok
+surya	sun	Alus	the sun	Kasar / Andap	ok
+angin	wind	Mider	wind	Kasar / Andap	ok
+krebek	thunder (the loud thunderclap)	Andap	Thunder	Andap	ok
+tatit	lightning (strikes at a distance)	Mider	lightning	Mider	ok
+gulem	cloudy	Andap	cloud; cloudy	Kasar / Andap	ok
+langit	sky	Mider	sky	Andap / Alus mider	ok
+awan	cloud	Mider	tuna	Kasar / Andap	GLOSS-MISMATCH
+purnama	full moon	Mider	Full moon	Andap	ok
+tilem	dark moon/new moon	Mider	calendar	Andap	GLOSS-MISMATCH
+endang	clear sky	Andap	rain	Kasar / Andap	GLOSS-MISMATCH
+lempuyeng	dizzy (from heat)	Andap			NOT-IN-DICTIONARY
+banjir	flood	Mider			NOT-IN-DICTIONARY
+blabar	flood	Andap	rain; flood	Andap	ok
+kering	dry	Mider			NOT-IN-DICTIONARY
+tuh	dry	Andap	dry	Andap	ok
+linuh	earthquake	Mider	earthquake	Mider	ok
+musim	season	Mider			NOT-IN-DICTIONARY
+masan	season	Andap	season	Andap	ok
+masan ujan	rainy season	Andap			ok
+maang	to give	Andap	give	Andap / Alus sor	ok
+ngicen	to give	Alus	give; provide; bestow; grant	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+ngaturang	to offer/give (upwards)	Alus	provide; present	Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+jemak	to take	Andap			ok
+ambil	to take	Alus	take	Kasar / Andap	ok
+ngae	to make	Andap		Andap / Alus mider	ok
+ngaryanang	to make	Alus	make; make up; make for someone	Andap / Alus mider	ok
+ngidih	to ask for	Andap	pardon; ask; beg	Andap	ok
+nyilih	to borrow	Andap	borrow	Andap	ok
+nyambat	to say/tell	Andap	tell	Kasar / Andap	ok
+maosang	to say/tell	Alus	talk	Andap / Alus mider	GLOSS-MISMATCH
+ningeh	to listen/hear	Andap	hear; listen	Andap / Alus sor / Alus singgih	ok
+mireng	to listen/hear	Alus	listen;hear; heard	Andap / Alus sor / Alus singgih	ok
+nolih	to look at	Andap	look; glance	Kasar / Andap	ok
+ngatonang	to look at	Alus	To see, to look at, to behold, to witness, to view.	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+ningal	to see	Andap			NOT-IN-DICTIONARY
+nulungin	to help	Andap	to help; to support	Andap	ok
+ngwantu	to help	Alus	help	Andap	ok
+ngorahang	to tell	Andap	told; predictable; known	Andap	GLOSS-MISMATCH
+nikayang	to tell	Alus			NOT-IN-DICTIONARY
+matemu	to meet	Mider	visit	Andap	GLOSS-MISMATCH
+kacunduk	to meet	Alus	meet		ok
+mapanggih	to meet	Alus			NOT-IN-DICTIONARY
+tepuk	to find/see	Andap	see; saw	Andap / Alus sor / Alus singgih	ok
+ngalih	to look for	Andap			ok
+ngrereh	to look for	Alus	get	Kasar / Andap	GLOSS-MISMATCH
+sepeda motor	motorbike	Mider			NOT-IN-DICTIONARY
+mobil	car	Mider			NOT-IN-DICTIONARY
+bemo	minibus	Mider		Andap	ok
+sepeda	bicycle	Mider	bicycle	Andap	ok
+dokar	horse cart	Mider		Kasar / Andap	ok
+jukung	traditional boat	Mider	fishing boat	Andap	ok
+kapal	ship	Mider	ship; airplane	Andap	ok
+pesawat	airplane	Mider	machine	Andap	GLOSS-MISMATCH
+jalan batis	walk on foot	Andap			NOT-IN-DICTIONARY
+numpak	to ride	Andap			NOT-IN-DICTIONARY
+munggah	to ride/board	Alus	to ascend; to lift	Kasar / Andap	GLOSS-MISMATCH
+naek	to ride	Mider			NOT-IN-DICTIONARY
+ngaba motor	to drive a motorbike	Andap			NOT-IN-DICTIONARY
+nyetir	to drive	Mider	steer	Andap	GLOSS-MISMATCH
+mandeg	to stop	Alus	stop,  fail to menstruate	Andap	ok
+mareren	to stop	Andap	stop; rest	Andap / Alus mider	ok
+parkir	to park	Mider			NOT-IN-DICTIONARY
+helm	helmet	Mider			NOT-IN-DICTIONARY
+bensin	gasoline	Mider	fuel	Kasar / Andap	GLOSS-MISMATCH
+ban	tire	Mider	tire; wooden board	Mider	ok
+macet	traffic jam	Mider	slow; stuck	Kasar / Andap	GLOSS-MISMATCH
+adeng-adeng	slow down	Andap	slowly	Kasar / Andap	GLOSS-MISMATCH
+nyewa	to rent	Mider	hire	Andap	GLOSS-MISMATCH
+nyabrang	to cross	Mider			NOT-IN-DICTIONARY
+stasiun	station	Mider			NOT-IN-DICTIONARY
+terminal	bus terminal	Mider			NOT-IN-DICTIONARY
+tiket	ticket	Mider	coupon	Mider	GLOSS-MISMATCH
+penumpang	passenger	Mider			NOT-IN-DICTIONARY
+ke	to	Alus		Andap	ok
+uling	from	Andap	from; since	Kasar / Andap	ok
+duwur	on top of	Andap			NOT-IN-DICTIONARY
+sor	under/below	Alus			NOT-IN-DICTIONARY
+samping	beside	Mider	side	Andap	GLOSS-MISMATCH
+sanding	beside	Andap			NOT-IN-DICTIONARY
+antara	between	Mider			NOT-IN-DICTIONARY
+ajak	with	Andap	accompany; together with	Andap / Alus mider	ok
+sareng	with	Alus		Andap / Alus mider	ok
+teken	with/by	Andap	sign; with; by; will; and	Andap	ok
+pabuat	for	Alus			NOT-IN-DICTIONARY
+tur	and	Alus	and	Alus sor / Alus singgih	ok
+buat	for	Andap	for; carry	Andap	ok
+griya	priest's house	Alus		Alus mider / Alus singgih	ok
+puri	royal palace	Alus	palace; house	Andap / Alus singgih	ok
+natah	courtyard	Mider	yard; chisel; floor	Andap / Alus singgih	GLOSS-MISMATCH
+bale	pavilion	Mider	building; pavillion	Mider / Alus sor / Alus mider / Alus singgih	GLOSS-MISMATCH
+kamar	room	Mider	room	Andap	ok
+meten	sleeping pavilion	Mider	house building located in the northern part of the yard, eight pillars and walled around	Kasar / Andap	GLOSS-MISMATCH
+paon	kitchen	Andap	kitchen	Kasar / Andap / Alus mider / Alus singgih	ok
+pewaregan	kitchen	Alus		Alus mider	ok
+pintu	door	Mider	door	Andap	ok
+jelanan	door	Andap	door	Andap	ok
+jendela	window	Mider	window	Andap	ok
+meja	table	Mider	table	Andap	ok
+kursi	chair	Mider	chair	Andap	ok
+tegakan	seat	Andap	seat	Andap / Alus singgih	ok
+linggihan	seat	Alus			NOT-IN-DICTIONARY
+kasur	bed/mattress	Mider	mattress	Andap	ok
+bantal	pillow	Mider		Andap	ok
+sapun	broom	Andap			NOT-IN-DICTIONARY
+sampat	broom	Andap	broom	Andap	ok
+nyampat	to sweep	Andap	sweep	Kasar / Andap	ok
+kumbah	to wash (clothes)	Andap			NOT-IN-DICTIONARY
+nyikat	to brush	Andap			NOT-IN-DICTIONARY
+garpu	fork	Mider	fork	Andap	ok
+lampu	lamp/light	Mider	flashlight	Andap / Alus singgih	GLOSS-MISMATCH
+tembok	wall	Mider	wall	Andap	ok
+raab	roof	Andap	roof	Mider	ok
+uwa	uncle/aunt (older than parent)	Mider		Andap	ok
+paman	uncle	Mider			NOT-IN-DICTIONARY
+bibi	aunt	Mider			NOT-IN-DICTIONARY
+keponakan	nephew/niece	Mider	niece; nephew	Mider	ok
+buyut	great-grandchild	Mider			NOT-IN-DICTIONARY
+kumpi	great-great-grandchild	Mider	Great-grandparent; a parent of a grandparent	Andap / Alus mider	ok
+krama	community members	Mider		Mider	ok
+kurenan	husband/wife	Andap	spouse; wife; husband	Andap / Alus sor / Alus singgih	ok
+rabin	husband/wife	Alus	wife	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+matua	parents in law	Andap	mother-in-law; father-in-law; inlaws	Kasar / Andap	ok
+anak luh	woman	Andap			NOT-IN-DICTIONARY
+anak muani	man	Andap			NOT-IN-DICTIONARY
+truna	young man	Andap	youth	Kasar / Andap	GLOSS-MISMATCH
+kelian	head of banjar	Mider	official, kind of	Kasar / Andap	GLOSS-MISMATCH
+pemangku	temple priest	Mider			NOT-IN-DICTIONARY
+gunung	mountain	Mider	mountain	Andap	ok
+wukir	mountain	Alus			NOT-IN-DICTIONARY
+danu	lake	Mider	lake	Mider	ok
+campuhan	river confluence	Mider	estuary	Andap	GLOSS-MISMATCH
+pundukan	rice field path	Mider	dike	Andap	GLOSS-MISMATCH
+punyan	tree	Andap	tree, kind of a	Andap	ok
+taru	tree/wood	Alus	wood; tree	Andap / Alus mider	ok
+don	leaf	Andap	leaf; bay or lettuce	Mider	ok
+daun	leaf	Mider			NOT-IN-DICTIONARY
+bunga	flower	Andap	flower; interest	Andap	ok
+sekar	flower	Alus	flower; blossom; poem	Andap / Alus mider	ok
+batu	stone	Mider	stone; rubble; pit	Kasar / Andap / Alus mider	ok
+bias	sand	Mider	sand	Mider	ok
+tanah	earth/soil	Mider	ground; ashes; clay	Andap	GLOSS-MISMATCH
+bintang	star	Mider	star	Mider	ok
+gua	cave	Mider	cave	Andap	ok
+tebing	cliff	Mider	cliff	Andap	ok
+air terjun	waterfall	Mider			NOT-IN-DICTIONARY
+grobogan	waterfall	Andap	waterfall		ok
+pulo	island	Mider			ok
+muah	and	Andap	and; with; etc.	Andap	ok
+kewanten	but	Alus	only; just; but	Andap / Alus mider	ok
+tapi	but	Mider			NOT-IN-DICTIONARY
+utawi	or	Alus	or	Alus mider	ok
+wiadin	or	Andap	or; although	Andap / Alus mider	ok
+yadiastun	although	Alus	although; though	Andap / Alus mider	ok
+yadiapin	although	Andap	although	Andap / Alus mider	ok
+krana	because	Andap	because	Andap	ok
+sangkan	because	Alus		Andap	ok
+mawinan	because	Alus	because of	Andap / Alus mider	ok
+sawireh	because	Andap	since	Andap / Alus mider	GLOSS-MISMATCH
+ento krana	therefore	Andap			NOT-IN-DICTIONARY
+punika mawinan	therefore	Alus			NOT-IN-DICTIONARY
+kanti	until	Andap			ok
+ngantos	until	Alus	until	Andap / Alus mider	ok
+sedurung	before	Alus			NOT-IN-DICTIONARY
+setonden	before	Andap			NOT-IN-DICTIONARY
+sesampun	after	Alus			NOT-IN-DICTIONARY
+suud	after/finished	Andap	end; finish	Kasar / Andap / Alus madya / Alus singgih	GLOSS-MISMATCH
+yening	if	Alus	if; when; in case	Andap / Alus mider	ok
+yen	if	Andap	when; if	Andap	ok
+apang	so that	Andap		Andap / Alus mider	ok
+mangda	so that	Alus		Andap / Alus mider	ok
+ibi sanja	yesterday evening	Andap	last night	Andap / Alus mider	GLOSS-MISMATCH
+ibak	earlier today	Andap			NOT-IN-DICTIONARY
+minggu lalu	last week	Mider			NOT-IN-DICTIONARY
+bulan lalu	last month	Mider			NOT-IN-DICTIONARY
+tiban lalu	last year	Andap			NOT-IN-DICTIONARY
+taen	ever	Andap	ever; have ever	Andap	ok
+naenin	ever	Alus	ever	Andap	ok
+suba taen	have already	Andap			NOT-IN-DICTIONARY
+sampun naenin	have already	Alus			NOT-IN-DICTIONARY
+sing taen	never	Andap			NOT-IN-DICTIONARY
+nenten naenin	never	Alus			NOT-IN-DICTIONARY
+suung	empty/deserted	Andap			ok
+uug	broken	Andap	broken	Andap / Alus mider	ok
+rusak	broken	Mider	broken; damaged; defective	Andap	ok
+engsap	forgot	Andap	forget	Andap	GLOSS-MISMATCH
+lali	forgot	Alus	forget	Andap / Alus mider	GLOSS-MISMATCH
+bakat	accidentally done	Andap	find	Andap / Alus mider	GLOSS-MISMATCH
+ilang	lost	Andap	lose; lost; disappear	Andap / Alus mider	ok
+ical	lost	Alus	lost	Andap / Alus mider	ok
+panggih	found	Alus	to be met by	Andap / Alus madya	GLOSS-MISMATCH
+jagi	will/going to	Alus	will; intend	Kasar / Alus mider	ok
+kel	will (short for lakar)	Andap	will	Kasar / Andap	ok
+mani semeng	tomorrow morning	Andap			NOT-IN-DICTIONARY
+nyan	later (today)	Andap	time	Andap	GLOSS-MISMATCH
+buin kesep	in a moment	Andap			NOT-IN-DICTIONARY
+minggu depan	next week	Mider			NOT-IN-DICTIONARY
+bulan depan	next month	Mider			NOT-IN-DICTIONARY
+tiban depan	next year	Andap			NOT-IN-DICTIONARY
+pasti	definitely	Mider	decision; certain	Andap / Alus mider	GLOSS-MISMATCH
+bisa	can/able to	Andap	can; snake; bee	Andap	ok
+mrasidayang	can/able to	Alus		Andap / Alus mider	ok
+nyidaang	can/able to	Andap	can; able; succeed	Andap / Alus mider	ok
+dong	sure/of course	Andap	music	Andap	GLOSS-MISMATCH
+kocap	it is said	Mider	supposedly; people said; someone said	Andap / Alus mider	ok
+mirib	maybe	Andap	perhaps; maybe; thereabout	Andap / Alus mider	ok
+minab	maybe	Alus	maybe	Andap / Alus mider	ok
+tiang lakar kema	I will go there	Andap			NOT-IN-DICTIONARY
+titiang jagi mrika	I will go there	Alus			NOT-IN-DICTIONARY
+buin pidan	when (future)	Andap			NOT-IN-DICTIONARY
+malih pidan	when (future)	Alus			NOT-IN-DICTIONARY
+lakar ngudiang	going to do what	Andap			NOT-IN-DICTIONARY
+dereng	not yet	Alus (Madya)	not yet	Andap / Alus mider	ok
+petani	farmer	Mider	sickle.	Andap	GLOSS-MISMATCH
+madul	farming/working in fields	Andap			NOT-IN-DICTIONARY
+pandita	priest	Mider	priest	Mider	ok
+sulinggih	high priest	Alus	holy man; priest	Andap	ok
+guru	teacher	Mider		Andap	ok
+doktor	doctor	Mider			NOT-IN-DICTIONARY
+bidan	midwife	Mider			NOT-IN-DICTIONARY
+perawat	nurse	Mider			NOT-IN-DICTIONARY
+polisi	police	Mider	police; cop	Andap	ok
+tentara	soldier	Mider			NOT-IN-DICTIONARY
+dagang	merchant/seller	Mider	seller	Kasar / Andap	ok
+sopir	driver	Mider	a driver; a person whose job is to drive a vehicle	Kasar / Andap / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+nelayan	fisherman	Mider			NOT-IN-DICTIONARY
+bendega	fisherman	Alus	fisher	Andap	GLOSS-MISMATCH
+undagi	traditional architect	Mider	builder; sculptor	Mider	GLOSS-MISMATCH
+tukang	craftsman	Mider	expert	Andap	GLOSS-MISMATCH
+tukang banten	offering maker	Mider			NOT-IN-DICTIONARY
+seniman	artist	Mider			NOT-IN-DICTIONARY
+pangayah	volunteer/temple worker	Mider	volunteers at the temple during prayers	Andap	ok
+bos	boss	Mider	boss	Andap	ok
+pegawai	employee	Mider	officer	Andap	GLOSS-MISMATCH
+megae	working	Andap			NOT-IN-DICTIONARY
+gajian	salary/payday	Mider			NOT-IN-DICTIONARY
+nganggur	unemployed	Mider	chase; look for; be unemplyed; have no job	Andap	GLOSS-MISMATCH
+melali	traveling/not working	Andap	hangout, chill out, get around, traveling, playing out, visiting	Kasar / Andap	ok
+sibuk	busy	Mider			NOT-IN-DICTIONARY
+repot	busy	Mider	work	Kasar / Andap	GLOSS-MISMATCH
+pineh	think	Andap	mind; thought; idea		GLOSS-MISMATCH
+manah	think/opinion	Alus		Andap / Alus sor / Alus singgih	ok
+tiang mapineh	I think	Andap			NOT-IN-DICTIONARY
+titiang mamanah	I think	Alus			NOT-IN-DICTIONARY
+setuju	agree	Mider	agree	Andap	ok
+sing setuju	disagree	Andap			NOT-IN-DICTIONARY
+nenten cumpu	disagree	Alus			NOT-IN-DICTIONARY
+penting	important	Mider	important; gamelan (traditional music) tools like kecapi (music instrument with string)	Andap	ok
+biasa	normal/usual	Mider	good; usual	Andap	ok
+meweh	difficult	Alus	difficult	Andap	ok
+keweh	difficult	Andap	Struggling; Suffering	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	GLOSS-MISMATCH
+aluh	easy	Andap	easy	Kasar / Andap / Alus sor / Alus mider	ok
+gampang	easy	Andap	easy	Andap	ok
+dangan	easy	Alus	easy	Andap / Alus mider	ok
+patuh	same	Andap	agree; equals; card game; type of	Andap	GLOSS-MISMATCH
+pateh	same	Alus	similar; same	Kasar / Andap	ok
+pantes	appropriate	Andap	suitable	Kasar / Andap	GLOSS-MISMATCH
+tegarang	try it/test it	Andap			ok
+rasanne	it feels like/tastes like	Andap			NOT-IN-DICTIONARY
+ngawag	careless/random	Andap	guess	Andap	GLOSS-MISMATCH
+upacara	ceremony	Mider	ceremony	Andap	ok
+yadnya	holy sacrifice/ritual	Mider	ceremony	Mider	GLOSS-MISMATCH
+canang	offering tray	Mider	a type of offering; canang	Kasar / Andap	ok
+canang sari	daily flower offering	Mider	offering	Andap	ok
+banten	offering	Mider	offering	Andap	ok
+mebanten	to make offerings	Mider			NOT-IN-DICTIONARY
+muspa	to pray	Alus	to pray	Andap	ok
+mebakti	to pray	Mider	honor; worship; pray	Andap	ok
+sembahyang	to pray	Mider			ok
+odalan	temple anniversary	Mider		Mider	ok
+kulkul	wooden slit drum	Mider	slit drum	Andap	ok
+penjor	decorated bamboo pole	Mider	offering	Mider	GLOSS-MISMATCH
+gebogan	tall fruit offering	Mider	amount, set	Mider	GLOSS-MISMATCH
+tirta	holy water	Mider	water; pilgrimage	Mider	ok
+toya tirta	holy water	Alus			NOT-IN-DICTIONARY
+dupa	incense	Mider	incense	Kasar / Andap	ok
+mantra	prayer/chant	Mider	spell; adore	Mider	GLOSS-MISMATCH
+sasajen	offerings	Mider			NOT-IN-DICTIONARY
+ngayah	to do voluntary work	Mider	work		ok
+suci	holy/pure	Mider	pure; holy	Kasar / Andap	ok
+sekala	visible world	Mider	tangible	Mider	GLOSS-MISMATCH
+niskala	invisible world	Mider	intangible	Mider	GLOSS-MISMATCH
+nunas pica	asking for blessing	Alus			NOT-IN-DICTIONARY
+prasad	blessed food	Mider			NOT-IN-DICTIONARY
+bhatara	god/deity	Mider	god	Mider	ok
+sasuhunan	revered spirit/deity	Alus			NOT-IN-DICTIONARY
+rerahinan	holy day	Alus	holidays; holy days	Mider	ok
+kajeng kliwon	spiritually significant day	Mider			NOT-IN-DICTIONARY
+nyepi	day of silence	Mider	calendar, special day	Kasar / Andap	ok
+ogoh-ogoh	giant demon effigy	Mider	large statues of bamboo and paper in the form of bhuta kala or giants paraded around the village on certain days (usually the day before Nyepi / Pangrupukan)	Mider	GLOSS-MISMATCH
+rame	crowded/busy	Andap	noisy, crowded	Andap	ok
+sunar	bright	Andap	light; shine		GLOSS-MISMATCH
+galang	bright	Andap	bright	Andap / Mider / Alus mider	ok
+remrem	gloomy/overcast	Andap	gloomy	Mider	ok
+anyep	tasteless/bland	Andap			NOT-IN-DICTIONARY
+lalah	spicy	Andap	spicy	Andap / Alus mider	ok
+manis	sweet	Mider	sweet; day after day; right hand	Andap	ok
+pait	bitter	Mider	bitter; medicine; pare	Andap	ok
+masem	sour	Mider	sour	Andap	ok
+pakeh	salty	Andap	salty; brackish	Andap	ok
+tumben	rare/for the first time	Andap	rarely; wealthy	Andap / Alus mider	GLOSS-MISMATCH
+bengong	amazed/staring blankly	Andap	muse	Andap	GLOSS-MISMATCH
+linggah	wide/spacious	Andap	wide; spacious	Kasar / Andap	ok
+cupit	narrow	Andap	narrow	Andap	ok
+kandel	thick	Andap			NOT-IN-DICTIONARY
+tipis	thin	Mider	thin	Andap	ok
+abot	heavy	Alus	heavy; pregnant; difficult	Kasar / Andap / Mider / Alus mider	ok
+baat	heavy	Andap	heavy	Andap	ok
+inggan	light (weight)	Alus			NOT-IN-DICTIONARY
+ingan	light (weight)	Andap	light	Andap / Alus singgih	ok
+alus	smooth	Mider	refined	Kasar / Andap	GLOSS-MISMATCH
+kasar	rough	Mider	rough; rude		ok
+belus	wet	Andap	wet	Mider	ok
+ngedasang	cleaning	Andap	clean	Andap	GLOSS-MISMATCH
+ngepel	mopping	Mider	wipe	Andap	GLOSS-MISMATCH
+numbah	washing clothes	Andap			NOT-IN-DICTIONARY
+ngumbah	washing clothes	Andap	washing	Andap / Alus sor / Alus singgih	ok
+nyetrika	ironing	Mider			NOT-IN-DICTIONARY
+meliang	buying for someone	Andap		Andap	ok
+memasak	cooking	Andap			NOT-IN-DICTIONARY
+ngrateng	cooking	Alus	cook; cooking	Andap / Alus mider	ok
+meyasa	fasting/meditating	Alus			NOT-IN-DICTIONARY
+megending	singing	Andap			NOT-IN-DICTIONARY
+ngigel	dancing	Andap		Kasar / Andap / Alus singgih	ok
+nari	dancing	Alus			NOT-IN-DICTIONARY
+mabalih	watching (tv/show)	Andap	watch; look at	Andap / Alus mider / Alus singgih	GLOSS-MISMATCH
+miarsayang	watching	Alus	listen; listen please ; hear please; listening on	Andap	GLOSS-MISMATCH
+maca	reading	Andap	read	Andap / Alus mider	GLOSS-MISMATCH
+ngwacen	reading	Alus	read aloud	Andap / Alus singgih	GLOSS-MISMATCH
+nulis	writing	Andap	to write	Andap / Alus mider	GLOSS-MISMATCH
+nyurat	writing	Alus	write	Andap / Alus mider	GLOSS-MISMATCH
+ngomong	talking	Andap	speak; talk	Kasar / Andap / Alus sor / Alus madya / Alus mider / Alus singgih	GLOSS-MISMATCH
+mabaos	talking	Alus	speak	Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+ngoyong	staying/living/quiet	Andap	steady; stop; idle; stay; live	Andap / Alus singgih	GLOSS-MISMATCH
+majalan-jalan	walking around/strolling	Andap	walk	Andap	GLOSS-MISMATCH
+masandekan	resting	Alus	stay somewhere overnight; rest	Andap	GLOSS-MISMATCH
+nyemak gawe	working/doing a chore	Andap			NOT-IN-DICTIONARY
+nulungin meme	helping mother	Andap			NOT-IN-DICTIONARY
+nyeduh kopi	brewing coffee	Andap			NOT-IN-DICTIONARY
+maen	playing	Andap			NOT-IN-DICTIONARY
+belok	turn	Mider			NOT-IN-DICTIONARY
+menggok	turn	Andap	lean; turn	Andap	ok
+lurus	straight	Mider			NOT-IN-DICTIONARY
+terus	straight	Mider	then	Andap	GLOSS-MISMATCH
+dauh	west (formal prefix)	Mider	west; time; call	Mider	ok
+dangin	east (formal prefix)	Mider	east	Kasar / Andap	ok
+delod	south (formal prefix)	Mider	south	Mider	ok
+daja	north (formal prefix)	Mider	north	Kasar / Andap	ok
+ngeliwat	to pass by	Andap			NOT-IN-DICTIONARY
+pempatan	crossroad	Mider	intersection	Andap	GLOSS-MISMATCH
+pertigaan	t-junction	Mider	a fork; an intersection	Andap	GLOSS-MISMATCH
+bukit	hill	Mider	hill	Mider	ok
+pantai	beach	Mider			NOT-IN-DICTIONARY
+pelabuhan	harbor	Mider	harbor; port; anchorage	Mider	ok
+bandara	airport	Mider			NOT-IN-DICTIONARY
+di samping	beside	Andap			NOT-IN-DICTIONARY
+di harep	in front of	Andap			NOT-IN-DICTIONARY
+di duri	behind	Andap			NOT-IN-DICTIONARY
+nyasar	lost (navigation)	Mider	get lost		ok
+takon	ask	Andap	ask	Kasar / Andap	ok
+nakenang	ask	Alus			NOT-IN-DICTIONARY
+paling	most	Mider	confused; eldest; greatest	Andap	GLOSS-MISMATCH
+lebih	more	Mider			NOT-IN-DICTIONARY
+lebian	more than	Andap			ok
+kuangan	less than	Andap	lacking; weak	Andap	GLOSS-MISMATCH
+kirangan	less than	Alus	run	Andap	GLOSS-MISMATCH
+tusing patuh	not the same	Andap			NOT-IN-DICTIONARY
+nenten pateh	not the same	Alus			NOT-IN-DICTIONARY
+agengan	bigger	Alus			NOT-IN-DICTIONARY
+gedean	bigger	Andap			NOT-IN-DICTIONARY
+alitan	smaller	Alus	younger	Kasar / Andap	GLOSS-MISMATCH
+cenikan	smaller	Andap	small; little	Andap	GLOSS-MISMATCH
+luungan	better	Andap			NOT-IN-DICTIONARY
+becikan	better	Alus			NOT-IN-DICTIONARY
+jelekan	worse	Andap			NOT-IN-DICTIONARY
+kaonan	worse	Alus			NOT-IN-DICTIONARY
+tegehan	taller	Andap			NOT-IN-DICTIONARY
+endepan	shorter	Andap			NOT-IN-DICTIONARY
+mudaan	cheaper	Andap			NOT-IN-DICTIONARY
+maalan	more expensive	Andap			NOT-IN-DICTIONARY
+sugih	rich	Andap	rich	Andap	ok
+tiwas	poor	Andap	poor	Andap	ok
+lacur	poor/unlucky	Andap	unlucky; poor	Andap	ok
+kuatan	stronger	Andap			NOT-IN-DICTIONARY
+enggalan	faster	Andap	Ran out of time	Kasar / Andap	GLOSS-MISMATCH
+adengan	slower	Andap	birthmark	Kasar / Andap	GLOSS-MISMATCH
+bagusan	more handsome	Andap			NOT-IN-DICTIONARY
+tusing biasa	not used to	Andap			NOT-IN-DICTIONARY
+katuju	happened to	Andap	chance	Kasar / Andap	GLOSS-MISMATCH
+sejak	since	Mider			NOT-IN-DICTIONARY
+uling pidan	since when	Andap			NOT-IN-DICTIONARY
+saking pidan	since when	Alus			NOT-IN-DICTIONARY
+kene	like this	Andap	like	Andap	ok
+keto	like that	Andap	like that; thus	Kasar / Andap / Mider / Alus madya / Alus singgih	ok
+kenten	like that	Alus	like that	Kasar / Andap / Alus mider	ok
+kengken	how	Andap	how	Mider	ok
+prakara	matter/case	Alus	things; case; matter; trouble	Andap	ok
+unduk	matter/case	Andap	situation	Andap	GLOSS-MISMATCH
+indik	regarding/about	Alus			ok
+bakat tepuk	happened to see	Andap			NOT-IN-DICTIONARY
+suba makelo	it's been a long time	Andap			NOT-IN-DICTIONARY
+sampun suwe	it's been a long time	Alus			NOT-IN-DICTIONARY
+taen kema	ever been there	Andap			NOT-IN-DICTIONARY
+suba pragat	already finished	Andap			NOT-IN-DICTIONARY
+pitung atus	700	Mider			NOT-IN-DICTIONARY
+sangang atus	900	Mider			NOT-IN-DICTIONARY
+duang tali	2,000	Mider	two thousand	Andap	ok
+telung tali	3,000	Mider			NOT-IN-DICTIONARY
+patang tali	4,000	Mider			NOT-IN-DICTIONARY
+satus tali	100,000	Mider			NOT-IN-DICTIONARY
+satak tali	200,000	Mider			NOT-IN-DICTIONARY
+limang atus tali	500,000	Mider			NOT-IN-DICTIONARY
+a yuta	1 million	Mider			NOT-IN-DICTIONARY
+yuta	million	Mider	a million	Kasar / Andap	ok
+miliar	billion	Mider			NOT-IN-DICTIONARY
+rupiah	rupiah	Mider	rupiah; Indonesian currency	Andap	ok
+potongan	discount	Mider	discount; piece; form; model; part	Andap	ok
+medagang	selling	Andap	selling	Kasar / Andap / Mider / Alus madya / Alus singgih	ok
+bon	receipt/tab	Mider	charge	Andap	GLOSS-MISMATCH
+lunas	paid off	Mider	bamboo; satisfied; straight	Andap	GLOSS-MISMATCH
+pitulung	help/assistance	Alus	help	Andap	ok
+tulungin tiang	help me	Andap			NOT-IN-DICTIONARY
+kepaling	lost	Andap			NOT-IN-DICTIONARY
+sengkala	accident/disaster	Alus	misfortune	Andap	GLOSS-MISMATCH
+baya	danger	Mider	problem	Andap	GLOSS-MISMATCH
+maling	thief	Andap	thief	Andap	ok
+corah	thief	Alus	Evil; Bad	Andap	GLOSS-MISMATCH
+kecopetan	pickpocketed	Mider			NOT-IN-DICTIONARY
+berdarah	bleeding	Andap			NOT-IN-DICTIONARY
+pesu getih	bleeding	Andap			NOT-IN-DICTIONARY
+luka	injured	Mider			NOT-IN-DICTIONARY
+tatuan	wounded	Andap			NOT-IN-DICTIONARY
+klinik	clinic	Mider			NOT-IN-DICTIONARY
+obat	medicine	Mider	ammunition; gunpowder; medicine	Andap / Alus mider	ok
+tamba	medicine	Alus	medicine; herb	Andap / Alus mider	ok
+dokter	doctor	Mider			NOT-IN-DICTIONARY
+balian	traditional healer	Mider	healer; midwife, shaman; medium	Andap	ok
+api	fire	Mider	fire	Andap / Alus mider	ok
+puun	burned	Andap	burnt; classifier for trees	Andap	GLOSS-MISMATCH
+ngungsi	evacuate	Mider		Andap	ok
+awas	watch out	Mider	attention	Kasar / Andap	GLOSS-MISMATCH
+enggalang	hurry up	Andap	hurry up; make faster	Andap / Alus mider	ok
+musuh	enemy	Andap	enemy	Kasar / Andap / Alus singgih	ok
+satru	enemy	Alus	enemy	Andap / Alus mider	ok
+pisaga	neighbor	Mider	neighbor	Kasar / Andap	ok
+banjaran	neighbor	Mider		Andap	ok
+tunangan	fiancé/boyfriend/girlfriend	Andap	fiance; girlfriend or boyfriend	Andap / Alus singgih	ok
+jomblo	single	Mider			NOT-IN-DICTIONARY
+truna truni	youth (unmarried)	Mider	woman/man	Kasar / Andap / Alus sor / Alus madya / Alus mider	GLOSS-MISMATCH
+makurenan	married	Andap	get married	Kasar / Andap	ok
+nganten	married/wedding	Andap	married	Andap / Alus singgih	ok
+marabian	married	Alus	married	Andap	ok
+pegat	broken up/separated	Andap	cut; adjudicate	Andap	GLOSS-MISMATCH
+cerai	divorced	Mider	divorce; separate	Andap	GLOSS-MISMATCH
+sayang	love/affection	Mider	pity; love; affection	Kasar / Andap	ok
+tresna	love	Alus	love		ok
+tiang tresna ajak adi	I love you (to younger)	Andap			NOT-IN-DICTIONARY
+benci	hate	Mider			NOT-IN-DICTIONARY
+kangen	miss someone	Mider	meet; meeting; found	Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+rindu	miss someone	Mider			NOT-IN-DICTIONARY
+satya	loyal/faithful	Mider	true; honest; loyal	Andap	ok
+cemburu	jealous	Mider	jealousy; jealous	Andap	ok
+selingkuh	cheat	Mider			NOT-IN-DICTIONARY
+baikan	make up (after fight)	Mider			NOT-IN-DICTIONARY
+ngorta	chat/talk	Andap	joke; speak	Andap	GLOSS-MISMATCH
+dingehang	listen to this	Andap	hear	Kasar / Andap	GLOSS-MISMATCH
+surat	letter	Mider	letter; message; posting	Kasar / Andap / Alus sor / Alus singgih	ok
+pesan	message	Mider	fish; meat	Andap	GLOSS-MISMATCH
+nelpon	to call	Mider			NOT-IN-DICTIONARY
+ngirim	to send	Andap	send	Andap	ok
+jawab	to answer	Andap			NOT-IN-DICTIONARY
+saur	to answer	Alus	dried, grated coconut; said; answer; replied	Andap / Mider / Alus mider / Alus singgih	ok
+nyambatang	to tell	Andap	convey	Kasar / Andap	GLOSS-MISMATCH
+sapa	to greet	Mider	greet; say hello; welcome; curse	Mider	ok
+omong	speech/words	Andap	words	Andap / Alus sor / Alus singgih	ok
+baos	speech/words	Alus	fish kind of a; words	Andap	ok
+raos	speech	Alus	words	Kasar / Andap	GLOSS-MISMATCH
+keneh	thoughts	Andap	hati; pikiran; keinginan	Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+nengil	keep quiet	Andap	to live	Andap	GLOSS-MISMATCH
+meneng	keep quiet	Alus	live; stay	Andap / Alus singgih	GLOSS-MISMATCH
+rahasia	secret	Mider			NOT-IN-DICTIONARY
+kayu	wood	Andap	flotsam; wood; jetsam	Andap / Alus mider	ok
+tiing	bamboo	Andap	bamboo	Andap / Alus singgih	ok
+pring	bamboo	Alus			NOT-IN-DICTIONARY
+slaka	silver	Alus	silver	Mider	ok
+perunggu	bronze	Mider			NOT-IN-DICTIONARY
+besi	iron	Mider	metal; steel; rebar	Andap	GLOSS-MISMATCH
+wesi	iron	Alus		Andap	ok
+kaca	glass	Mider	glass; louvers; page	Andap	ok
+plastik	plastic	Mider	plastic	Andap	ok
+kertas	paper	Mider	bougainvillea	Andap	GLOSS-MISMATCH
+daluang	paper	Alus			NOT-IN-DICTIONARY
+kain	cloth	Mider	fabric	Andap	GLOSS-MISMATCH
+tali	rope/string	Mider	a thousand; an offering; a kind of; rope	Andap	ok
+busung	young coconut leaf (for offerings)	Mider	immature coconut leaf	Andap / Mider	ok
+slepan	mature coconut leaf	Mider	coconut	Kasar / Andap	ok
+ron	mature palm leaf	Mider	leafs (Alus Singgih); old palm leaves	Andap	ok
+bata	brick	Mider	brick	Andap	ok
+semen	cement	Mider	cement	Andap	ok
+kapuk	cotton	Mider	kapok	Andap	GLOSS-MISMATCH
+sutra	silk	Mider	silk	Andap	ok
+mbangun	to build	Andap			NOT-IN-DICTIONARY
+wangun	to build	Alus		Kasar / Andap / Alus sor	ok
+ngukir	to carve	Mider	carve	Kasar / Andap	ok
+mulas	to paint	Andap	paint	Andap	ok
+nggambar	to draw	Mider			NOT-IN-DICTIONARY
+ngulat	to weave (bamboo/leaves)	Mider	weave	Kasar / Andap	ok
+nenun	to weave (cloth)	Mider			NOT-IN-DICTIONARY
+mait	to carve (wood)	Andap			NOT-IN-DICTIONARY
+nebek	to pierce	Andap	stab; puncture menusuk; menikam	Andap	GLOSS-MISMATCH
+ngaput	to wrap	Andap	wrap	Andap	ok
+makaput	to wrap (food)	Andap	wrapped up; wrapped up; wrapped with leaves, paper and so on	Kasar / Andap	GLOSS-MISMATCH
+meborbor	to burn	Andap			NOT-IN-DICTIONARY
+nunjel	to burn	Andap	burn; ignite	Andap / Alus mider	ok
+masang	to install/put	Mider	install	Andap	ok
+mekarya	to create	Alus	cup	Kasar / Andap	GLOSS-MISMATCH
+ngedap	to prepare	Andap	shocked	Kasar / Andap	GLOSS-MISMATCH
+nyiapang	to prepare	Alus		Andap	ok
+nyait	to sew	Mider	to sew	Kasar / Andap	ok
+ngiket	to tie	Andap	tie	Andap	ok
+negul	to tie	Andap	bind; tie up; knot; tether	Andap	ok
+mutus	to cut/decide	Andap	Sent; ordered	Andap / Alus mider	GLOSS-MISMATCH
+ngetep	to cut	Andap	cut	Andap	ok
+nebas	to slash/cut	Andap	redeem; buy; pay with money to take back goods that are pawned	Andap	GLOSS-MISMATCH
+nyampur	to mix	Mider			NOT-IN-DICTIONARY
+ngadon	to mix (dough/spices)	Andap	mix	Andap	ok
+macek	to nail	Andap	impale; fasten; skewer; nailing; put up nails	Andap	GLOSS-MISMATCH
+ngempel	to glue	Andap	block	Kasar / Andap	GLOSS-MISMATCH
+nyusun	to arrange	Mider	arrange; stack	Andap	ok
+milih	to choose	Andap	select	Andap	GLOSS-MISMATCH
+rerainan	holiday/festival	Alus			NOT-IN-DICTIONARY
+piodalan	temple festival	Alus	Temple, holy place birthday, Balinese calendar (Wuku and Sasih).	Mider / Alus mider	ok
+Galungan	Galungan festival	Mider	Galungan day	Kasar / Andap	ok
+Kuningan	Kuningan festival	Mider	brass; week, one of the pawukon; Kuningan holiday	Mider	ok
+Saraswati	Day of Knowledge	Mider	god, kind of a	Andap	GLOSS-MISMATCH
+Siwaratri	Night of Siwa	Mider			NOT-IN-DICTIONARY
+otonan	Balinese birthday	Mider	birthday; ceremony	Mider	ok
+pawiwahan	wedding	Alus	wedding; marriage	Andap	ok
+ngaben	cremation ceremony	Mider	to conduct a cremation ceremony; to cremate	Andap / Alus singgih	ok
+palebon	royal cremation	Alus			NOT-IN-DICTIONARY
+metatah	tooth filing ceremony	Andap	teeth sharpening ceremony	Andap	ok
+mepandes	tooth filing ceremony	Alus			NOT-IN-DICTIONARY
+potong gigi	tooth filing	Mider			NOT-IN-DICTIONARY
+mabasan	reading sacred texts	Mider			NOT-IN-DICTIONARY
+makidung	singing sacred songs	Mider	sing the sacred song	Mider	ok
+tari	dance	Alus	dance; to ask	Andap	ok
+igel	dance	Andap	dance	Andap / Alus singgih	ok
+megambel	playing gamelan	Mider		Andap	ok
+nunas tirta	ask for holy water	Alus			NOT-IN-DICTIONARY
+awinan	reason/cause	Alus	cause; reason	Kasar / Andap	ok
+hasil	result	Mider	something obtained through a process	Mider	GLOSS-MISMATCH
+phala	result/karma	Alus	fruit	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	GLOSS-MISMATCH
+dadi ne	the result is	Andap			NOT-IN-DICTIONARY
+uli ento	from that	Andap			NOT-IN-DICTIONARY
+lantas	then/after that	Andap	continue	Andap	GLOSS-MISMATCH
+padidi	oneself/alone	Andap	by oneself; alone	Kasar / Andap / Alus sor / Alus singgih	ok
+ngraga	oneself/alone	Alus		Andap / Alus singgih	ok
+pedidi	alone	Andap		Kasar / Andap	ok
+ngaraga	alone	Alus			NOT-IN-DICTIONARY
+tiang padidi	I myself	Andap			NOT-IN-DICTIONARY
+titiang ngraga	I myself	Alus			NOT-IN-DICTIONARY
+cai padidi	you yourself	Andap			NOT-IN-DICTIONARY
+ragane ngraga	you yourself	Alus			NOT-IN-DICTIONARY
+makaca	looking in mirror	Andap			NOT-IN-DICTIONARY
+mabusana	dressing up	Alus	dress; wearing clothes; dress up	Kasar / Andap	GLOSS-MISMATCH
+mandus	bathing oneself	Andap	bathe	Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+nyisir	combing hair	Andap			NOT-IN-DICTIONARY
+magunting	cutting one's hair	Andap	ceremony	Andap	GLOSS-MISMATCH
+mecukur	shaving	Andap			NOT-IN-DICTIONARY
+mebedak	putting on powder	Andap			NOT-IN-DICTIONARY
+ngomong padidi	talking to oneself	Andap			NOT-IN-DICTIONARY
+mabaos ngraga	talking to oneself	Alus			NOT-IN-DICTIONARY
+ngenot	seeing oneself	Andap	see	Andap / Alus singgih	GLOSS-MISMATCH
+madik	proposing (marriage)	Andap		Andap	ok
+ngebuh	showing off	Andap			NOT-IN-DICTIONARY
+matilesang	humbling oneself	Alus	self awareness	Mider	GLOSS-MISMATCH
+keneh padidi	one's own mind/will	Andap			NOT-IN-DICTIONARY
+lingkungan	environment	Mider	environment	Andap	ok
+alam	nature	Mider		Mider	ok
+luu	trash	Andap	trash	Andap / Alus mider	ok
+sampah	trash	Mider	oath	Andap	GLOSS-MISMATCH
+ngentungang luu	throw away trash	Andap			NOT-IN-DICTIONARY
+nanem	to plant	Andap	plant; six	Andap	ok
+mula	to plant	Andap	certainly; to plant	Andap	ok
+pohon	tree	Mider	burnt		GLOSS-MISMATCH
+tanah embid	landslide	Andap			NOT-IN-DICTIONARY
+asri	beautiful/green	Mider			NOT-IN-DICTIONARY
+lestari	preserved	Mider	sustainable		GLOSS-MISMATCH
+lindungi	protect	Mider			NOT-IN-DICTIONARY
+polusi	pollution	Mider			NOT-IN-DICTIONARY
+gaenang	make it!	Andap	do it; make it done; make it	Andap	ok
+karyanin	make it! (polite)	Alus	make up; do it/something	Andap / Alus mider	ok
+da	don't!	Andap	don't	Andap	ok
+sampunang	don't! (polite)	Alus	don't	Kasar / Andap	ok
+eda	don't!	Andap	don't	Kasar / Andap / Alus madya / Alus mider	ok
+gelisang	hurry up!	Alus	hurry	Kasar / Andap	ok
+alon-alon	slow down!	Alus	slow; slowly	Kasar / Andap	ok
+oyong	stay put!	Andap	stay	Andap	ok
+pirengang	listen! (polite)	Alus	listen; hear; please listen; please hear	Andap	ok
+tolih	look!	Andap	look at; glance; see	Andap / Alus singgih	ok
+cingak	look!	Alus	look; see	Andap / Alus singgih	ok
+icen	give it!	Alus	give; bestow	Andap / Alus sor / Alus singgih	ok
+puputang	finish it!	Alus	finished; complete; finish	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+satua	story	Andap	story	Andap	ok
+carita	story	Alus	story	Mider	ok
+dongeng	fairy tale	Mider			NOT-IN-DICTIONARY
+ada kone	once upon a time	Andap			NOT-IN-DICTIONARY
+weten kocap	once upon a time	Alus			NOT-IN-DICTIONARY
+dumun	in the past	Alus	ahead	Andap	GLOSS-MISMATCH
+ilu	in the old days	Andap	in the past	Andap / Alus mider	GLOSS-MISMATCH
+suba keto	after that	Andap			NOT-IN-DICTIONARY
+sampun kenten	after that	Alus			NOT-IN-DICTIONARY
+pamragat	ending	Mider	solution;completion, settlement, settling, accomplishment	Andap	GLOSS-MISMATCH
+pamuput	finally/ending	Alus	ending		ok
+kasuen-suen	after a long time	Alus		Andap / Alus singgih	ok
+makelo-kelo	after a long time	Andap	gradually	Andap	GLOSS-MISMATCH
+kacarita	the story goes	Alus	be told	Mider	GLOSS-MISMATCH
+kaget	suddenly	Mider	if; suddenly; sometimes	Andap	ok
+prajani	suddenly	Andap	right	Kasar / Andap	GLOSS-MISMATCH
+suryak	cheer/shout	Andap			NOT-IN-DICTIONARY
+paling duri	the last one	Andap			NOT-IN-DICTIONARY
+tokoh	character	Mider			NOT-IN-DICTIONARY
+raksasa	giant/monster	Mider	spirit; demon	Andap	GLOSS-MISMATCH
+dewa	god	Mider	figurines; god; whale, a day	Alus singgih	ok
+pahlawan	hero	Mider			NOT-IN-DICTIONARY
+kesaktian	magical power	Mider	supernatural power; magical power; extraordinary power	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+menang	win	Mider	win	Andap	ok
+kalah	lose	Mider	lose	Andap	ok
+seni	art	Mider			NOT-IN-DICTIONARY
+gambelan	traditional orchestra	Mider	gamelan; percussion instrument	Kasar / Andap	GLOSS-MISMATCH
+gong	gong/orchestra	Mider	gamelan instrument	Kasar / Andap	GLOSS-MISMATCH
+wayang	shadow puppet	Mider	dance; shadow; drama	Andap / Alus mider	ok
+dalang	puppeteer	Mider	puppeteer	Kasar / Andap	ok
+topeng	mask	Mider	a dance in which male performers wear masks; mask	Andap	ok
+kidung	traditional song	Mider	verse	Andap	GLOSS-MISMATCH
+kekawin	classical poem	Mider	Balinese literary works are a kind of poetry bound by the song teacher and the number of syllables and the number of lines in one stanza; kakawin	Mider	GLOSS-MISMATCH
+lukisan	painting	Mider	paintings	Andap	GLOSS-MISMATCH
+ukiran	carving	Mider	carving	Kasar / Andap	ok
+suling	bamboo flute	Mider	flute	Andap	ok
+kendang	drum	Mider	drum, kind of a	Andap	ok
+cengceng	cymbals	Mider	Balinese Traditiona Instrument		GLOSS-MISMATCH
+rindik	bamboo xylophone	Mider	gamelan musical instruments made from bamboo like ‘kulintang’ with Balinese scales	Andap	ok
+panggung	stage	Mider	platform; stage	Mider	ok
+balih-balihan	entertainment/show	Andap	performance; spectacle; show	Andap	ok
+nonton	to watch	Mider	watch; look	Andap / Alus mider	ok
+menabuh	to play instruments	Mider			NOT-IN-DICTIONARY
+pragina	dancer	Alus	performer; trance	Andap	GLOSS-MISMATCH
+sekaa	group/club (arts)	Mider	association; organizational unity	Mider	GLOSS-MISMATCH
+latihan	practice	Mider			NOT-IN-DICTIONARY
+melajah igel	learning to dance	Andap			NOT-IN-DICTIONARY
+taksu	spiritual charisma in art	Mider	spirit	Andap	GLOSS-MISMATCH
+kalang	arena/stage	Mider	bright ring around the sun or moon	Andap	GLOSS-MISMATCH
+sorak	applause/cheer	Mider			NOT-IN-DICTIONARY
+bagia	happiness	Mider	happy; cheerful	Andap / Mider	GLOSS-MISMATCH
+damai	peace	Mider			NOT-IN-DICTIONARY
+shanti	peace (spiritual)	Alus			NOT-IN-DICTIONARY
+urip	life	Alus	ritual; life; calendar, kind of	Kasar / Andap	ok
+idup	life	Andap	live; life; flamming	Andap / Alus mider	ok
+mati	death	Andap	dead; die	Kasar / Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+padem	death	Alus	dead	Kasar / Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+nasib	fate	Mider	something that has been determined by God on a person; destiny		GLOSS-MISMATCH
+karma	karma/deeds	Mider	action	Andap	GLOSS-MISMATCH
+tenaga	energy/power	Mider			NOT-IN-DICTIONARY
+bayu	energy/wind	Mider	strength; wind; storm; spiritual force; energy	Andap	ok
+kebaikan	goodness	Mider			NOT-IN-DICTIONARY
+dharma	truth/duty	Mider	duty	Kasar / Andap	ok
+adharma	evil/untruth	Mider			NOT-IN-DICTIONARY
+budi	character/mind	Mider	desire; curiosity; intention	Mider	GLOSS-MISMATCH
+dosa	sin	Mider	Mulct	Mider	GLOSS-MISMATCH
+pahala	reward	Mider			NOT-IN-DICTIONARY
+kone	they say / he said	Andap	they say; supposedly; someone said	Andap / Alus mider	ok
+orahanga	he/she said	Andap	it is said	Andap	ok
+nikayanga	he/she said	Alus			NOT-IN-DICTIONARY
+dingeh tiang	I heard	Andap			NOT-IN-DICTIONARY
+pireng titiang	I heard	Alus			NOT-IN-DICTIONARY
+ia ngorahang	he says	Andap			NOT-IN-DICTIONARY
+ipun nikayang	he says	Alus			NOT-IN-DICTIONARY
+ida ngandika	he (high caste) says	Alus			NOT-IN-DICTIONARY
+kene kone	it's like this, they say	Andap			NOT-IN-DICTIONARY
+ada gatra	there is news	Andap			NOT-IN-DICTIONARY
+wenten orti	there is news	Alus			NOT-IN-DICTIONARY
+orti	news	Alus	news	Andap / Alus mider	ok
+jare	they say (informal)	Andap			NOT-IN-DICTIONARY
+crita	story is	Mider	story	Kasar / Andap	ok
+sambat	mentioned	Andap	call	Kasar / Andap	GLOSS-MISMATCH
+baosang	mentioned	Alus	the topic; talked		GLOSS-MISMATCH
+pingit	secret/sacred	Alus	terrible	Mider	GLOSS-MISMATCH
+pisuna	slander/gossip	Andap	slander	Andap	ok
+mitnah	slandering	Mider			NOT-IN-DICTIONARY
+leres	true (fact)	Alus			NOT-IN-DICTIONARY
+bogbog	lie	Andap	lie	Andap	ok
+umpami	for example	Alus	For instance	Andap / Mider	GLOSS-MISMATCH
+upami	for example	Andap	for example; example; like; example	Andap / Alus mider	ok
+bisa-bisa	might happen	Andap			NOT-IN-DICTIONARY
+yening keto	if so	Andap			NOT-IN-DICTIONARY
+yening kenten	if so	Alus			NOT-IN-DICTIONARY
+yen keto	if so	Andap			NOT-IN-DICTIONARY
+sinah	surely	Andap	certain	Andap	GLOSS-MISMATCH
+konden tawang	not yet known	Andap			NOT-IN-DICTIONARY
+durung uning	not yet known	Alus			NOT-IN-DICTIONARY
+asal	as long as	Mider	source	Kasar / Andap	GLOSS-MISMATCH
+dogen	only/just	Andap	only	Andap / Alus mider	ok
+kemanten	only/just	Alus	only	Alus mider	ok
+antos	wait	Andap	wait	Andap / Alus mider	ok
+yening ten	if not	Alus			NOT-IN-DICTIONARY
+yen sing	if not	Andap			NOT-IN-DICTIONARY
+inget	to remember	Andap	remember	Kasar / Andap / Alus singgih	ok
+eling	to remember	Alus	remember	Andap / Alus mider	ok
+ngerti	to understand	Mider	understand	Andap	ok
+resep	to understand	Andap	understand	Mider	ok
+mapineh	thinking	Andap	think; though	Andap	GLOSS-MISMATCH
+mamanah	thinking	Alus	shoot; think; intend	Andap	GLOSS-MISMATCH
+menehang	to correct/think over	Andap			NOT-IN-DICTIONARY
+ngega	to believe	Andap	trust	Andap / Alus mider	GLOSS-MISMATCH
+percaya	to believe	Mider	trust	Andap	GLOSS-MISMATCH
+ngidep	to agree/understand	Andap	willing	Andap	GLOSS-MISMATCH
+narka	to guess	Andap		Andap	ok
+ngira	to guess	Andap			NOT-IN-DICTIONARY
+cager	to hope/rely	Andap	sure of something; reliable	Mider	GLOSS-MISMATCH
+ngarep	to hope	Andap	put; hope	Andap	ok
+ngelah keneh	have an idea	Andap			NOT-IN-DICTIONARY
+maduwe manah	have an idea	Alus			NOT-IN-DICTIONARY
+sadar	realize	Mider	conscious	Andap	GLOSS-MISMATCH
+titiang	I	Alus (Sor - humbling oneself)	I; me	Kasar / Andap / Mider / Alus sor / Alus madya	ok
+ngambil	to take	Alus	last; take	Andap	ok
+mapamit	to excuse oneself	Alus	take; permission to leave	Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+nunas lugra	asking for permission	Alus			ok
+mapesengan	named	Alus	named; called	Andap / Alus sor / Alus singgih	ok
+kairing	accompanied by	Alus	invited	Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+ngaksi	to see	Alus	See	Kasar / Andap / Alus singgih	ok
+nyingak	to see	Alus	to see; look at	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	ok
+ngandika	to speak (high to low)	Alus	tell; have orders; said	Andap / Alus singgih	GLOSS-MISMATCH
+nyuryanin	to shine upon/bless	Alus	see	Alus madya	GLOSS-MISMATCH
+ngicalang	to lose/disappear	Alus	lose	Andap	ok
+seda	pass away (high caste)	Alus	dead	Kasar / Andap / Alus sor / Alus singgih	GLOSS-MISMATCH
+makolem	sleep (high caste)	Alus	sleep	Kasar / Andap / Alus singgih	ok
+ngrayunang	eat (highest honour; used of priests)	Alus (Singgih)	eat; ate	Kasar / Andap	ok
+bule	foreigner (white)	Andap	skin	Andap	GLOSS-MISMATCH
+hotel	hotel	Mider			NOT-IN-DICTIONARY
+penginapan	guesthouse	Mider			NOT-IN-DICTIONARY
+pandu wisata	tour guide	Mider			NOT-IN-DICTIONARY
+pemandu	guide	Mider			NOT-IN-DICTIONARY
+paspor	passport	Mider			NOT-IN-DICTIONARY
+penerbangan	flight	Mider			NOT-IN-DICTIONARY
+liburan	vacation	Mider			NOT-IN-DICTIONARY
+plesir	to travel	Alus			NOT-IN-DICTIONARY
+oleh-oleh	souvenir	Mider			NOT-IN-DICTIONARY
+peta	map	Mider	talk; spiel	Kasar / Andap / Alus singgih	GLOSS-MISMATCH
+kamera	camera	Mider			NOT-IN-DICTIONARY
+foto	photo	Mider			NOT-IN-DICTIONARY
+mefoto	take a photo	Andap			NOT-IN-DICTIONARY
+berenang	to swim	Mider			NOT-IN-DICTIONARY
+langi	to swim	Andap			NOT-IN-DICTIONARY
+nyilem	to dive	Andap	dive	Andap	ok
+jemur	sunbathe	Mider			NOT-IN-DICTIONARY
+sawah	rice terraces	Mider	rice field	Andap / Alus mider	ok
+sewa montor	rent motorbike	Andap			NOT-IN-DICTIONARY
+rega pas	fixed price	Mider			NOT-IN-DICTIONARY
+jalan-jalan	sightseeing	Mider	Tomorrow i'am hollyday	Kasar / Andap	GLOSS-MISMATCH
+pisan	very	Alus	very; better	Andap / Alus mider	ok
+sajan	very	Andap	actually; very	Andap	ok
+bes	too	Andap	very; too much	Kasar / Andap	ok
+bes bedik	too little	Andap			NOT-IN-DICTIONARY
+hampir	almost	Mider			NOT-IN-DICTIONARY
+nyaris	almost	Mider			NOT-IN-DICTIONARY
+tuah	only	Andap	only; just	Kasar / Andap / Alus singgih	ok
+wantah	only	Alus	only	Kasar / Andap	ok
+kaliwat	exceedingly	Andap	passed; emphatic particle	Kasar / Andap	GLOSS-MISMATCH
+liwat	exceeding	Andap	pass by	Kasar / Andap	GLOSS-MISMATCH
+luyu	extremely	Andap			NOT-IN-DICTIONARY
+negehang	to climb/go up	Andap	get	Andap	GLOSS-MISMATCH
+nuunang	to descend/go down	Andap	to go down	Kasar / Andap	ok
+tedun	to descend	Alus	go down	Andap / Alus singgih	GLOSS-MISMATCH
+budal	to go home	Alus	go home; return; back	Andap / Alus sor / Alus singgih	ok
+pesu	to go out	Andap	sweat; go out; be born	Andap	ok
+medal	to go out	Alus	sign out	Kasar / Andap	ok
+masuk	to go in	Andap			ok
+manjing	to go in	Alus			NOT-IN-DICTIONARY
+mengked	to hide	Andap			NOT-IN-DICTIONARY
+mengkeb	to hide	Andap	hide	Andap	ok
+nyumput	to hide	Andap	pick up	Andap	GLOSS-MISMATCH
+makecog	to jump	Andap	jump	Andap	ok
+mategul	to tie	Andap	tied; bound; moored	Andap	GLOSS-MISMATCH
+ngebut	to speed	Andap	fast	Andap	GLOSS-MISMATCH
+nganteng	to pull	Andap			NOT-IN-DICTIONARY
+ngedorong	to push	Andap			NOT-IN-DICTIONARY
+negen	to carry on shoulder	Andap	carry	Andap	ok
+nyuun	to carry on head	Andap	carry; uphold	Andap / Alus singgih	ok
+nyambak	to grab	Andap	hairy, attractive (hair)	Andap	GLOSS-MISMATCH
+ngandang	to block	Andap	obstruct	Andap	GLOSS-MISMATCH
+ngebeg	to chase	Andap	scramble interestingly; scrubbing vigorously	Andap	GLOSS-MISMATCH
+ulung	to fall	Andap	fall	Andap / Alus singgih	ok
+runtuh	to fall	Alus	fall down	Andap / Alus singgih	ok
+lemuh	soft	Andap	supple; flexible; pliable		GLOSS-MISMATCH
+empuk	soft	Mider	swells; pimple; inflate	Andap	GLOSS-MISMATCH
+kaku	stiff	Mider	stiff	Andap	ok
+beles	wet	Andap			NOT-IN-DICTIONARY
+berat	heavy	Mider			NOT-IN-DICTIONARY
+ringan	light	Mider			NOT-IN-DICTIONARY
+tajem	sharp	Andap			NOT-IN-DICTIONARY
+muntul	dull	Andap			NOT-IN-DICTIONARY
+benyek	mushy	Andap	soft	Kasar / Andap	GLOSS-MISMATCH
+renyah	crispy	Mider	brittle	Andap	GLOSS-MISMATCH
+alot	tough/chewy	Mider			NOT-IN-DICTIONARY
+lanying	pointed	Andap	pointed	Andap	ok
+bunter	round	Andap	sail; circle	Kasar / Andap	GLOSS-MISMATCH
+lempeh	flat	Andap	even; flat; thin		ok
+bolong	full of holes	Andap		Kasar / Andap	ok
+bek	full	Andap	full	Mider	ok
+puyung	empty	Andap	empty	Andap	ok
+nah	okay/alright	Andap	agree; yes; okay	Andap / Alus madya / Alus singgih	ok
+beh	wow (surprise/annoyance)	Andap	gosh	Kasar / Andap	GLOSS-MISMATCH
+aduh	ouch	Mider	oh	Kasar / Andap	ok
+aratu	oh my god	Alus			NOT-IN-DICTIONARY
+ratu	lord/oh my	Alus	king; a call of honor for certain groups		GLOSS-MISMATCH
+mimih	oh my (surprise)	Andap		Mider	ok
+dewaratu	good heavens	Andap			NOT-IN-DICTIONARY
+ah	ah	Mider	unlucky	Kasar / Andap	ok
+ih	hey	Mider			NOT-IN-DICTIONARY
+oh	oh	Mider			NOT-IN-DICTIONARY
+pe	wow	Andap			NOT-IN-DICTIONARY
+aruh	sigh	Andap		Andap	ok
+yakti	really	Alus	true; right; seriously	Andap / Alus mider / Alus singgih	GLOSS-MISMATCH
+apa ne	what is this	Andap			NOT-IN-DICTIONARY
+to	see/there	Andap			ok
+ni	this (filler)	Andap	female gender marker placed in front of the name	Mider	GLOSS-MISMATCH
+je	please (emphasis)	Andap			NOT-IN-DICTIONARY
+ja	please (emphasis)	Andap	please; affirmative words that are equivalent to 'please' in English	Mider	ok
+sing ja	not really	Andap			NOT-IN-DICTIONARY
+ten je	not really	Alus			NOT-IN-DICTIONARY
+nah keto	like that, okay	Andap			NOT-IN-DICTIONARY
+keto suba	that's how it is	Andap			NOT-IN-DICTIONARY
+perusahaan	company	Mider			NOT-IN-DICTIONARY
+bisnis	business	Mider			NOT-IN-DICTIONARY
+untung	profit	Mider	profit	Andap	ok
+rugi	loss	Mider	loss; no profit; something that is not good (not profitable); harm	Andap	ok
+modal	capital	Mider		Andap	ok
+gaji	salary	Mider			NOT-IN-DICTIONARY
+bayaran	payment	Mider			NOT-IN-DICTIONARY
+suara	vote/voice	Mider	sound	Andap	GLOSS-MISMATCH
+rapat	meeting	Mider			NOT-IN-DICTIONARY
+sangkep	meeting (banjar)	Andap	close	Andap	GLOSS-MISMATCH
+pasewakan	meeting	Alus			NOT-IN-DICTIONARY
+tugas	duty	Mider	homework	Mider	GLOSS-MISMATCH
+karya	work	Alus	work; ritual work	Andap / Alus mider	ok
+gawe	work	Andap	job	Andap	GLOSS-MISMATCH
+anak megae	worker	Andap			NOT-IN-DICTIONARY
+buruh	laborer	Mider	laborer; wins	Kasar / Andap	ok
+tani	farming	Mider	farmer	Andap	GLOSS-MISMATCH
+bangkrut	bankrupt	Mider	bankrupt; not powered up	Mider	ok
+sukses	success	Mider			NOT-IN-DICTIONARY
+suntuk	depressed/stressed	Andap			NOT-IN-DICTIONARY
+lega	relieved	Andap		Andap	ok
+kuatir	worried	Mider			NOT-IN-DICTIONARY
+sungsut	sad/grieving	Alus	sad	Andap / Alus singgih	ok
+kecewa	disappointed	Mider			NOT-IN-DICTIONARY
+iri	jealous	Mider	jealous	Andap	ok
+dendam	revenge	Mider	revenge	Kasar / Andap	ok
+ikhlas	sincere/letting go	Mider			NOT-IN-DICTIONARY
+las	let go completely	Andap	wide; broad	Kasar / Andap / Mider / Alus sor / Alus madya / Alus mider / Alus singgih	GLOSS-MISMATCH
+nyebetang	to sadden	Andap	sad	Andap	GLOSS-MISMATCH
+ngaledangang	to please	Alus			NOT-IN-DICTIONARY
+sombong	arrogant	Mider	arrogant, lie (n)	Andap	ok
+bengal	stubborn	Andap	Naughty		GLOSS-MISMATCH
+bengkung	stubborn	Andap	stubborn	Kasar / Andap	ok
+wanen	brave	Andap	Brave	Andap	ok
+wani	brave (loan)	Mider	tree, kind of a	Mider	GLOSS-MISMATCH
+nyesel	regret	Andap	regret	Andap	ok
+lega keneh	peace of mind	Andap			NOT-IN-DICTIONARY
+kabupaten	regency	Mider	regency	Andap	ok
+provinsi	province	Mider			NOT-IN-DICTIONARY
+pemerintah	government	Mider			NOT-IN-DICTIONARY
+gubernur	governor	Mider			NOT-IN-DICTIONARY
+bupati	regent	Mider		Mider	ok
+kepala desa	village head	Mider			NOT-IN-DICTIONARY
+kelian adat	traditional banjar head	Mider			NOT-IN-DICTIONARY
+pecalang	traditional security	Mider	guard (n)	Andap	GLOSS-MISMATCH
+hukum	law	Mider			ok
+awig-awig	traditional village law	Mider	traditional  customary rules of conduct	Kasar / Andap	ok
+adat	custom/tradition	Mider	customary tradition	Kasar / Andap	ok
+dinas	official/administrative	Mider			NOT-IN-DICTIONARY
+rakyat	citizens/people	Mider	people	Andap	ok
+pemilu	election	Mider			NOT-IN-DICTIONARY
+pajak	tax	Mider			NOT-IN-DICTIONARY
+aturan	rule	Mider	give; offering	Kasar / Andap	GLOSS-MISMATCH
+pidato	speech	Mider			NOT-IN-DICTIONARY
+darma wacana	religious speech	Mider	lectures (about religion); speech (about religion)	Mider	ok
+gotong royong	community labor	Mider			NOT-IN-DICTIONARY
+paruman	village meeting	Alus		Andap / Alus mider	ok
+denda	fine/penalty	Mider	fine	Andap	ok
+sumbangan	donation	Mider			NOT-IN-DICTIONARY
+dana punia	religious donation	Mider		Andap	ok
+hak	rights	Mider		Andap	ok
+kewajiban	duty	Mider		Andap / Alus singgih	ok
+barong	mythical lion (good)	Mider	the embodiment of mythological beasts as a symbol of truth to fight against destructive forces	Mider	GLOSS-MISMATCH
+rangda	mythical widow/demon (evil)	Mider	barong	Andap	GLOSS-MISMATCH
+leyak	black magic practitioner	Mider	sorcerer	Andap	GLOSS-MISMATCH
+boma	guardian spirit	Mider	the name of the painting (carving) in the form of a face (giant)	Mider	GLOSS-MISMATCH
+kanda pat	four spiritual siblings	Mider	four siblings	Andap	ok
+dalem	temple of death/Shiva	Mider	deep	Andap	GLOSS-MISMATCH
+pamangku	priest	Mider	temple priest	Mider	ok
+sakti	magical power	Mider	sorcery	Andap	GLOSS-MISMATCH
+tenung	fortune telling	Mider	prophesy	Mider	GLOSS-MISMATCH
+sesuhunan	revered deity/spirit	Alus			NOT-IN-DICTIONARY
+roh	spirit	Mider			NOT-IN-DICTIONARY
+atma	soul	Mider	self	Mider	GLOSS-MISMATCH
+pitara	ancestor spirit	Alus	soul; spirit	Andap	ok
+suarga	heaven	Mider	heaven	Andap	ok
+neraka	hell	Mider	hell	Andap	ok
+moksa	spiritual liberation	Mider	spirit, end	Andap	GLOSS-MISMATCH
+dewi	goddess	Mider			NOT-IN-DICTIONARY
+bhuta kala	negative spirits	Mider		Andap / Alus madya	ok
+tapa	meditation/asceticism	Mider	meditation	Andap	ok
+tumbal	sacrifice	Mider	sorcery	Kasar / Andap	GLOSS-MISMATCH
+keris	sacred dagger	Mider	sword, kris; lean; thin		GLOSS-MISMATCH
+pasupati	spiritually activating an object	Mider	power	Kasar / Andap	GLOSS-MISMATCH
+pica	divine gift/blessing	Alus	gift	Andap	ok
+buka	like (comparison)	Andap	as; like	Andap / Alus mider	ok
+sekadi	like (comparison)	Alus	according to; as; such as; like	Andap	ok
+ngomong kosong	empty talk	Andap			NOT-IN-DICTIONARY
+buka batune	stubborn (like a rock)	Andap			NOT-IN-DICTIONARY
+ngadep gumi	to sell the land (traitor)	Andap			NOT-IN-DICTIONARY
+gedeg basang	angry (hot stomach)	Andap			NOT-IN-DICTIONARY
+manis di bibih	sweet on the lips (insincere)	Andap			NOT-IN-DICTIONARY
+tusing nyak kalah	won't accept defeat	Andap			NOT-IN-DICTIONARY
+buka sampine	like a cow (dumb/compliant)	Andap			NOT-IN-DICTIONARY
+aluh-aluh	taking it easy	Andap			NOT-IN-DICTIONARY
+sing ada unduk	no reason	Andap			NOT-IN-DICTIONARY
+dadi ati	having the heart to do something bad	Andap	How could you	Andap	GLOSS-MISMATCH
+pantesne	as it should be	Andap			NOT-IN-DICTIONARY
+sing nyidaang ngomong	speechless	Andap			NOT-IN-DICTIONARY
+ngalih gawe	looking for a job/trouble	Andap			NOT-IN-DICTIONARY
+pules-pulesan	pretending to sleep	Andap			NOT-IN-DICTIONARY
+uyut	noisy/making a fuss	Andap	noise	Andap	GLOSS-MISMATCH
+ngidih pelih	I apologize	Andap	forgive me; wrong	Andap / Alus mider	GLOSS-MISMATCH
+sampun wusan	already finished	Alus			NOT-IN-DICTIONARY
+napi wénten	is there...?	Alus			NOT-IN-DICTIONARY
+apa ada	is there...?	Andap			NOT-IN-DICTIONARY
+sira pesengan ragané	what is your name?	Alus			NOT-IN-DICTIONARY
+nyen adan cainé	what is your name? (to male)	Andap			NOT-IN-DICTIONARY
+kuda regan ené	how much is this?	Andap			NOT-IN-DICTIONARY
+tiang jagi makta	I will bring	Alus			NOT-IN-DICTIONARY
+icang lakar ngaba	I will bring	Andap			NOT-IN-DICTIONARY
+sampunang lali	don't forget	Alus			NOT-IN-DICTIONARY
+da engsap	don't forget	Andap			NOT-IN-DICTIONARY
+ngiring memargi	let's go	Alus			NOT-IN-DICTIONARY
+jalan majalan	let's go	Andap			NOT-IN-DICTIONARY
+nenten uning	don't know	Alus			NOT-IN-DICTIONARY
+tiang jagi mantuk	I am going home	Alus			NOT-IN-DICTIONARY
+icang lakar mulih	I am going home	Andap			NOT-IN-DICTIONARY
+[removed] ngampura	-	-			NOT-FOUND
+[removed] saking napi?	-	-			NOT-FOUND
+[removed] suksema	-	-			NOT-FOUND
+[removed] suksema mewali	-	-			NOT-FOUND
+[removed] rage sing engken	-	-			NOT-FOUND
+[removed] prabu	-	-	king; villian; head (form alus singgih / type of Balinese language to talk to people who must be respected)	Kasar / Andap / Alus sor / Alus madya / Alus singgih	EXISTS
+[removed] mis	-	-	trash; rubbish; garbage	Mider	EXISTS
+[removed] kakiyang	-	-			NOT-FOUND
+[removed] kakek	-	-			NOT-FOUND
+[removed] mabelas	-	-	weaning (about breastfeeding a baby)		EXISTS
+[removed] telung benang	-	-			NOT-FOUND
+[removed] tangi	-	-	purple	Mider	EXISTS
+[removed] kueh	-	-			NOT-FOUND
+[removed] selem denges	-	-		Mider	EXISTS
+[removed] putih sentak	-	-	very white	Mider	EXISTS
+[removed] barak biing	-	-	searing heat		EXISTS
+[removed] dhuwur	-	-			NOT-FOUND
+[removed] padha	-	-			NOT-FOUND
+[removed] minum	-	-			NOT-FOUND
+[removed] lelah	-	-			NOT-FOUND
+[removed] rong tali	-	-			NOT-FOUND
+[removed] kulkul	-	-	slit drum	Andap	EXISTS
+[removed] buka cicinge	-	-			NOT-FOUND
+[removed] batis beling	-	-			NOT-FOUND
+[removed] baong daki	-	-			NOT-FOUND
+[removed] nyilih mata	-	-			NOT-FOUND
+[removed] basang bungkuk	-	-			NOT-FOUND
+[removed] lima lantang	-	-			NOT-FOUND
+[removed] bungut tuak	-	-			NOT-FOUND
+[removed] paningalan badang	-	-			NOT-FOUND
+[removed] ngutang mis	-	-			NOT-FOUND
+[removed] be	-	-	fish; meat	Kasar / Andap / Alus singgih	EXISTS
+[removed] paling	-	-	confused; eldest; greatest	Andap	EXISTS
+[removed] nyampah	-	-	breakfast	Andap	EXISTS
+[removed] kude	-	-		Mider / Alus mider	EXISTS
+[removed] engken	-	-	wich one	Andap / Alus mider	EXISTS
+[removed] selae	-	-	twenty five	Mider	EXISTS
+[removed] pasasur	-	-	thirty-five	Mider	EXISTS
+[removed] setiman	-	-	forty-five	Kasar / Andap / Mider	EXISTS
+[removed] pelekutus	-	-	eighteen	Kasar / Andap	EXISTS
+[removed] siangolas	-	-	nineteen	Kasar / Andap / Mider	EXISTS
+[removed] limolas	-	-	fifteen	Andap / Mider	EXISTS
+[removed] pitung dasa lima	-	-			NOT-FOUND
+[removed] ungu	-	-	purple	Andap	EXISTS
+[removed] sing kenken	-	-			NOT-FOUND
+[removed] nunas ampura	-	-			NOT-FOUND
+[removed] pundi	-	-			NOT-FOUND
+[removed] saking pundi?	-	-			NOT-FOUND
+[removed] krebek	-	-	Thunder	Andap	EXISTS
+[removed] ngunjuk	-	-		Alus singgih	EXISTS
+[removed] dereng	-	-	not yet	Andap / Alus mider	EXISTS
+[removed] ngrayunang	-	-	eat; ate	Kasar / Andap	EXISTS
+[removed] makta	-	-	bring	Andap / Alus mider	EXISTS
+[removed] sirep	-	-	sleep	Kasar / Andap / Alus mider / Alus singgih	EXISTS
+[removed] mesare	-	-	sleep	Kasar / Andap	EXISTS
+[removed] makolem	-	-	sleep	Kasar / Andap / Alus singgih	EXISTS
+[removed] ngajeng	-	-	eat, eating	Andap / Alus singgih	EXISTS
+[removed] nginem	-	-	drink (v)	Kasar / Andap	EXISTS
+[removed] ngrayunang	-	-	eat; ate	Kasar / Andap	EXISTS
