@@ -405,7 +405,11 @@ fun WordBankView(
     onRemoveAnswer: (Int) -> Unit
 ) {
     Column(Modifier.fillMaxSize()) {
-        Text("Translate into Balinese", fontSize = 15.sp, color = InkSoft)
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+            Text("Translate into Balinese", fontSize = 15.sp, color = InkSoft)
+            Spacer(Modifier.weight(1f))
+            RegisterChip(ex.register)
+        }
         Spacer(Modifier.height(10.dp))
         Text(ex.promptEn, fontSize = 20.sp, fontWeight = FontWeight.SemiBold, color = Ink)
         Spacer(Modifier.height(20.dp))
@@ -792,6 +796,22 @@ private fun normToken(tok: String): String {
     return sb.toString()
 }
 
+private data class TokenParts(val prefix: String, val core: String, val suffix: String)
+
+/**
+ * Split a surface token into punctuation (prefix/suffix) and its word core, so
+ * "drika." renders as the word "drika" plus a full stop that is never
+ * underlined. Only the core is looked up / highlighted / tappable.
+ */
+private fun tokenParts(tok: String): TokenParts {
+    fun isWordChar(c: Char) = c.isLetterOrDigit() || c == '\'' || c == '-'
+    val start = tok.indexOfFirst { isWordChar(it) }
+    if (start < 0) return TokenParts(tok, "", "")
+    var end = tok.length
+    while (end > start && !isWordChar(tok[end - 1])) end--
+    return TokenParts(tok.substring(0, start), tok.substring(start, end), tok.substring(end))
+}
+
 private fun highlightRanges(norm: List<String>, entry: String?): List<IntRange> {
     if (entry.isNullOrBlank()) return emptyList()
     val w = entry.split(" ")
@@ -826,27 +846,37 @@ fun TappableBalinese(
     arrangement: Arrangement.Horizontal = Arrangement.Start
 ) {
     val display = remember(text) { text.split(" ").filter { it.isNotBlank() } }
+    val parts = remember(text) { display.map { tokenParts(it) } }
     val norm = remember(text) { display.map { normToken(it) } }
     val hl = remember(text, highlightEntry) { highlightRanges(norm, highlightEntry) }
     var popup by remember { mutableStateOf<Pair<String, List<WordEntry>>?>(null) }
 
     FlowRow(horizontalArrangement = arrangement) {
-        display.forEachIndexed { i, tok ->
+        display.forEachIndexed { i, _ ->
+            val p = parts[i]
             val lookups = remember(text, i) {
                 if (norm[i].isEmpty()) emptyList() else content.lookupsAt(norm, i)
             }
             val purple = hl.any { i in it }
             Row {
-                Text(
-                    text = tok,
-                    fontSize = fontSize,
-                    fontWeight = fontWeight,
-                    color = if (purple) NewWordPurple else Ink,
-                    textDecoration = if (lookups.isNotEmpty()) TextDecoration.Underline else null,
-                    modifier = if (lookups.isNotEmpty()) {
-                        Modifier.clickable { popup = tok to lookups }
-                    } else Modifier
-                )
+                if (p.prefix.isNotEmpty()) {
+                    Text(p.prefix, fontSize = fontSize, fontWeight = fontWeight, color = Ink)
+                }
+                if (p.core.isNotEmpty()) {
+                    Text(
+                        text = p.core,
+                        fontSize = fontSize,
+                        fontWeight = fontWeight,
+                        color = if (purple) NewWordPurple else Ink,
+                        textDecoration = if (lookups.isNotEmpty()) TextDecoration.Underline else null,
+                        modifier = if (lookups.isNotEmpty()) {
+                            Modifier.clickable { popup = p.core to lookups }
+                        } else Modifier
+                    )
+                }
+                if (p.suffix.isNotEmpty()) {
+                    Text(p.suffix, fontSize = fontSize, fontWeight = fontWeight, color = Ink)
+                }
                 Text(" ", fontSize = fontSize)
             }
         }

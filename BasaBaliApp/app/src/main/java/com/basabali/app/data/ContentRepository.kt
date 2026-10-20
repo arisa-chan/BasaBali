@@ -1,7 +1,9 @@
 package com.basabali.app.data
 
 import android.content.res.AssetManager
+import com.basabali.app.engine.TextMatch
 import org.json.JSONObject
+import kotlin.math.abs
 import kotlin.math.max
 import kotlin.random.Random
 
@@ -325,28 +327,62 @@ class ContentRepository(private val assets: AssetManager) {
 
     // ------------------------------------------------------------ distractors
 
+    /**
+     * Near-miss choices: rather than a random sentence from the lesson, rank
+     * candidates by how similar their Balinese form AND English wording are to
+     * the target.  The result is a set like "You and I are here." /
+     * "You and I are there." / "He and I are here." — same shape, one word
+     * different — instead of obviously unrelated translations.
+     */
     fun distractorEnglish(s: Sentence, n: Int): List<String> {
-        val pool = lessonNeighbours(s.lesson).filter { it.id != s.id && it.en != s.en && it.en.length in 4..70 }
-        val picked = pool.distinctBy { it.en }.shuffled().take(n).map { it.en }
-        // top-up from anywhere if the neighbourhood is too small
-        if (picked.size < n) {
-            val extra = sentences.filter { it.id != s.id && it.en != s.en && it.en !in picked && it.en.length in 4..70 }
-                .distinctBy { it.en }.shuffled().take(n - picked.size).map { it.en }
-            return picked + extra
+        val variants = variantKeys(s)
+        val pool = sentences.filter {
+            it.id != s.id && it.en != s.en && !it.headword &&
+                it.en.length in 4..70 && it.tokens.size in 2..12 &&
+                TextMatch.normalize(it.bal) !in variants
         }
-        return picked
+        return rankDistractors(s, pool, toEnglish = true, n = n).map { it.en }
     }
 
     fun distractorBalinese(s: Sentence, n: Int): List<String> {
-        val pool = (sentencesByLesson[s.lesson] ?: emptyList())
-            .filter { it.id != s.id && it.bal != s.bal && !it.headword && it.tokens.size in 2..9 }
-        val picked = pool.distinctBy { it.bal }.shuffled().take(n).map { it.bal }
-        if (picked.size < n) {
-            val extra = sentences.filter { it.id != s.id && it.bal != s.bal && !it.headword && it.tokens.size in 2..9 && it.bal !in picked }
-                .shuffled().take(n - picked.size).map { it.bal }
-            return picked + extra
+        val variants = variantKeys(s)
+        val pool = sentences.filter {
+            it.id != s.id && it.bal != s.bal && it.en != s.en && !it.headword &&
+                it.tokens.size in 2..9 && TextMatch.normalize(it.bal) !in variants
         }
-        return picked
+        return rankDistractors(s, pool, toEnglish = false, n = n).map { it.bal }
+    }
+
+    /** Normalized canonical sentence plus every register/mix variant of it. */
+    private fun variantKeys(s: Sentence): Set<String> {
+        val out = HashSet<String>()
+        out += TextMatch.normalize(s.bal)
+        for (variant in variantSentences(s)) out += TextMatch.normalize(variant)
+        return out
+    }
+
+    private fun rankDistractors(s: Sentence, pool: List<Sentence>, toEnglish: Boolean, n: Int): List<Sentence> {
+        val scored = pool.map { c ->
+            val balSim = TextMatch.sentenceSimilarity(s.bal, c.bal)
+            val enSim = TextMatch.sentenceSimilarity(s.en, c.en)
+            val lenSim = 1.0 - abs(c.tokens.size - s.tokens.size).coerceAtMost(6) / 6.0
+            val sameLesson = if (c.lesson == s.lesson) 0.08 else 0.0
+            val score = if (toEnglish) {
+                enSim * 0.50 + balSim * 0.34 + lenSim * 0.08 + sameLesson
+            } else {
+                balSim * 0.60 + enSim * 0.24 + lenSim * 0.08 + sameLesson
+            }
+            c to score
+        }.sortedByDescending { it.second }
+        val out = ArrayList<Sentence>(n)
+        val seen = HashSet<String>()
+        for ((c, _) in scored) {
+            val key = if (toEnglish) c.en else c.bal
+            if (!seen.add(key)) continue
+            out += c
+            if (out.size >= n) break
+        }
+        return out
     }
 
     /**
@@ -464,6 +500,29 @@ class ContentRepository(private val assets: AssetManager) {
             }
         }
         return out
+    }
+
+    /**
+     * Register siblings of a single surface [token] that the learner has already
+     * been taught (firstLesson <= [maxLesson]), ordered by when they were taught.
+     * Used by the word-bank exercise so a mixed-register build (dini … sakewanten
+     * … driki, for example) is accepted just like it is in typing.
+     */
+    fun registerAlternatives(token: String, maxLesson: Int): List<String> {
+        val key = tokenKey(token)
+        if (key.isEmpty()) return emptyList()
+        val entry = words[key] ?: return emptyList()
+        if (entry.id.contains(' ')) return emptyList()
+        val head = glossHead(entry.gloss)
+        if (head.isEmpty()) return emptyList()
+        return words.values
+            .filter {
+                it.id != entry.id && !it.id.contains(' ') &&
+                    it.firstLesson <= maxLesson && glossHead(it.gloss) == head
+            }
+            .sortedWith(compareBy({ it.firstLesson }, { it.id }))
+            .map { it.id }
+            .distinct()
     }
 
     /** Normalized key of a surface token (lowercase, accents folded, punctuation dropped). */

@@ -417,7 +417,10 @@ private fun StoriesTab(
             fontSize = 12.sp, color = InkSoft
         )
         Spacer(Modifier.height(14.dp))
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+        FlowRow(
+            horizontalArrangement = Arrangement.spacedBy(10.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp)
+        ) {
             for (story in content.stories) {
                 val completed = story.id in store.completedStories
                 // A finished story is always readable, even if the learner jumped ahead.

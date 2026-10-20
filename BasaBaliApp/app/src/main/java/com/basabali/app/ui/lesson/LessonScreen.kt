@@ -329,18 +329,30 @@ fun LessonScreen(
             val f = shownFb
             if (f != null) {
                 val c = if (f.ok) GreenOk else RedBad
-                // Balinese answer worth showing (tappable + speakable + shareable)
+                val sentence = ex?.sentenceId?.let { content.sentencesById[it] }
+                // Balinese answer/sentence shown on every result (correct included)
+                // so it can be tapped, replayed, and shared.
                 val balAnswer: String? = when (val e0 = ex) {
-                    is WordBankEx -> e0.answerTokens.joinToString(" ")
+                    is WordBankEx -> e0.answerDisplay
                     is DictationEx -> e0.answerDisplay
                     is TypeTranslationEx -> e0.answerDisplay
                     is SpeakEx -> e0.target
-                    is MultipleChoiceEx -> if (!e0.toEnglish) e0.correct else null
-                    is ListenTapEx -> if (!e0.toEnglish) e0.correct else null
+                    is MultipleChoiceEx -> if (!e0.toEnglish) e0.correct else sentence?.bal
+                    is ListenTapEx -> if (!e0.toEnglish) e0.correct else sentence?.bal
+                    is FillBlankEx -> sentence?.bal
                     else -> null
                 }
-                val showBal = balAnswer != null && (!f.ok || f.note != null)
-                val sentence = ex?.sentenceId?.let { content.sentencesById[it] }
+                val showBal = balAnswer != null
+                val shareRegister = sentence?.register ?: when (val e0 = ex) {
+                    is WordBankEx -> e0.register
+                    is DictationEx -> e0.register
+                    is TypeTranslationEx -> e0.register
+                    is SpeakEx -> e0.register
+                    is MultipleChoiceEx -> e0.register
+                    is ListenTapEx -> e0.register
+                    is FillBlankEx -> e0.register
+                    else -> "mider"
+                }
                 // a Balinese answer shown in the feedback announces itself too
                 LaunchedEffect(fb, balAnswer) {
                     if (fb != null && showBal && balAnswer != null) tts?.speak(balAnswer)
@@ -365,7 +377,7 @@ fun LessonScreen(
                             }
                             if (showBal && balAnswer != null) {
                                 Spacer(Modifier.height(6.dp))
-                                Text("Answer:", fontSize = 12.sp, color = InkSoft)
+                                Text(if (f.ok) "Sentence:" else "Answer:", fontSize = 12.sp, color = InkSoft)
                                 Row(verticalAlignment = Alignment.CenterVertically) {
                                     Box(Modifier.weight(1f)) {
                                         TappableBalinese(balAnswer, content, null,
@@ -376,10 +388,14 @@ fun LessonScreen(
                                     ShareSentenceButton(
                                         bal = balAnswer,
                                         en = sentence?.en ?: f.correctText ?: "",
-                                        register = sentence?.register ?: "mider",
+                                        register = shareRegister,
                                         tint = c,
                                         size = 34
                                     )
+                                }
+                                if (!f.ok && f.correctText != null && f.correctText != balAnswer) {
+                                    Spacer(Modifier.height(4.dp))
+                                    Text("Correct answer:  ${f.correctText}", color = Ink, fontSize = 14.sp)
                                 }
                             } else if (!f.ok && f.correctText != null) {
                                 Spacer(Modifier.height(4.dp))

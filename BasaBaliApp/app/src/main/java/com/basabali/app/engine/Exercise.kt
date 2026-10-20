@@ -47,13 +47,17 @@ data class MultipleChoiceEx(
 /** E4 — build the Balinese sentence from tiles (+ one distractor tile). */
 data class WordBankEx(
     val promptEn: String,
-    val answerTokens: List<String>,   // lowercase, for comparison
-    val bankTokens: List<String>,     // display casing
+    val answerTokens: List<String>,   // lowercase, punctuation-free, for comparison
+    val bankTokens: List<String>,     // display casing, punctuation-free
     val register: String,
     override val sentenceId: String?,
     override val tags: List<String>,
     override val focusTags: List<String>,
-    val highlight: String? = null     // entry id whose tiles render purple
+    val highlight: String? = null,    // entry id whose tiles render purple
+    /** The authored sentence with punctuation, shown in feedback. */
+    val answerDisplay: String = answerTokens.joinToString(" "),
+    /** Accepted tokens per position: one register/mix variant per inner list. */
+    val altGroups: List<List<String>> = emptyList()
 ) : Exercise()
 
 /** E7 — fill the blank; options are word ids, displayed via ContentRepository.display(). */

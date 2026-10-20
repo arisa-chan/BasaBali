@@ -107,11 +107,17 @@ class SessionRunner(
 
     fun submitBank(ex: WordBankEx, built: List<String>): Boolean {
         val builtLower = built.map { it.lowercase() }
-        val ok = builtLower == ex.answerTokens
+        // Register variants are position-wise alternatives, so all-Alus, all-Andap
+        // and mixed builds (dini + sakewanten + driki) are all accepted.
+        val ok = when {
+            ex.altGroups.isNotEmpty() && builtLower.size == ex.altGroups.size ->
+                builtLower.indices.all { builtLower[it] in ex.altGroups[it] }
+            else -> builtLower == ex.answerTokens
+        }
         val blame = if (!ok) {
             ErrorAttribution.forBank(ex, builtLower, ex.sentenceId?.let { content.sentencesById[it] })
         } else emptyList()
-        return grade(ex, ok, ex.answerTokens.joinToString(" "), blame)
+        return grade(ex, ok, ex.answerDisplay, blame)
     }
 
     /**

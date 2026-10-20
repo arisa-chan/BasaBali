@@ -620,13 +620,52 @@ class SessionBuilder(
     }
 
     fun makeBank(s: Sentence, focus: List<String>): Exercise {
-        val answer = s.bal.split(" ").filter { it.isNotBlank() }
+        // Tiles never carry punctuation; the authored sentence is kept separately
+        // for the feedback card (issue: "[driki,]" → "[driki],").
+        val answer = bankTokens(s.bal)
         val answerLower = answer.map { it.lowercase() }
         val bank = answer.toMutableList()
+        val altGroups = ArrayList<List<String>>(answer.size)
+        val added = HashSet<String>()
+        var variantCount = 0
+        for ((i, tok) in answer.withIndex()) {
+            val group = ArrayList<String>(2)
+            group += answerLower[i]
+            if (variantCount < 6) {
+                val alternative = content.registerAlternatives(tok, s.lesson)
+                    .firstOrNull {
+                        it.lowercase() !in answerLower && it.lowercase() !in added
+                    }
+                if (alternative != null) {
+                    group += alternative.lowercase()
+                    added += alternative.lowercase()
+                    bank += content.display(alternative)
+                    variantCount++
+                }
+            }
+            altGroups += group
+        }
         content.distractorToken(s)?.let { bank += it }
         bank.shuffle(random)
-        return WordBankEx(s.en, answerLower, bank, s.register, s.id, allTags(s), focus, highlightFor(s))
+        return WordBankEx(
+            s.en,
+            answerLower,
+            bank,
+            s.register,
+            s.id,
+            allTags(s),
+            focus,
+            highlightFor(s),
+            answerDisplay = s.bal,
+            altGroups = altGroups
+        )
     }
+
+    /** Surface tokens for the word bank: punctuation stripped, word kept intact. */
+    private fun bankTokens(bal: String): List<String> =
+        bal.split(" ")
+            .map { it.trim { c -> !c.isLetterOrDigit() && c != '\'' && c != '-' } }
+            .filter { it.isNotEmpty() }
 
     fun makeFillBlank(s: Sentence, focus: List<String>): Exercise? {
         val focusWords = focus.filter { it.startsWith("w:") }.map { it.substring(2) }

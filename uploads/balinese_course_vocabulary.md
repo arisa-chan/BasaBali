@@ -7,19 +7,14 @@
 * icang -> I -> Andap (Informal)
 * ragane -> you -> Alus
 * cai -> you (male) -> Andap
-* nyai -> you (female) -> Andap
 * ia -> he/she/it -> Andap
 * ipun -> he/she/it -> Alus
 * ida -> he/she (respectful) -> Alus (Singgih)
 * nggih -> yes -> Alus
-* inggih -> yes -> Alus (Very formal)
-* saja -> yes (true) -> Andap
 * aa -> yes -> Andap (Informal)
 * patut -> correct/yes -> Alus
-* beneh -> correct -> Andap
 * ten -> no -> Alus
 * sing -> no -> Andap
-* tusing -> no -> Andap
 * nenten -> no -> Alus
 * wénten -> is/are/exist -> Alus
 * ada -> is/are/exist -> Andap
@@ -31,9 +26,7 @@
 * driki -> here -> Alus
 * ditu -> there -> Andap
 * drika -> there -> Alus
-* miwah -> and -> Alus
 * lan -> and -> Mider
-* nanging -> but -> Mider
 * sakewanten -> but -> Alus
 
 #### Lesson 2: Greetings
@@ -42,34 +35,27 @@
 * rahayu -> safe/blessed -> Mider
 * semeng -> morning -> Andap/Alus
 * tengai -> afternoon -> Andap
-* siang -> afternoon (loan) -> Mider
 * sanja -> evening -> Andap
-* sore -> evening (loan) -> Mider
 * peteng -> night -> Andap
 * wengi -> night -> Alus
 * sapunapi -> how -> Alus
 * kenken -> how -> Andap
 * gatra -> news -> Mider
-* kabar -> news -> Mider
 * sapunapi gatrane -> how are you? -> Alus
 * kenken kabare -> how are you? -> Andap
 * becik -> good/fine -> Alus
 * luung -> good/fine -> Andap
-* tiang becik -> I am fine -> Alus
 * sampun -> already -> Alus
 * suba -> already -> Andap
 * durung -> not yet -> Alus (Mider)
 * tonden -> not yet -> Andap
 * pamit -> goodbye/leave -> Alus
-* mepamit -> to take one's leave -> Alus
 * rauh -> come/arrive -> Alus
 * teka -> come/arrive -> Andap
 * rahajeng rauh -> welcome -> Alus
 * dumogi -> hopefully/may you -> Mider
-* dumogi rahayu -> may you be safe -> Mider
-* lantang yusa -> long life -> Mider
-
 * sing kenken -> it's fine / no problem (reply to kenken kabare) -> Andap
+
 #### Lesson 3: Phrases
 * suksma -> thank you -> Mider
 * matur -> to say/offer -> Alus
@@ -77,16 +63,13 @@
 * mewali -> to return -> Alus
 * ampura -> forgive; excuse me; sorry -> Alus
 * ampurayang -> please forgive -> Alus
-* sinampura -> apologies -> Alus
 * pelih -> wrong/sorry -> Andap
 * iwang -> wrong/sorry -> Alus
 * tulung -> help; a call for help (noun/root — verbs: nulungin / ngwantu) -> Mider
 * nunas -> ask for (polite) -> Alus
 * idih -> ask for -> Andap
 * nunas tulung -> ask for help -> Alus
-* ngidih tulung -> ask for help -> Andap
 * durus -> please go ahead -> Alus
-* raris -> please go ahead -> Alus
 * silakan -> please -> Mider
 * jalan -> let's go/walk -> Andap
 * ngiring -> let's go -> Alus
@@ -98,20 +81,16 @@
 * ngudiang -> what are you doing -> Andap
 * napi karya -> what are you doing -> Alus
 * ten wenten -> there is none / no problem -> Alus
-* sing ada -> there is none / no problem -> Andap
-
-* nunas ampura -> please forgive me; I apologize -> Alus
 * suksma mewali -> you're welcome -> Alus
+
 #### Lesson 4: Introductions
 * sira -> who -> Alus
 * nyen -> who -> Andap
 * pesengan -> name -> Alus
 * adan -> name -> Andap
-* parab -> name -> Alus (Singgih)
 * sira pesengan ragane? -> what is your name? -> Alus
 * nyen adan caine? -> what is your name? -> Andap
 * tiang mawasta... -> my name is... -> Alus
-* wastan tiang... -> my name is... -> Alus
 * adan icange... -> my name is... -> Andap
 * wastan -> name -> Alus
 * linggih -> to reside / stay (respectful) -> Alus
@@ -120,65 +99,50 @@
 * uli -> from -> Andap
 * uli dija? -> where are you from? -> Andap
 * jagat -> world/country -> Alus
-* gumi -> world/country -> Andap
 * Bali -> Bali -> Mider
 * Jawa -> Java -> Mider
 * tamiu -> guest -> Mider
-* toris -> tourist -> Mider
 * timpal -> friend -> Andap
 * sawitra -> friend -> Alus
 * malajah -> to learn -> Mider
 * basa -> language -> Mider
-* Basa Bali -> Balinese language -> Mider
 * uning -> know/understand -> Alus
 * nawang -> know/understand -> Andap
-* ten uning -> don't know -> Alus
-* sing nawang -> don't know -> Andap
-
-* pundi -> where (respectful) -> Alus
 * saking pundi? -> where are you from? (respectful) -> Alus
+
 #### Lesson 5: Food 1
 * ajeng -> eat (polite to others) -> Alus
-* neda -> eat (for oneself) -> Alus
 * madaar -> eat -> Andap
 * ngajeng -> to eat -> Alus
-* nginem -> drink (familiar) -> Andap
-* rayunan -> food/meal (respectful) -> Alus
 * ajengan -> food/meal -> Alus
 * dedaaran -> food/meal -> Andap
 * nasi -> cooked rice -> Mider
 * beras -> raw rice -> Mider
-* padi -> rice plant -> Mider
 * toya -> water -> Alus
 * yeh -> water -> Andap
 * kopi -> coffee -> Mider
 * teh -> tea -> Mider
-* susu -> milk -> Mider
 * gula -> sugar -> Mider
 * uyah -> salt -> Mider
 * jaen -> delicious -> Andap
-* becik pisan -> very good -> Alus
-* jaen gati -> very delicious -> Andap
 * luwe -> hungry -> Andap
 * seduk -> hungry -> Alus
 * bedak -> thirsty -> Andap
 * nyampah -> breakfast -> Andap
-* ngajeng semeng -> breakfast -> Alus
 * madaar tengai -> lunch -> Andap
 * madaar peteng -> dinner -> Andap
 * piring -> plate -> Mider
 * gelas -> glass -> Mider
 * sendok -> spoon -> Mider
-
 * nginum -> drink -> Andap
 * ngunjuk -> drink (honouring others) -> Alus (Singgih)
+
 #### Lesson 6: Animals
 * buron -> animal -> Andap
 * sato -> animal -> Alus
 * cicing -> dog -> Andap
 * asu -> dog -> Alus
 * meong -> cat -> Andap
-* kucing -> cat (loan) -> Mider
 * celeng -> pig -> Andap
 * bawi -> pig -> Alus
 * siap -> chicken -> Andap
@@ -186,7 +150,6 @@
 * kedis -> bird -> Andap
 * paksi -> bird -> Alus
 * bojog -> monkey -> Andap
-* wanara -> monkey -> Alus
 * sampi -> cow -> Andap
 * lembu -> cow -> Alus
 * bebek -> duck -> Mider
@@ -196,15 +159,10 @@
 * lipi -> snake -> Andap
 * ula -> snake -> Alus
 * bikul -> mouse/rat -> Andap
-* jero ketut -> mouse (polite term) -> Alus
-* lelipi -> snake -> Andap
-* lawa -> bat -> Mider
-* yuyu -> crab -> Andap
 * penyu -> turtle -> Mider
 * buaya -> crocodile -> Mider
 * iwak -> fish -> Alus
 * be -> fish/meat -> Andap
-* lele -> catfish -> Mider
 
 #### Lesson 7: Possession
 * gelah -> mine/own -> Andap
@@ -216,18 +174,14 @@
 * hp -> phone -> Mider
 * montor -> motorbike -> Mider
 * gelah tiange -> my (belonging) -> Andap
-* gelah icange -> my (belonging) -> Andap
 * druwen ragane -> your (belonging) -> Alus
 * gelah caine -> your (belonging, male) -> Andap
-* gelah nyaine -> your (belonging, female) -> Andap
 * gelahne -> his/her (belonging) -> Andap
 * druwen ida -> his/her (belonging, respectful) -> Alus
 * napi -> what -> Alus
 * apa -> what -> Andap
 * napi niki? -> what is this? -> Alus
 * apa ene? -> what is this? -> Andap
-* napi nika? -> what is that? -> Alus
-* apa ento? -> what is that? -> Andap
 * ngaba -> to bring/carry -> Andap
 * makta -> to bring/carry -> Alus
 * baang -> give -> Andap
@@ -236,66 +190,45 @@
 * dados -> can/may -> Alus
 * nyelang -> borrow -> Alus
 * silih -> borrow -> Andap
-* niki druwen tiang -> this is mine -> Alus
-* ene gelah cang -> this is mine -> Andap
 
 #### Lesson 8: Numbers 1
-* angka -> number -> Mider
 * besik -> one -> Andap
 * siki -> one -> Alus
-* a -> one (prefix) -> Mider
 * dua -> two -> Andap
-* kalih -> two -> Alus
 * telu -> three -> Andap
-* tiga -> three -> Alus
 * papat -> four -> Mider
 * lima -> five -> Mider
 * nenem -> six -> Andap
-* enam -> six -> Alus
 * pitu -> seven -> Mider
 * kutus -> eight -> Mider
 * sia -> nine -> Mider
 * dasa -> ten -> Mider
 * aji -> price -> Alus
 * aji kuda? -> how much (price)? -> Alus
-* kude regane? -> how much is it? -> Andap
-* kuda -> how many/how much -> Andap
 * pinten -> how many/how much -> Alus
 * kude -> how much/many -> Andap
-* akeh -> many/a lot -> Alus
 * liu -> many/a lot -> Andap
 * kidik -> a few/little -> Alus
 * bedik -> a few/little -> Andap
-* akidik -> just a little -> Alus
-* abedik -> just a little -> Andap
 * puput -> finished -> Alus
-* pragat -> finished -> Andap
-* telah -> empty/all gone -> Andap
-
 * duang -> two (linking form) -> Mider
 * telung -> three (linking form) -> Mider
-* tigang -> three (polite linking form) -> Mider
 * patang -> four (linking form) -> Mider
 * limang -> five (linking form) -> Mider
 * sangang -> nine (linking form) -> Mider
-* agelas -> one glass -> Mider
 * pitung -> seven (linking form) -> Mider
+
 #### Lesson 9: Family 1
 * keluarga -> family -> Mider
 * meme -> mother -> Andap
 * biang -> mother -> Alus
-* ibu -> mother -> Mider
 * bapa -> father -> Andap
-* aji -> father (respectful) -> Alus
-* nanang -> father -> Andap (rural)
 * panak -> child -> Andap
 * oka -> child -> Alus
-* pianak -> child -> Andap
 * nyama -> sibling/relative -> Andap
 * semeton -> sibling/relative -> Alus
 * beli -> older brother (or term for young man) -> Mider
 * mbok -> older sister -> Mider
-* gek -> younger woman (term of address) -> Andap
 * adi -> younger sibling -> Andap
 * ari -> younger sibling -> Alus
 * pekak -> grandfather -> Andap
@@ -328,13 +261,8 @@
 * sira -> who -> Alus
 * apa -> what -> Andap
 * napi -> what -> Alus
-* kenken -> how -> Andap
-* sapunapi -> how -> Alus
 * kenapa -> why (loan) -> Mider
 * ngawinan napi -> why -> Alus
-* adi -> younger sibling -> Andap
-* kuda -> how many -> Andap
-* pinten -> how many -> Alus
 * encen -> which one -> Andap
 * sane encen -> which one -> Alus
 * dot -> want -> Andap
@@ -350,11 +278,9 @@
 * sirep -> sleep (respectful) -> Alus
 * pules -> sleep -> Andap
 * medem -> sleep (for oneself) -> Alus/Andap
-* mesare -> sleep -> Alus
 * bangun -> wake up -> Andap
 * matangi -> wake up -> Alus
 * mandi -> bathe -> Andap
-* maseh -> bathe -> Andap
 * masiram -> bathe -> Alus
 * manjus -> bathe -> Andap
 * pagawean -> work -> Andap
@@ -364,9 +290,6 @@
 * negak -> sit -> Andap
 * malinggih -> sit -> Alus
 * ngadeg -> stand -> Mider
-* majan -> to stand -> Andap
-* majalan -> walk -> Andap
-* memargi -> walk -> Alus
 * malaib -> run -> Andap
 * mlayu -> run -> Alus
 * jumah -> at home -> Andap/Alus
@@ -386,19 +309,14 @@
 * desa -> village -> Mider
 * banjar -> community hall/ward; local community -> Mider
 * pura -> temple -> Mider
-* merajan -> family temple -> Mider
-* sanggah -> family shrine -> Andap
 * sekolah -> school -> Mider
 * kantor -> office -> Mider
 * margi -> street/road -> Alus
-* jalan -> street/road -> Andap
-* rurung -> alley/small street -> Andap
 * tukad -> river -> Mider
 * pasih -> beach/sea -> Andap
 * segara -> beach/sea -> Alus
 * alas -> forest -> Mider
 * carik -> rice field -> Mider
-* kota -> city -> Mider
 * warung -> small shop/food stall -> Mider
 * toko -> store -> Mider
 * kema -> go there -> Andap
@@ -430,10 +348,6 @@
 * joh -> far -> Andap
 * adoh -> far (loan) -> Mider
 * padoh -> far -> Alus
-* dini -> here -> Andap
-* driki -> here -> Alus
-* ditu -> there -> Andap
-* drika -> there -> Alus
 * tanggu -> end/edge -> Andap
 * tengah -> middle/inside -> Mider
 * sisi -> outside/side -> Mider
@@ -442,7 +356,6 @@
 * simpangan -> intersection -> Mider
 
 #### Lesson 14: Time 1
-* galah -> time -> Alus
 * waktu -> time -> Andap
 * jam -> hour/clock -> Mider
 * menit -> minute -> Mider
@@ -455,15 +368,11 @@
 * mani -> tomorrow -> Andap
 * benjang -> tomorrow -> Alus
 * puan -> day after tomorrow -> Andap
-* ih puan -> day after tomorrow -> Alus
-* buin mani -> tomorrow -> Andap
 * sasih -> month -> Alus
 * bulan -> month/moon -> Andap
 * warsa -> year -> Alus
 * tiban -> year -> Andap
 * suwe -> long time -> Alus
-* makelo -> long time -> Andap
-* enggal -> quick/soon -> Andap
 * mara -> just now -> Andap
 * wau -> just now -> Alus
 * awai -> one day -> Andap
@@ -472,7 +381,6 @@
 * tuni -> earlier -> Andap
 * iwau -> earlier -> Alus
 * nyanan -> later -> Andap
-* malih jebos -> later -> Alus
 
 #### Lesson 15: Adjectives 1: Basics
 * gede -> big -> Andap
@@ -481,21 +389,15 @@
 * alit -> small -> Alus
 * jegeg -> beautiful (female) -> Mider
 * bagus -> handsome (male) -> Mider
-* luung -> good -> Andap
-* becik -> good -> Alus
 * jelek -> bad/ugly -> Andap
 * kaon -> bad/ugly -> Alus
 * anyar -> new -> Alus
 * baru -> new -> Andap
-* lawas -> old (thing) -> Andap
 * kuna -> old (thing) -> Alus
-* wayah -> old (mature) -> Andap
-* tua -> old (person) -> Andap
 * lingsir -> old (person) -> Alus
 * muda -> young -> Andap
 * anom -> young -> Alus
 * bajang -> teenager/young adult -> Mider
-* banyol -> funny -> Andap
 * jemet -> diligent / hard-working -> Mider
 * mayus -> lazy -> Andap
 * tegeh -> tall/high -> Mider
@@ -512,7 +414,6 @@
 * ngrasa -> to feel -> Andap
 * liang -> happy -> Andap
 * ledang -> happy -> Alus
-* kendel -> happy/glad -> Andap
 * sedih -> sad -> Mider
 * sebet -> sad -> Alus
 * pedih -> angry -> Andap
@@ -520,32 +421,25 @@
 * gedeg -> annoyed/angry -> Andap
 * jejeh -> scared -> Andap
 * ajrih -> scared -> Alus
-* takut -> scared -> Andap
 * kenyel -> tired -> Andap
 * lesu -> tired -> Alus
 * jengah -> embarrassed/motivated by shame -> Mider
 * elek -> shy -> Andap
 * kimud -> shy -> Alus
 * bingung -> confused -> Mider
-* seken -> sure/certain -> Andap
 * janten -> sure/certain -> Alus
 * sabar -> patient -> Mider
 * demen -> like/glad -> Andap
 * seneng -> like/glad -> Alus
-* dot -> desire/want -> Andap
 * bangga -> proud -> Mider
 * sepi -> lonely -> Mider
 * sakit -> sick/in pain -> Andap
 * sungkan -> sick -> Alus
 
-* paling -> confused; at a loss -> Andap
 #### Lesson 17: Food 2: Market
 * buah -> fruit -> Mider
 * jukut -> vegetable -> Mider
-* be -> fish/meat -> Andap
 * be celeng -> pork -> Andap
-* be bawi -> pork -> Alus
-* madaging celeng -> containing pork -> Andap
 * be siap -> chicken meat -> Andap
 * be sampi -> beef -> Andap
 * be pasih -> fish (from sea) -> Andap
@@ -562,9 +456,6 @@
 * kesuna -> garlic -> Andap
 * tabia -> chili -> Andap
 * lombok -> chili -> Alus
-* basa -> spices -> Mider
-* uyah -> salt -> Mider
-* gula -> sugar -> Mider
 * kacang -> peanut/bean -> Mider
 * tahu -> tofu -> Mider
 * tempe -> tempeh -> Mider
@@ -579,21 +470,15 @@
 * bok -> hair -> Andap
 * rambut -> hair -> Alus
 * mata -> eye -> Andap
-* peningalan -> eye -> Alus
 * cunguh -> nose -> Andap
 * irung -> nose -> Alus
 * bibih -> mouth -> Andap
-* cangkem -> mouth -> Alus
 * kuping -> ear -> Andap
-* karna -> ear -> Alus
-* lima -> hand -> Andap
 * tangan -> hand -> Alus
 * batis -> foot/leg -> Andap
-* cokor -> foot/leg (very high) -> Alus
 * basang -> stomach -> Andap
 * weteng -> stomach -> Alus
 * gigi -> tooth -> Andap
-* untu -> tooth -> Alus
 * tulang -> bone -> Mider
 * getih -> blood -> Andap
 * rah -> blood -> Alus
@@ -605,7 +490,6 @@
 * sakit basang -> stomachache -> Andap
 * sungkan weteng -> stomachache -> Alus
 
-* prabu -> head (honouring form); also king -> Alus (Singgih)
 #### Lesson 19: Colors
 * warna -> color -> Mider
 * pelung -> blue -> Andap
@@ -628,23 +512,18 @@
 * pulas -> paint/color -> Andap
 * warnane -> the color is -> Mider
 * nyentak -> scorching hot -> Andap
-* gadang nguda -> light green -> Andap
-* selem kotor -> dark and dirty -> Andap
 * cemer -> dirty/polluted color -> Andap
 * melah -> nice (color) -> Andap
-
 * putih sentak -> very white -> Mider
 * tangi -> purple -> Mider
+
 #### Lesson 20: Clothing
 * pakaian -> clothing -> Mider
 * pangangge -> clothes -> Alus
 * kamben -> sarong/cloth -> Andap
 * wastra -> sarong/cloth -> Alus
-* baju -> shirt -> Mider
 * kuaca -> shirt -> Alus
 * udeng -> male headdress -> Mider
-* destar -> male headdress -> Alus
-* senteng -> sash -> Mider
 * anteng -> sash -> Alus
 * sabuk -> belt -> Mider
 * kamen -> lower garment -> Mider
@@ -654,14 +533,11 @@
 * kacamata -> glasses -> Mider
 * gelang -> bracelet -> Mider
 * bungkung -> ring -> Andap
-* ali-ali -> ring -> Alus
 * kalung -> necklace -> Mider
 * anting -> earring -> Mider
 * nganggo -> to wear -> Andap
 * nganggen -> to wear -> Alus
-* mabaju -> wearing a shirt -> Andap
 * mepayas -> dressed up -> Andap
-* makamben -> wearing a sarong -> Andap
 * busana -> traditional dress -> Alus
 * daki -> dirty (clothes) -> Andap
 * kotor -> dirty -> Mider
@@ -669,15 +545,12 @@
 * kedas -> clean -> Andap
 
 #### Lesson 21: Shopping
-* aji -> price -> Alus
 * rega -> price -> Andap
-* kude regane? -> how much is it? -> Andap
 * aji kuda niki? -> how much is this? -> Alus
 * mahal -> expensive -> Andap
 * maal -> expensive -> Andap
 * pengaji -> expensive -> Alus
 * mudah -> cheap -> Andap
-* becik -> good quality -> Alus
 * kirang -> less/reduce -> Alus
 * kuang -> less/reduce -> Andap
 * dados kirang? -> can you lower the price? -> Alus
@@ -694,9 +567,6 @@
 * naur -> to pay -> Alus
 * mayar -> to pay -> Andap
 * utang -> debt -> Mider
-* numbas -> to buy -> Alus
-* meli -> to buy -> Andap
-* ngadep -> to sell -> Andap
 * diskon -> discount -> Mider
 * lakar -> will (buy) -> Andap
 * tiang jagi numbas niki -> I will buy this -> Alus
@@ -706,12 +576,7 @@
 * roras -> twelve -> Mider
 * telulas -> thirteen -> Mider
 * patbelas -> fourteen -> Mider
-* enembelas -> sixteen -> Mider
-* pitulas -> seventeen -> Mider
-* pelekutus -> eighteen -> Mider
-* siangolas -> nineteen -> Mider
 * duang dasa -> twenty -> Andap
-* kalih dasa -> twenty -> Alus
 * selae -> twenty-five -> Mider
 * telung dasa -> thirty -> Mider
 * pasasur -> thirty-five -> Mider
@@ -731,9 +596,8 @@
 * selawe tali -> twenty-five thousand -> Mider
 * seket tali -> fifty thousand -> Mider
 * laksa -> ten thousand -> Mider
-
 * limolas -> fifteen -> Mider
-* pitung dasa lima -> seventy-five -> Mider
+
 #### Lesson 23: Weather
 * cuaca -> weather -> Mider
 * kebus -> hot -> Andap
@@ -743,7 +607,6 @@
 * ujan -> rain -> Andap
 * sabeh -> rain -> Alus
 * bales -> heavy (rain) -> Andap
-* guisi -> drizzle -> Andap
 * matan ai -> sun -> Andap
 * surya -> sun -> Alus
 * angin -> wind -> Mider
@@ -755,16 +618,12 @@
 * purnama -> full moon -> Mider
 * tilem -> dark moon/new moon -> Mider
 * endang -> clear sky -> Andap
-* nyentak -> scorching hot -> Andap
-* lempuyeng -> dizzy (from heat) -> Andap
 * banjir -> flood -> Mider
 * blabar -> flood -> Andap
 * kering -> dry -> Mider
 * tuh -> dry -> Andap
 * linuh -> earthquake -> Mider
 * musim -> season -> Mider
-* masan -> season -> Andap
-* masan ujan -> rainy season -> Andap
 
 #### Lesson 24: Verbs 2: Interaction
 * maang -> to give -> Andap
@@ -772,14 +631,10 @@
 * ngaturang -> to offer/give (upwards) -> Alus
 * jemak -> to take -> Andap
 * ambil -> to take -> Alus
-* ngaba -> to bring -> Andap
-* makta -> to bring -> Alus
 * ngae -> to make -> Andap
 * ngaryanang -> to make -> Alus
 * ngidih -> to ask for -> Andap
-* nunas -> to ask for -> Alus
 * nyilih -> to borrow -> Andap
-* nyelang -> to borrow -> Alus
 * nyambat -> to say/tell -> Andap
 * maosang -> to say/tell -> Alus
 * ningeh -> to listen/hear -> Andap
@@ -793,13 +648,11 @@
 * nikayang -> to tell -> Alus
 * matemu -> to meet -> Mider
 * kacunduk -> to meet -> Alus
-* mapanggih -> to meet -> Alus
 * tepuk -> to find/see -> Andap
 * ngalih -> to look for -> Andap
 * ngrereh -> to look for -> Alus
 
 #### Lesson 25: Transportation
-* montor -> motorbike -> Mider
 * sepeda motor -> motorbike -> Mider
 * mobil -> car -> Mider
 * bemo -> minibus -> Mider
@@ -809,7 +662,6 @@
 * kapal -> ship -> Mider
 * pesawat -> airplane -> Mider
 * jalan batis -> walk on foot -> Andap
-* margi -> road -> Alus
 * numpak -> to ride -> Andap
 * munggah -> to ride/board -> Alus
 * naek -> to ride -> Mider
@@ -820,16 +672,12 @@
 * parkir -> to park -> Mider
 * helm -> helmet -> Mider
 * bensin -> gasoline -> Mider
-* ban -> tire -> Mider
 * macet -> traffic jam -> Mider
-* enggal -> fast -> Andap
 * adeng-adeng -> slow down -> Andap
-* nyewa -> to rent -> Mider
 * nyabrang -> to cross -> Mider
 * stasiun -> station -> Mider
 * terminal -> bus terminal -> Mider
 * tiket -> ticket -> Mider
-* penumpang -> passenger -> Mider
 
 #### Lesson 26: Prepositions
 * di -> in/at/on -> Andap
@@ -848,24 +696,17 @@
 * jaba -> outside -> Alus
 * harep -> in front of -> Andap
 * ajeng -> in front of -> Alus
-* duri -> behind -> Andap
-* pungkur -> behind -> Alus
 * samping -> beside -> Mider
 * sanding -> beside -> Andap
-* tengen -> right side -> Mider
-* kiwa -> left side -> Mider
 * antara -> between -> Mider
 * ajak -> with -> Andap
 * sareng -> with -> Alus
 * teken -> with/by -> Andap
-* baang -> for -> Andap
 * pabuat -> for -> Alus
 * tur -> and -> Alus
 * buat -> for -> Andap
 
 #### Lesson 27: Home
-* umah -> house -> Andap
-* jero -> house/home (respectful) -> Alus
 * griya -> priest's house -> Alus
 * puri -> royal palace -> Alus
 * natah -> courtyard -> Mider
@@ -888,10 +729,6 @@
 * nyampat -> to sweep -> Andap
 * kumbah -> to wash (clothes) -> Andap
 * nyikat -> to brush -> Andap
-* piring -> plate -> Mider
-* gelas -> glass -> Mider
-* sendok -> spoon -> Mider
-* garpu -> fork -> Mider
 * lampu -> lamp/light -> Mider
 * tembok -> wall -> Mider
 * raab -> roof -> Andap
@@ -914,16 +751,12 @@
 * krama -> community members -> Mider
 * semeton -> relatives/brothers -> Alus
 * nyama -> relatives/brothers -> Andap
-* banjar -> community hall/ward; local community -> Mider
-* lanang -> male -> Alus
-* istri -> female -> Alus
 * kurenan -> husband/wife -> Andap
 * rabin -> husband/wife -> Alus
 * matua -> parents in law -> Andap
 * anak luh -> woman -> Andap
 * anak muani -> man -> Andap
 * truna -> young man -> Andap
-* bajang -> young woman -> Andap
 * kelian -> head of banjar -> Mider
 * pemangku -> temple priest -> Mider
 
@@ -947,27 +780,19 @@
 * batu -> stone -> Mider
 * bias -> sand -> Mider
 * tanah -> earth/soil -> Mider
-* langit -> sky -> Mider
 * bintang -> star -> Mider
-* bulan -> moon -> Mider
-* matan ai -> sun -> Andap
 * gua -> cave -> Mider
 * tebing -> cliff -> Mider
 * air terjun -> waterfall -> Mider
 * grobogan -> waterfall -> Andap
 * pulo -> island -> Mider
-* gumi -> earth/world -> Andap
-* jagat -> earth/world -> Alus
 
 #### Lesson 30: Conjunctions 1 & Section Review
 * lan -> and -> Mider
-* miwah -> and -> Alus
 * tur -> and -> Alus
 * muah -> and -> Andap
-* nanging -> but -> Mider
 * kewanten -> but -> Alus
 * tapi -> but -> Mider
-* sakewanten -> but/however -> Alus
 * utawi -> or -> Alus
 * wiadin -> or -> Andap
 * yadiastun -> although -> Alus
@@ -978,12 +803,8 @@
 * sawireh -> because -> Andap
 * ento krana -> therefore -> Andap
 * punika mawinan -> therefore -> Alus
-* dadi -> so -> Andap
-* dados -> so -> Alus
 * kanti -> until -> Andap
 * ngantos -> until -> Alus
-* uling -> since/from -> Andap
-* saking -> since/from -> Alus
 * sedurung -> before -> Alus
 * setonden -> before -> Andap
 * sesampun -> after -> Alus
@@ -1003,11 +824,9 @@
 * ibi sanja -> yesterday evening -> Andap
 * ibak -> earlier today -> Andap
 * iwau -> earlier today -> Alus
-* tuni -> earlier -> Andap
 * minggu lalu -> last week -> Mider
 * bulan lalu -> last month -> Mider
 * tiban lalu -> last year -> Andap
-* pidan -> when (past) -> Andap
 * taen -> ever -> Andap
 * naenin -> ever -> Alus
 * suba taen -> have already -> Andap
@@ -1015,8 +834,6 @@
 * sing taen -> never -> Andap
 * nenten naenin -> never -> Alus
 * suung -> empty/deserted -> Andap
-* mara -> just now -> Andap
-* wau -> just now -> Alus
 * uug -> broken -> Andap
 * rusak -> broken -> Mider
 * engsap -> forgot -> Andap
@@ -1024,9 +841,7 @@
 * bakat -> accidentally done -> Andap
 * ilang -> lost -> Andap
 * ical -> lost -> Alus
-* tepuk -> found -> Andap
 * panggih -> found -> Alus
-* seken -> really happened -> Andap
 
 #### Lesson 32: Future Tense
 * lakar -> will/going to -> Andap
@@ -1034,18 +849,13 @@
 * kel -> will (short for lakar) -> Andap
 * mani -> tomorrow -> Andap
 * benjang -> tomorrow -> Alus
-* buin mani -> tomorrow -> Andap
-* puan -> day after tomorrow -> Andap
 * mani semeng -> tomorrow morning -> Andap
 * nyan -> later (today) -> Andap
-* nyanan -> later (today) -> Andap
-* malih jebos -> later (today) -> Alus
 * buin kesep -> in a moment -> Andap
 * minggu depan -> next week -> Mider
 * bulan depan -> next month -> Mider
 * tiban depan -> next year -> Andap
 * pasti -> definitely -> Mider
-* janten -> definitely -> Alus
 * bisa -> can/able to -> Andap
 * mrasidayang -> can/able to -> Alus
 * nyidaang -> can/able to -> Andap
@@ -1053,25 +863,21 @@
 * kocap -> it is said -> Mider
 * mirib -> maybe -> Andap
 * minab -> maybe -> Alus
-* tonden -> not yet -> Andap
-* durung -> not yet -> Alus (Mider)
 * tiang lakar kema -> I will go there -> Andap
 * titiang jagi mrika -> I will go there -> Alus
 * buin pidan -> when (future) -> Andap
 * malih pidan -> when (future) -> Alus
 * lakar ngudiang -> going to do what -> Andap
-
 * dereng -> not yet -> Alus (Madya)
+
 #### Lesson 33: Occupations
 * petani -> farmer -> Mider
 * madul -> farming/working in fields -> Andap
 * pandita -> priest -> Mider
-* pemangku -> temple priest -> Mider
 * sulinggih -> high priest -> Alus
 * guru -> teacher -> Mider
 * doktor -> doctor -> Mider
 * bidan -> midwife -> Mider
-* perawat -> nurse -> Mider
 * polisi -> police -> Mider
 * tentara -> soldier -> Mider
 * dagang -> merchant/seller -> Mider
@@ -1085,13 +891,8 @@
 * pangayah -> volunteer/temple worker -> Mider
 * bos -> boss -> Mider
 * pegawai -> employee -> Mider
-* pagawean -> job/work -> Andap
-* pakaryan -> job/work -> Alus
 * megae -> working -> Andap
-* makarya -> working -> Alus
 * gajian -> salary/payday -> Mider
-* kantor -> office -> Mider
-* nganggur -> unemployed -> Mider
 * melali -> traveling/not working -> Andap
 * sibuk -> busy -> Mider
 * repot -> busy -> Mider
@@ -1106,12 +907,10 @@
 * setuju -> agree -> Mider
 * sing setuju -> disagree -> Andap
 * nenten cumpu -> disagree -> Alus
-* beneh -> correct -> Andap
 * patut -> correct -> Alus
 * pelih -> wrong -> Andap
 * iwang -> wrong -> Alus
 * penting -> important -> Mider
-* buat -> important -> Alus
 * biasa -> normal/usual -> Mider
 * meweh -> difficult -> Alus
 * keweh -> difficult -> Andap
@@ -1120,39 +919,29 @@
 * dangan -> easy -> Alus
 * patuh -> same -> Andap
 * pateh -> same -> Alus
-* melah -> nice/good -> Andap
-* jelek -> ugly/bad -> Andap
 * pantes -> appropriate -> Andap
 * tegarang -> try it/test it -> Andap
 * rasanne -> it feels like/tastes like -> Andap
-* seken? -> really? -> Andap
-* saja? -> truly? -> Andap
 * ngawag -> careless/random -> Andap
 
 #### Lesson 35: Culture 1: Ceremonies
 * upacara -> ceremony -> Mider
 * yadnya -> holy sacrifice/ritual -> Mider
 * canang -> offering tray -> Mider
-* canang sari -> daily flower offering -> Mider
 * banten -> offering -> Mider
 * mebanten -> to make offerings -> Mider
 * muspa -> to pray -> Alus
 * mebakti -> to pray -> Mider
-* sembahyang -> to pray -> Mider
 * odalan -> temple anniversary -> Mider
 * kulkul -> slit drum -> Andap
 * penjor -> decorated bamboo pole -> Mider
-* gebogan -> tall fruit offering -> Mider
 * tirta -> holy water -> Mider
-* toya tirta -> holy water -> Alus
 * dupa -> incense -> Mider
 * mantra -> prayer/chant -> Mider
-* sasajen -> offerings -> Mider
 * ngayah -> to do voluntary work -> Mider
 * suci -> holy/pure -> Mider
 * sekala -> visible world -> Mider
 * niskala -> invisible world -> Mider
-* mepamit -> take leave (after ceremony) -> Alus
 * nunas pica -> asking for blessing -> Alus
 * prasad -> blessed food -> Mider
 * bhatara -> god/deity -> Mider
@@ -1165,14 +954,9 @@
 #### Lesson 36: Descriptive Adjectives
 * kedas -> clean -> Andap
 * bersih -> clean -> Mider
-* daki -> dirty -> Andap
-* kotor -> dirty -> Mider
-* cemer -> spiritually dirty/impure -> Mider
 * rame -> crowded/busy -> Andap
-* sepi -> quiet -> Mider
 * sunar -> bright -> Andap
 * galang -> bright -> Andap
-* peteng -> dark -> Andap
 * remrem -> gloomy/overcast -> Andap
 * anyep -> tasteless/bland -> Andap
 * lalah -> spicy -> Andap
@@ -1193,24 +977,18 @@
 * alus -> smooth -> Mider
 * kasar -> rough -> Mider
 * belus -> wet -> Andap
-* tuh -> dry -> Andap
 
 #### Lesson 37: Daily Life
 * ngedasang -> cleaning -> Andap
-* nyampat -> sweeping -> Andap
 * ngepel -> mopping -> Mider
 * numbah -> washing clothes -> Andap
-* ngumbah -> washing clothes -> Andap
 * nyetrika -> ironing -> Mider
 * meliang -> buying for someone -> Andap
 * memasak -> cooking -> Andap
 * ngrateng -> cooking -> Alus
-* megae -> working -> Andap
-* ngajeng -> eating -> Alus
 * meyasa -> fasting/meditating -> Alus
 * megending -> singing -> Andap
 * ngigel -> dancing -> Andap
-* nari -> dancing -> Alus
 * mabalih -> watching (tv/show) -> Andap
 * miarsayang -> watching -> Alus
 * maca -> reading -> Andap
@@ -1222,7 +1000,6 @@
 * ngoyong -> staying/living/quiet -> Andap
 * majalan-jalan -> walking around/strolling -> Andap
 * masandekan -> resting -> Alus
-* mareren -> resting/stopping -> Andap
 * nyemak gawe -> working/doing a chore -> Andap
 * nulungin meme -> helping mother -> Andap
 * nyeduh kopi -> brewing coffee -> Andap
@@ -1248,11 +1025,6 @@
 * pelabuhan -> harbor -> Mider
 * bandara -> airport -> Mider
 * terminal -> bus station -> Mider
-* nampek -> near -> Alus
-* paek -> near -> Andap
-* adoh -> far (loan) -> Mider
-* joh -> far -> Andap
-* nyabrang -> to cross -> Mider
 * di samping -> beside -> Andap
 * di harep -> in front of -> Andap
 * di duri -> behind -> Andap
@@ -1261,16 +1033,12 @@
 * nakenang -> ask -> Alus
 
 #### Lesson 39: Comparisons
-* paling -> most -> Mider
 * lebih -> more -> Mider
 * lebian -> more than -> Andap
 * kuangan -> less than -> Andap
 * kirangan -> less than -> Alus
-* pateh -> same/equal -> Alus
-* patuh -> same -> Andap
 * tusing patuh -> not the same -> Andap
 * nenten pateh -> not the same -> Alus
-* mirib -> similar -> Andap
 * agengan -> bigger -> Alus
 * gedean -> bigger -> Andap
 * alitan -> smaller -> Alus
@@ -1286,7 +1054,6 @@
 * sugih -> rich -> Andap
 * tiwas -> poor -> Andap
 * lacur -> poor/unlucky -> Andap
-* kuat -> strong -> Mider
 * kuatan -> stronger -> Andap
 * enggalan -> faster -> Andap
 * adengan -> slower -> Andap
@@ -1304,12 +1071,8 @@
 * katuju -> happened to -> Andap
 * sejak -> since -> Mider
 * uling -> since (from) -> Andap
-* saking -> since (from) -> Alus
 * uling pidan -> since when -> Andap
 * saking pidan -> since when -> Alus
-* mara -> just now/only -> Andap
-* wau -> just now/only -> Alus
-* bakat -> accidentally done/experienced -> Andap
 * kene -> like this -> Andap
 * keto -> like that -> Andap
 * kenten -> like that -> Alus
@@ -1318,10 +1081,8 @@
 * unduk -> matter/case -> Andap
 * indik -> regarding/about -> Alus
 * bakat tepuk -> happened to see -> Andap
-* kacunduk -> happened to meet -> Alus
 * suba makelo -> it's been a long time -> Andap
 * sampun suwe -> it's been a long time -> Alus
-* tumben -> first time/rarely -> Andap
 * taen kema -> ever been there -> Andap
 * suba pragat -> already finished -> Andap
 
@@ -1340,9 +1101,6 @@
 * telung tali -> 3,000 -> Mider
 * patang tali -> 4,000 -> Mider
 * limang tali -> 5,000 -> Mider
-* adasa tali -> 10,000 -> Mider
-* selawe tali -> 25,000 -> Mider
-* seket tali -> 50,000 -> Mider
 * satus tali -> 100,000 -> Mider
 * satak tali -> 200,000 -> Mider
 * limang atus tali -> 500,000 -> Mider
@@ -1350,11 +1108,8 @@
 * yuta -> million -> Mider
 * miliar -> billion -> Mider
 * rupiah -> rupiah -> Mider
-* aji kuda niki -> how much is this price -> Alus
-* susuk -> change (money) -> Andap
 * potongan -> discount -> Mider
 * medagang -> selling -> Andap
-* mayar -> paying -> Andap
 * bon -> receipt/tab -> Mider
 * lunas -> paid off -> Mider
 
@@ -1370,13 +1125,10 @@
 * corah -> thief -> Alus
 * kecopetan -> pickpocketed -> Mider
 * polisi -> police -> Mider
-* sakit -> sick/pain -> Andap
-* sungkan -> sick -> Alus
 * berdarah -> bleeding -> Andap
 * pesu getih -> bleeding -> Andap
 * luka -> injured -> Mider
 * tatuan -> wounded -> Andap
-* rumah sakit -> hospital -> Mider
 * klinik -> clinic -> Mider
 * obat -> medicine -> Mider
 * tamba -> medicine -> Alus
@@ -1384,8 +1136,6 @@
 * balian -> traditional healer -> Mider
 * api -> fire -> Mider
 * puun -> burned -> Andap
-* blabar -> flood -> Andap
-* linuh -> earthquake -> Mider
 * ngungsi -> evacuate -> Mider
 * awas -> watch out -> Mider
 * enggalang -> hurry up -> Andap
@@ -1399,9 +1149,6 @@
 * banjaran -> neighbor -> Mider
 * tunangan -> fiancé/boyfriend/girlfriend -> Andap
 * kurenan -> spouse -> Andap
-* rabin -> spouse -> Alus
-* nyama -> brother/sister/relative -> Andap
-* semeton -> brother/sister/relative -> Alus
 * jomblo -> single -> Mider
 * truna truni -> youth (unmarried) -> Mider
 * makurenan -> married -> Andap
@@ -1412,10 +1159,7 @@
 * sayang -> love/affection -> Mider
 * tresna -> love -> Alus
 * tiang tresna ajak adi -> I love you (to younger) -> Andap
-* demen -> like/love -> Andap
-* seneng -> like -> Alus
 * benci -> hate -> Mider
-* gedeg -> hate/angry -> Andap
 * kangen -> miss someone -> Mider
 * rindu -> miss someone -> Mider
 * satya -> loyal/faithful -> Mider
@@ -1437,21 +1181,15 @@
 * surat -> letter -> Mider
 * pesan -> message -> Mider
 * nelpon -> to call -> Mider
-* hp -> cellphone -> Mider
 * ngirim -> to send -> Andap
-* ngaturang -> to send/offer -> Alus
 * jawab -> to answer -> Andap
 * saur -> to answer -> Alus
 * nyambatang -> to tell -> Andap
-* maosang -> to tell -> Alus
-* takon -> to ask -> Andap
-* nakenang -> to ask -> Alus
 * sapa -> to greet -> Mider
 * omong -> speech/words -> Andap
 * baos -> speech/words -> Alus
 * raos -> speech -> Alus
 * keneh -> thoughts -> Andap
-* manah -> thoughts -> Alus
 * nengil -> keep quiet -> Andap
 * meneng -> keep quiet -> Alus
 * rahasia -> secret -> Mider
@@ -1465,7 +1203,6 @@
 * bias -> sand -> Mider
 * tanah -> earth/soil -> Mider
 * mas -> gold -> Mider
-* perak -> silver -> Mider
 * slaka -> silver -> Alus
 * perunggu -> bronze -> Mider
 * besi -> iron -> Mider
@@ -1475,10 +1212,7 @@
 * kertas -> paper -> Mider
 * daluang -> paper -> Alus
 * kain -> cloth -> Mider
-* wastra -> cloth -> Alus
-* kamben -> cloth -> Andap
 * tali -> rope/string -> Mider
-* don -> leaf -> Andap
 * busung -> young coconut leaf (for offerings) -> Mider
 * slepan -> mature coconut leaf -> Mider
 * ron -> mature palm leaf -> Mider
@@ -1486,12 +1220,8 @@
 * semen -> cement -> Mider
 * kapuk -> cotton -> Mider
 * sutra -> silk -> Mider
-* kulit -> leather/skin -> Mider
-* tulang -> bone -> Mider
 
 #### Lesson 46: Verbs 4: Creation
-* ngae -> to make -> Andap
-* ngaryanang -> to make -> Alus
 * mbangun -> to build -> Andap
 * wangun -> to build -> Alus
 * ngukir -> to carve -> Mider
@@ -1499,19 +1229,15 @@
 * nggambar -> to draw -> Mider
 * ngulat -> to weave (bamboo/leaves) -> Mider
 * nenun -> to weave (cloth) -> Mider
-* mait -> to carve (wood) -> Andap
 * nebek -> to pierce -> Andap
 * ngaput -> to wrap -> Andap
-* makaput -> to wrap (food) -> Andap
 * meborbor -> to burn -> Andap
-* nunjel -> to burn -> Andap
 * masang -> to install/put -> Mider
 * mekarya -> to create -> Alus
 * ngedap -> to prepare -> Andap
 * nyiapang -> to prepare -> Alus
 * nyait -> to sew -> Mider
 * ngiket -> to tie -> Andap
-* negul -> to tie -> Andap
 * mutus -> to cut/decide -> Andap
 * ngetep -> to cut -> Andap
 * nebas -> to slash/cut -> Andap
@@ -1547,13 +1273,7 @@
 * megambel -> playing gamelan -> Mider
 * suci -> sacred -> Mider
 * puput -> finished/completed -> Alus
-* rahayu -> blessings/safe -> Mider
-* canang sari -> daily offering -> Mider
-* mebanten -> making offerings -> Mider
-* pemangku -> priest -> Mider
-* tirta -> holy water -> Mider
 * nunas tirta -> ask for holy water -> Alus
-* mebakti -> praying -> Mider
 
 #### Lesson 48: Cause & Effect
 * krana -> because -> Andap
@@ -1570,20 +1290,14 @@
 * yadiapin -> although -> Andap
 * tapi -> but -> Mider
 * kewanten -> but -> Alus
-* nanging -> but -> Mider
 * utawi -> or -> Alus
 * wiadin -> or -> Andap
 * tur -> and -> Alus
-* miwah -> and -> Alus
 * ajak -> and/with -> Andap
 * sareng -> and/with -> Alus
 * lan -> and -> Mider
 * hasil -> result -> Mider
 * phala -> result/karma -> Alus
-* pelih -> wrong/mistake -> Andap
-* iwang -> wrong/mistake -> Alus
-* beneh -> right/correct -> Andap
-* patut -> right/correct -> Alus
 * dadi ne -> the result is -> Andap
 * uli ento -> from that -> Andap
 * lantas -> then/after that -> Andap
@@ -1603,28 +1317,21 @@
 * mepayas -> dressing up/makeup -> Andap
 * mabusana -> dressing up -> Alus
 * mandus -> bathing oneself -> Andap
-* masiram -> bathing oneself -> Alus
-* manjus -> bathing oneself -> Andap
 * nyisir -> combing hair -> Andap
 * magunting -> cutting one's hair -> Andap
 * mecukur -> shaving -> Andap
 * mebedak -> putting on powder -> Andap
-* matangi -> waking oneself up -> Alus
-* bangun -> waking oneself up -> Andap
 * ngomong padidi -> talking to oneself -> Andap
 * mabaos ngraga -> talking to oneself -> Alus
 * ngenot -> seeing oneself -> Andap
 * madik -> proposing (marriage) -> Andap
 * ngebuh -> showing off -> Andap
 * matilesang -> humbling oneself -> Alus
-* sebet -> sad -> Alus
-* liang -> happy -> Andap
 * keneh padidi -> one's own mind/will -> Andap
 
 #### Lesson 50: Environment
 * lingkungan -> environment -> Mider
 * alam -> nature -> Mider
-* gumi -> earth -> Andap
 * jagat -> earth -> Alus
 * luu -> trash -> Andap
 * sampah -> trash -> Mider
@@ -1642,18 +1349,13 @@
 * pasih -> beach -> Andap
 * segara -> ocean/beach -> Alus
 * tukad -> river -> Mider
-* toya -> water -> Alus
-* yeh -> water -> Andap
-* banjir -> flood -> Mider
-* blabar -> flood -> Andap
 * tanah embid -> landslide -> Andap
 * asri -> beautiful/green -> Mider
 * lestari -> preserved -> Mider
-* alas -> forest -> Mider
 * lindungi -> protect -> Mider
 * polusi -> pollution -> Mider
-
 * mis -> trash; rubbish; garbage -> Mider
+
 #### Lesson 51: Imperatives
 * kema -> go there! -> Andap
 * mrika -> go there! (polite) -> Alus
@@ -1667,39 +1369,28 @@
 * sampunang -> don't! (polite) -> Alus
 * eda -> don't! -> Andap
 * durus -> please (do)! -> Alus
-* raris -> please (do)! -> Alus
 * silakan -> please -> Mider
 * tulung -> help; a call for help (noun/root — verbs: nulungin / ngwantu) -> Mider
 * jalan -> let's go -> Andap
 * ngiring -> let's go (polite) -> Alus
 * enggalang -> hurry up! -> Andap
 * gelisang -> hurry up! -> Alus
-* adeng-adeng -> slow down! -> Andap
 * alon-alon -> slow down! -> Alus
 * oyong -> stay put! -> Andap
-* meneng -> keep quiet! -> Alus
-* nengil -> keep quiet! -> Andap
-* dingehang -> listen! -> Andap
 * pirengang -> listen! (polite) -> Alus
 * tolih -> look! -> Andap
 * cingak -> look! -> Alus
-* baang -> give it! -> Andap
 * icen -> give it! -> Alus
-* suud -> stop/finish! -> Andap
 * puputang -> finish it! -> Alus
 
 #### Lesson 52: Storytelling
 * satua -> story -> Andap
 * carita -> story -> Alus
 * dongeng -> fairy tale -> Mider
-* kocap -> it is said -> Mider
 * ada kone -> once upon a time -> Andap
 * weten kocap -> once upon a time -> Alus
-* pidan -> in the past -> Andap
 * dumun -> in the past -> Alus
 * ilu -> in the old days -> Andap
-* lantas -> then -> Andap
-* raris -> then -> Alus
 * suba keto -> after that -> Andap
 * sampun kenten -> after that -> Alus
 * pamragat -> ending -> Mider
@@ -1711,8 +1402,6 @@
 * prajani -> suddenly -> Andap
 * suryak -> cheer/shout -> Andap
 * paling duri -> the last one -> Andap
-* puput -> finished -> Alus
-* pragat -> finished -> Andap
 * tokoh -> character -> Mider
 * raksasa -> giant/monster -> Mider
 * dewa -> god -> Mider
@@ -1727,8 +1416,6 @@
 * gong -> gong/orchestra -> Mider
 * wayang -> shadow puppet -> Mider
 * dalang -> puppeteer -> Mider
-* igel -> dance -> Andap
-* tari -> dance -> Alus
 * topeng -> mask -> Mider
 * kidung -> traditional song -> Mider
 * kekawin -> classical poem -> Mider
@@ -1741,11 +1428,7 @@
 * panggung -> stage -> Mider
 * balih-balihan -> entertainment/show -> Andap
 * nonton -> to watch -> Mider
-* mabalih -> to watch -> Andap
-* miarsayang -> to watch -> Alus
-* megending -> to sing -> Andap
 * menabuh -> to play instruments -> Mider
-* seniman -> artist -> Mider
 * pragina -> dancer -> Alus
 * sekaa -> group/club (arts) -> Mider
 * latihan -> practice -> Mider
@@ -1765,24 +1448,18 @@
 * shanti -> peace (spiritual) -> Alus
 * jejeh -> fear -> Andap
 * ajrih -> fear -> Alus
-* kendel -> joy -> Andap
 * keneh -> mind/thought -> Andap
-* manah -> mind/thought -> Alus
 * urip -> life -> Alus
 * idup -> life -> Andap
 * mati -> death -> Andap
 * padem -> death -> Alus
 * nasib -> fate -> Mider
 * karma -> karma/deeds -> Mider
-* phala -> fruit of karma -> Alus
-* taksu -> spiritual charisma -> Mider
 * tenaga -> energy/power -> Mider
 * bayu -> energy/wind -> Mider
 * kebaikan -> goodness -> Mider
 * dharma -> truth/duty -> Mider
 * adharma -> evil/untruth -> Mider
-* suci -> purity -> Mider
-* cemer -> impurity -> Mider
 * budi -> character/mind -> Mider
 * dosa -> sin -> Mider
 * pahala -> reward -> Mider
@@ -1808,16 +1485,10 @@
 * crita -> story is -> Mider
 * sambat -> mentioned -> Andap
 * baosang -> mentioned -> Alus
-* nyambat -> to mention -> Andap
-* maosang -> to mention -> Alus
-* nengil -> keep quiet about -> Andap
-* rahasia -> secret -> Mider
 * pingit -> secret/sacred -> Alus
 * pisuna -> slander/gossip -> Andap
-* ngorta -> gossiping/chatting -> Andap
 * mitnah -> slandering -> Mider
 * leres -> true (fact) -> Alus
-* saja -> true (fact) -> Andap
 * bogbog -> lie -> Andap
 
 #### Lesson 56: Conditionals
@@ -1843,15 +1514,9 @@
 * dogen -> only/just -> Andap
 * kemanten -> only/just -> Alus
 * kel -> will -> Andap
-* jagi -> will -> Alus
-* lakar -> will -> Andap
-* apang -> so that -> Andap
-* mangda -> so that -> Alus
-* kanti -> until -> Andap
 * antos -> wait -> Andap
 * yening ten -> if not -> Alus
 * yen sing -> if not -> Andap
-* be -> fish/meat -> Andap
 
 #### Lesson 57: Verbs 5: Cognition
 * nawang -> to know -> Andap
@@ -1876,12 +1541,6 @@
 * ngarep -> to hope -> Andap
 * bengong -> to daydream -> Andap
 * bingung -> confused -> Mider
-* seken -> certain/sure -> Andap
-* janten -> certain/sure -> Alus
-* dot -> desire/want -> Andap
-* kayun -> desire/want -> Alus
-* pelih -> wrong/misunderstand -> Andap
-* iwang -> wrong/misunderstand -> Alus
 * ngelah keneh -> have an idea -> Andap
 * maduwe manah -> have an idea -> Alus
 * sadar -> realize -> Mider
@@ -1908,21 +1567,13 @@
 * ngaturang -> to offer/give -> Alus
 * pakaryan -> work/creation -> Alus
 * jagi -> will -> Alus
-* ledang -> pleased/willing -> Alus
 * ngicalang -> to lose/disappear -> Alus
-* mantuk -> go home -> Alus
 * seda -> pass away (high caste) -> Alus
-* padem -> pass away (regular) -> Alus
 * makolem -> sleep (high caste) -> Alus
-* wau -> just now -> Alus
-* jero -> house (respectful) -> Alus
-* puri -> palace (highest caste house) -> Alus
-* griya -> priest's house -> Alus
-
 * ngrayunang -> eat (highest honour; used of priests) -> Alus (Singgih)
+
 #### Lesson 59: Travel & Tourism
 * tamiu -> guest -> Mider
-* toris -> tourist -> Mider
 * bule -> foreigner (white) -> Andap
 * hotel -> hotel -> Mider
 * penginapan -> guesthouse -> Mider
@@ -1933,7 +1584,6 @@
 * bandara -> airport -> Mider
 * penerbangan -> flight -> Mider
 * liburan -> vacation -> Mider
-* melali -> to travel/hang out -> Andap
 * plesir -> to travel -> Alus
 * oleh-oleh -> souvenir -> Mider
 * peta -> map -> Mider
@@ -1944,11 +1594,7 @@
 * langi -> to swim -> Andap
 * nyilem -> to dive -> Andap
 * jemur -> sunbathe -> Mider
-* matan ai -> sun -> Andap
-* pasih -> beach -> Andap
-* pura -> temple (tourism) -> Mider
 * sawah -> rice terraces -> Mider
-* carik -> rice field -> Mider
 * sewa montor -> rent motorbike -> Andap
 * rega pas -> fixed price -> Mider
 * jalan-jalan -> sightseeing -> Mider
@@ -1962,8 +1608,6 @@
 * bes bedik -> too little -> Andap
 * bedik -> a little -> Andap
 * kidik -> a little -> Alus
-* akidik -> just a little -> Alus
-* abedik -> just a little -> Andap
 * lebih -> more -> Mider
 * lebian -> too much -> Andap
 * kuang -> less -> Andap
@@ -1971,7 +1615,6 @@
 * hampir -> almost -> Mider
 * nyaris -> almost -> Mider
 * pas -> exactly -> Mider
-* paling -> most -> Mider
 * tuah -> only -> Andap
 * wantah -> only -> Alus
 * dogen -> only/just -> Andap
@@ -1982,9 +1625,6 @@
 * liwat -> exceeding -> Andap
 * luyu -> extremely -> Andap
 * tonden -> not yet -> Andap
-* durung -> not yet -> Alus (Mider)
-* suud -> finished -> Andap
-* puput -> finished -> Alus
 
 #### Lesson 61: Verbs 6: Movement
 * negehang -> to climb/go up -> Andap
@@ -1992,14 +1632,11 @@
 * nuunang -> to descend/go down -> Andap
 * tedun -> to descend -> Alus
 * mulih -> to go home -> Andap
-* mantuk -> to go home -> Alus
 * budal -> to go home -> Alus
 * pesu -> to go out -> Andap
 * medal -> to go out -> Alus
 * masuk -> to go in -> Andap
 * manjing -> to go in -> Alus
-* ngalih -> to look for -> Andap
-* ngrereh -> to look for -> Alus
 * mengked -> to hide -> Andap
 * mengkeb -> to hide -> Andap
 * nyumput -> to hide -> Andap
@@ -2008,13 +1645,10 @@
 * ngebut -> to speed -> Andap
 * nganteng -> to pull -> Andap
 * ngedorong -> to push -> Andap
-* ngungsi -> to seek refuge -> Mider
 * negen -> to carry on shoulder -> Andap
 * nyuun -> to carry on head -> Andap
 * nyambak -> to grab -> Andap
 * ngandang -> to block -> Andap
-* mlayu -> to run -> Alus
-* malaib -> to run -> Andap
 * ngebeg -> to chase -> Andap
 * ulung -> to fall -> Andap
 * runtuh -> to fall -> Alus
@@ -2032,16 +1666,10 @@
 * panas -> hot -> Alus
 * dingin -> cold -> Mider
 * kasar -> rough -> Mider
-* alus -> smooth -> Mider
 * berat -> heavy -> Mider
-* baat -> heavy -> Andap
-* abot -> heavy -> Alus
 * ringan -> light -> Mider
-* inggan -> light -> Alus
 * tajem -> sharp -> Andap
 * muntul -> dull -> Andap
-* kandel -> thick -> Andap
-* tipis -> thin -> Mider
 * benyek -> mushy -> Andap
 * renyah -> crispy -> Mider
 * alot -> tough/chewy -> Mider
@@ -2066,7 +1694,6 @@
 * oh -> oh -> Mider
 * pe -> wow -> Andap
 * aruh -> sigh -> Andap
-* saja -> really -> Andap
 * yakti -> really -> Alus
 * engken -> what's up -> Andap
 * kengken -> what's up -> Andap
@@ -2075,15 +1702,10 @@
 * ni -> this (filler) -> Andap
 * je -> please (emphasis) -> Andap
 * ja -> please (emphasis) -> Andap
-* dong -> surely -> Andap
 * sing ja -> not really -> Andap
 * ten je -> not really -> Alus
-* nyanan -> later -> Andap
-* jani -> now -> Andap
 * nah keto -> like that, okay -> Andap
 * keto suba -> that's how it is -> Andap
-* patut -> correct -> Alus
-* beneh -> correct -> Andap
 
 #### Lesson 64: Work and Business
 * kantor -> office -> Mider
@@ -2099,9 +1721,6 @@
 * modal -> capital -> Mider
 * gaji -> salary -> Mider
 * bayaran -> payment -> Mider
-* naur -> to pay -> Alus
-* mayar -> to pay -> Andap
-* utang -> debt -> Mider
 * suara -> vote/voice -> Mider
 * rapat -> meeting -> Mider
 * sangkep -> meeting (banjar) -> Andap
@@ -2109,12 +1728,9 @@
 * tugas -> duty -> Mider
 * karya -> work -> Alus
 * gawe -> work -> Andap
-* bos -> boss -> Mider
 * anak megae -> worker -> Andap
 * buruh -> laborer -> Mider
 * tani -> farming -> Mider
-* nelayan -> fishing -> Mider
-* hasil -> yield/result -> Mider
 * bangkrut -> bankrupt -> Mider
 * sukses -> success -> Mider
 
@@ -2140,26 +1756,18 @@
 * bengal -> stubborn -> Andap
 * bengkung -> stubborn -> Andap
 * jemet -> diligent / hard-working -> Mider
-* anteng -> diligent -> Mider
-* mayus -> lazy -> Andap
-* elek -> ashamed -> Andap
-* kimud -> shy -> Alus
-* takut -> afraid -> Andap
 * wanen -> brave -> Andap
 * wani -> brave (loan) -> Mider
 * nyesel -> regret -> Andap
 * lega keneh -> peace of mind -> Andap
 
 #### Lesson 66: Politics & Society
-* banjar -> community hall/ward; local community -> Mider
-* desa -> village -> Mider
 * kabupaten -> regency -> Mider
 * provinsi -> province -> Mider
 * pemerintah -> government -> Mider
 * gubernur -> governor -> Mider
 * bupati -> regent -> Mider
 * kepala desa -> village head -> Mider
-* kelian -> banjar head -> Mider
 * kelian adat -> traditional banjar head -> Mider
 * pecalang -> traditional security -> Mider
 * hukum -> law -> Mider
@@ -2167,16 +1775,13 @@
 * adat -> custom/tradition -> Mider
 * dinas -> official/administrative -> Mider
 * rakyat -> citizens/people -> Mider
-* krama -> community members -> Mider
 * pemilu -> election -> Mider
 * pajak -> tax -> Mider
 * aturan -> rule -> Mider
 * pidato -> speech -> Mider
 * darma wacana -> religious speech -> Mider
 * gotong royong -> community labor -> Mider
-* ngayah -> voluntary community work -> Mider
 * paruman -> village meeting -> Alus
-* sangkep -> village meeting -> Andap
 * denda -> fine/penalty -> Mider
 * sumbangan -> donation -> Mider
 * dana punia -> religious donation -> Mider
@@ -2191,10 +1796,8 @@
 * kanda pat -> four spiritual siblings -> Mider
 * niskala -> unseen world -> Mider
 * sekala -> seen world -> Mider
-* pura -> temple -> Mider
 * dalem -> temple of death/Shiva -> Mider
 * pamangku -> priest -> Mider
-* balian -> traditional healer/shaman -> Mider
 * sakti -> magical power -> Mider
 * tenung -> fortune telling -> Mider
 * sesuhunan -> revered deity/spirit -> Alus
@@ -2204,13 +1807,9 @@
 * suarga -> heaven -> Mider
 * neraka -> hell -> Mider
 * moksa -> spiritual liberation -> Mider
-* bhatara -> god/deity -> Mider
-* dewa -> god -> Mider
 * dewi -> goddess -> Mider
-* raksasa -> giant/demon -> Mider
 * bhuta kala -> negative spirits -> Mider
 * tapa -> meditation/asceticism -> Mider
-* mantra -> spell/prayer -> Mider
 * tumbal -> sacrifice -> Mider
 * keris -> sacred dagger -> Mider
 * pasupati -> spiritually activating an object -> Mider
@@ -2266,11 +1865,6 @@
 * ring dija -> where -> Alus
 * pidan -> when -> Andap
 * kenken -> how -> Andap
-* sapunapi -> how -> Alus
-* kuda -> how many -> Andap
-* pinten -> how many -> Alus
-* taen -> ever -> Andap
-* lakar -> will -> Andap
 
 #### Lesson 70: Comprehensive A2 Final Exam (Review Part 2)
 * matur suksma -> thank you very much -> Alus
@@ -2289,8 +1883,6 @@
 * nyen adan cainé -> what is your name? (to male) -> Andap
 * aji kuda niki -> how much is this? -> Alus
 * kuda regan ené -> how much is this? -> Andap
-* dados kirang -> can the price be lower? -> Alus
-* dadi kuang -> can the price be lower? -> Andap
 * tiang jagi makta -> I will bring -> Alus
 * icang lakar ngaba -> I will bring -> Andap
 * sampunang lali -> don't forget -> Alus
@@ -2298,9 +1890,5 @@
 * ngiring memargi -> let's go -> Alus
 * jalan majalan -> let's go -> Andap
 * nenten uning -> don't know -> Alus
-* sing nawang -> don't know -> Andap
 * tiang jagi mantuk -> I am going home -> Alus
 * icang lakar mulih -> I am going home -> Andap
-* dumogi rahayu -> may you be safe -> Mider
-* pamit -> goodbye -> Alus
-* suksma mewali -> you're welcome -> Alus
