@@ -24,6 +24,8 @@ class ContentRepository(private val assets: AssetManager) {
     val sentencesByWord = HashMap<String, MutableList<Sentence>>()
     val sections = ArrayList<SectionMeta>()
     val stories = ArrayList<Story>()
+    val dictionary = ArrayList<DictionaryEntry>(2048)
+    val dictionaryById = HashMap<String, DictionaryEntry>(2048)
     val chunks = ArrayList<ChunkMeta>()
     val chunksById = HashMap<String, ChunkMeta>()
     val lessonsById = HashMap<Int, LessonMeta>()
@@ -46,6 +48,7 @@ class ContentRepository(private val assets: AssetManager) {
         loadSentences()
         loadCurriculum()
         loadStories()
+        loadDictionary()
         buildIndices()
         buildPath()
         loaded = true
@@ -176,6 +179,41 @@ class ContentRepository(private val assets: AssetManager) {
     }
 
     fun storyById(id: String): Story? = stories.firstOrNull { it.id == id }
+
+
+    private fun loadDictionary() {
+        try {
+            val arr = JSONObject(readJson("dictionary.json")).getJSONArray("entries")
+            for (i in 0 until arr.length()) {
+                val o = arr.getJSONObject(i)
+                val examples = ArrayList<DictionaryExample>()
+                val ej = o.optJSONArray("examples")
+                if (ej != null) {
+                    for (j in 0 until ej.length()) {
+                        val eo = ej.getJSONObject(j)
+                        val bal = eo.optString("bal", "")
+                        if (bal.isNotBlank()) examples += DictionaryExample(bal, eo.optString("en", ""))
+                    }
+                }
+                val defs = o.optJSONArray("definitions")?.toStringList() ?: emptyList()
+                val entry = DictionaryEntry(
+                    id = o.getString("id"),
+                    headword = o.optString("headword", o.getString("id")),
+                    english = o.optString("english", ""),
+                    definitions = defs,
+                    pos = o.optString("pos", ""),
+                    register = o.optString("register", ""),
+                    examples = examples,
+                    lesson = o.optInt("lesson", 0)
+                )
+                dictionary += entry
+                dictionaryById[entry.id] = entry
+            }
+        } catch (_: Exception) {
+            // dictionary is optional; the rest of the course still works
+        }
+    }
+
 
     private fun org.json.JSONArray.toStringList(): List<String> =
         (0 until length()).map { getString(it) }
@@ -336,21 +374,31 @@ class ContentRepository(private val assets: AssetManager) {
      */
     fun distractorEnglish(s: Sentence, n: Int): List<String> {
         val variants = variantKeys(s)
-        val pool = sentences.filter {
+        val pool = distractorCandidates(s, maxTokens = 12).filter {
             it.id != s.id && it.en != s.en && !it.headword &&
-                it.en.length in 4..70 && it.tokens.size in 2..12 &&
-                TextMatch.normalize(it.bal) !in variants
+                it.en.length in 4..70 && TextMatch.normalize(it.bal) !in variants
         }
         return rankDistractors(s, pool, toEnglish = true, n = n).map { it.en }
     }
 
     fun distractorBalinese(s: Sentence, n: Int): List<String> {
         val variants = variantKeys(s)
-        val pool = sentences.filter {
+        val pool = distractorCandidates(s, maxTokens = 9).filter {
             it.id != s.id && it.bal != s.bal && it.en != s.en && !it.headword &&
-                it.tokens.size in 2..9 && TextMatch.normalize(it.bal) !in variants
+                TextMatch.normalize(it.bal) !in variants
         }
         return rankDistractors(s, pool, toEnglish = false, n = n).map { it.bal }
+    }
+
+    /**
+     * Candidates for near-miss distractors.  The same lesson and its immediate
+     * neighbours contain the sentences learners can actually parse, and ranking
+     * a few hundred candidates instead of all 7,400 also keeps session building
+     * fast enough to feel instant on a phone.
+     */
+    private fun distractorCandidates(s: Sentence, maxTokens: Int): List<Sentence> {
+        val near = lessonNeighbours(s.lesson).filter { it.tokens.size in 2..maxTokens }
+        return if (near.size >= 60) near else sentences
     }
 
     /** Normalized canonical sentence plus every register/mix variant of it. */

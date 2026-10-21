@@ -21,6 +21,7 @@ import androidx.compose.ui.unit.sp
 import com.basabali.app.AppGraph
 import com.basabali.app.data.NodeKind
 import com.basabali.app.data.PathNode
+import com.basabali.app.engine.Exercise
 import com.basabali.app.ui.lesson.LessonScreen
 import com.basabali.app.ui.lesson.SessionRunner
 import com.basabali.app.ui.theme.Gold
@@ -149,20 +150,38 @@ private fun SessionHost(
             unit = unit
         )
     }
-    val exercises = remember(kind) {
-        when (kind) {
-            is SessionKind.Node -> when (val k = kind.node.kind) {
-                is NodeKind.Learn -> AppGraph.builder.newChunkSession(k.chunk, caps)
-                is NodeKind.Reinforce -> AppGraph.builder.reinforceChunkSession(k.chunk, caps)
-                is NodeKind.Cumulative -> AppGraph.builder.cumulativeReviewSession(k.upToLesson, k.slots, caps)
-                is NodeKind.LessonReview -> AppGraph.builder.lessonReviewSession(k.lessonId, k.slots, caps)
+    // Building a session walks the sentence bank and ranks distractors.  Do it
+    // off the UI thread and show progress: tapping a path bubble used to freeze
+    // the screen for seconds with no feedback.
+    var exercises by remember(kind) { mutableStateOf<List<Exercise>?>(null) }
+    LaunchedEffect(kind) {
+        exercises = withContext(Dispatchers.Default) {
+            when (kind) {
+                is SessionKind.Node -> when (val k = kind.node.kind) {
+                    is NodeKind.Learn -> AppGraph.builder.newChunkSession(k.chunk, caps)
+                    is NodeKind.Reinforce -> AppGraph.builder.reinforceChunkSession(k.chunk, caps)
+                    is NodeKind.Cumulative -> AppGraph.builder.cumulativeReviewSession(k.upToLesson, k.slots, caps)
+                    is NodeKind.LessonReview -> AppGraph.builder.lessonReviewSession(k.lessonId, k.slots, caps)
+                }
+                SessionKind.Review -> AppGraph.builder.reviewSession(caps)
+                SessionKind.Mistakes -> AppGraph.builder.mistakeSession(caps)
             }
-            SessionKind.Review -> AppGraph.builder.reviewSession(caps)
-            SessionKind.Mistakes -> AppGraph.builder.mistakeSession(caps)
         }
     }
 
-    if (exercises.isEmpty()) {
+    val built = exercises
+    if (built == null) {
+        Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                CircularProgressIndicator(color = Gold)
+                Spacer(Modifier.height(14.dp))
+                Text("Building this exercise set…", color = InkSoft, fontSize = 13.sp)
+            }
+        }
+        return
+    }
+
+    if (built.isEmpty()) {
         LaunchedEffect(Unit) {
             // never soft-lock a path node or review action that cannot generate exercises
             if (kind is SessionKind.Node) {
@@ -174,9 +193,9 @@ private fun SessionHost(
         return
     }
 
-    val runner = remember(kind) {
+    val runner = remember(built) {
         SessionRunner(
-            initialExercises = exercises,
+            initialExercises = built,
             builder = AppGraph.builder,
             caps = caps,
             content = AppGraph.content,

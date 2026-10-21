@@ -115,3 +115,21 @@ data class PathNode(
     val sub: Int,            // 0-based subunit index
     val kind: NodeKind
 )
+
+
+// ------------------------------------------------------------------ dictionary
+
+/** One sourced example sentence from the BASAbali / BASAibu Wiki dictionary. */
+data class DictionaryExample(val bal: String, val en: String)
+
+/** One offline dictionary record; lesson == 0 means it is outside the course. */
+data class DictionaryEntry(
+    val id: String,
+    val headword: String,
+    val english: String,
+    val definitions: List<String>,
+    val pos: String,
+    val register: String,
+    val examples: List<DictionaryExample>,
+    val lesson: Int
+)

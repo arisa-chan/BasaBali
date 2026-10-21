@@ -605,6 +605,7 @@ def main():
     dump('curriculum.json', curriculum)
 
     stories_out, story_errors = build_stories(entry_lesson, matcher)
+    stories_out.sort(key=lambda st: (st['gate'], st['title'].lower()))
     if story_errors:
         print("\nSTORY VOCABULARY VIOLATIONS (fix stories_src.py):")
         for e in story_errors:

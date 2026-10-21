@@ -30,9 +30,16 @@ def seq(parts):
     return s
 
 def write(name, samples):
+    # Normalize to a consistent loudness (RMS), not just peak: the old files
+    # ranged from -16.3 to -13.4 dBFS, so the short click was hard to hear.
+    target_rms = 0.22          # about -13 dBFS
+    rms = math.sqrt(sum(s * s for s in samples) / max(1, len(samples))) or 1.0
+    scale = target_rms / rms
     peak = max(abs(s) for s in samples) or 1.0
-    samples = [s / peak * 0.7 for s in samples]
-    f = int(SR * 0.004)
+    if peak * scale > 0.95:
+        scale = 0.95 / peak
+    samples = [s * scale for s in samples]
+    f = int(SR * 0.006)
     for i in range(f):
         samples[i] *= i / f
         samples[-1 - i] *= i / f
@@ -45,7 +52,7 @@ def write(name, samples):
     w.close()
     print(f"{name}.wav  {len(samples)/SR:.2f}s  {os.path.getsize(path)//1024} KB")
 
-write('click',    seq([(880.0, 0.05, 0.5, 0.0, 9.0)]))
+write('click',    seq([(988.0, 0.06, 0.65, 0.10, 8.0)]))
 write('correct',  seq([(523.25, 0.09, 0.55, 0.15, 2.0),
                       (659.25, 0.09, 0.55, 0.15, 2.0),
                       (783.99, 0.18, 0.60, 0.20, 3.0)]))

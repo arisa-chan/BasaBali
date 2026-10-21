@@ -63,7 +63,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.basabali.app.AppGraph
 import com.basabali.app.audio.AsrManager
+import com.basabali.app.audio.SoundFx
 import com.basabali.app.audio.TtsManager
 import com.basabali.app.data.ContentRepository
 import com.basabali.app.data.NodeKind
@@ -103,7 +105,7 @@ private fun unitLabel(unit: Int, lessonId: Int): String = when (unit) {
 
 /**
  * App shell: sticky top bar (title · streak · XP), sticky bottom navigation
- * (Lessons · Stories · Quests · Leaderboard · Review · Settings) and the six
+ * (Lessons · Stories · Quests · Leaderboard · Dictionary · Settings) and the six
  * tab contents. Lesson / story / completion screens route away from here.
  */
 @Composable
@@ -129,7 +131,7 @@ fun MainScreen(
         "📖" to "Stories",
         "🎯" to "Quests",
         "🏆" to "Leaderboard",
-        "🧠" to "Review",
+        "🔎" to "Dictionary",
         "⚙️" to "Settings"
     )
 
@@ -179,7 +181,7 @@ fun MainScreen(
                 1 -> StoriesTab(content, store, snack, scope, onStory)
                 2 -> QuestsTab(store)
                 3 -> LeagueContent(store)
-                4 -> ReviewTab(content, store, builder, tts, snack, scope, onStartSession)
+                4 -> DictionaryScreen(content, store, builder, tts, snack, scope, onStartSession)
                 else -> SettingsTab(content, store, tts, asr, onPlacement, onReset)
             }
         }
@@ -850,14 +852,30 @@ private fun SettingsTab(
             Column(Modifier.padding(14.dp)) {
                 Text("Audio & sounds", fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = Ink)
                 Spacer(Modifier.height(4.dp))
-                Text("🔊 Voice: Indonesian TTS proxy — " +
-                    (if (tts?.available == true) "ready" else "unavailable on this device"),
-                    fontSize = 12.sp, color = InkSoft)
+                Text("🔊 Voice: " +
+                    (if (tts?.available == true) "ready (${tts.languageLabel})" else "starting / unavailable"),
+                    fontSize = 12.sp, color = if (tts?.available == true) GreenOk else InkSoft)
+                if (tts?.available == true) {
+                    SpeakerButton("Om Swastiastu, rahajeng semeng!", tts, size = 34)
+                }
                 Text("🎤 Speech check: Indonesian ASR — " +
                     (if (asr?.available() == true) "ready" else "unavailable on this device"),
                     fontSize = 12.sp, color = InkSoft)
-                Text("🎵 UI sounds: synthesized — tile click, correct, wrong, subunit complete, out of hearts",
+                Text("🎵 UI sounds — tap to test (all normalized to the same volume)",
                     fontSize = 12.sp, color = InkSoft)
+                Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+                    listOf(
+                        "Click" to SoundFx.Sound.CLICK,
+                        "Correct" to SoundFx.Sound.CORRECT,
+                        "Wrong" to SoundFx.Sound.WRONG,
+                        "Complete" to SoundFx.Sound.COMPLETE,
+                        "Fail" to SoundFx.Sound.FAIL
+                    ).forEach { (label, sound) ->
+                        TextButton(onClick = { AppGraph.fx?.play(sound) }) {
+                            Text(label, fontSize = 11.sp)
+                        }
+                    }
+                }
             }
         }
 
@@ -902,7 +920,7 @@ private fun SettingsTab(
         }
 
         Text(
-            "BasaBali — 70 lessons · 5-unit path · 8,597 authored sentences",
+            "BasaBali — 70 lessons · 5-unit path · 7,468 exercise sentences · 20 stories",
             fontSize = 11.sp, color = InkSoft,
             textAlign = androidx.compose.ui.text.style.TextAlign.Center,
             modifier = Modifier.fillMaxWidth().padding(top = 4.dp)

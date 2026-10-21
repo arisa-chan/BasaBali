@@ -93,6 +93,47 @@ object Srs {
         st.lastReview = now
     }
 
+    /** Human-readable mastery label for the Dictionary module. */
+    fun masteryLabel(st: SrsState?, now: Long): String {
+        if (st == null || st.lastReview <= 0L) return "Not encountered"
+        ensureFsrs(st)
+        return when (mode) {
+            Mode.LEITNER -> when (st.box) {
+                0, 1 -> "Learning"
+                2, 3 -> "Familiar"
+                4, 5 -> "Strong"
+                else -> "Mastered"
+            }
+            Mode.FSRS -> when {
+                st.stability < 1.0 -> "Learning"
+                st.stability < 7.0 -> "Familiar"
+                st.stability < 30.0 -> "Strong"
+                else -> "Mastered"
+            }
+        }
+    }
+
+    /** Compact scheduler state shown next to the mastery label. */
+    fun masteryDetail(st: SrsState?, now: Long): String {
+        if (st == null || st.lastReview <= 0L) return "SRS: new"
+        ensureFsrs(st)
+        return when (mode) {
+            Mode.LEITNER -> "Leitner box ${st.box.coerceIn(0, 7)}/7"
+            Mode.FSRS -> if (st.stability <= 0.0) "FSRS: learning"
+                        else "FSRS stability ${"%.1f".format(st.stability)} d"
+        }
+    }
+
+    /** 0..1 bar for the Dictionary row. */
+    fun masteryFraction(st: SrsState?, now: Long): Float {
+        if (st == null || st.lastReview <= 0L) return 0f
+        ensureFsrs(st)
+        return when (mode) {
+            Mode.LEITNER -> ((st.box.coerceIn(0, 7) + 1) / 8f)
+            Mode.FSRS -> (st.stability / 30.0).coerceIn(0.08, 1.0).toFloat()
+        }
+    }
+
     fun onWrong(st: SrsState, now: Long) {
         when (mode) {
             Mode.LEITNER -> {
