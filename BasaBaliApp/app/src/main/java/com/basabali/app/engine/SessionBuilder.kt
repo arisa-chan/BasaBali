@@ -120,20 +120,24 @@ class SessionBuilder(
 
     fun newChunkSession(chunk: ChunkMeta, caps: Caps): List<Exercise> {
         val out = ArrayList<Exercise>()
-        val items = chunk.items
         val lesson = chunk.lessonId
+        val active = store.words
+            .filterValues { it.lastReview > 0L }
+            .keys
+            .toMutableSet()
+        val remaining = chunk.items.toMutableList()
+        val introduced = LinkedHashSet<String>()
+        val usedSentences = HashSet<String>()
+        var lastExample: Sentence? = null
 
-        // E2 warm-up: match pairs over the chunk's words (older taught words top
-        // the board up when glosses collide); skipped when an unambiguous board
-        // of ≥3 pairs can't be built.
-        buildMatchPairs(items, lesson)?.let { out += it }
-
-        // Per item: card → recognition (vocab MC for every third entry, else
-        // sentence choice/listen) → production (E4 word bank) → ear/mouth pass
-        // (E5 listening or E9 speaking — speaking is read-aloud, not recall).
-        for ((i, item) in items.withIndex()) {
-            val usages = content.usageSentences(item, lesson, 4)
-            val example = usages.firstOrNull() ?: content.anyUsageSentence(item, lesson)
+        // Adaptive U1 flow:
+        //   card -> add to active DB -> present a sentence using only active
+        //   entries -> if none, introduce the next entry (preferring a word that
+        //   appeared in the previous example sentence).
+        while (remaining.isNotEmpty()) {
+            val item = pickNextItem(remaining, lastExample)
+            remaining.remove(item)
+            val example = adaptiveExample(item, lesson, active)
             out += WordCardEx(
                 wordId = item,
                 gloss = content.gloss(item),
@@ -141,37 +145,101 @@ class SessionBuilder(
                 exampleBal = example?.bal ?: content.display(item),
                 exampleEn = example?.en ?: content.gloss(item)
             )
-            val s1 = usages.getOrNull(0)
-            if (s1 != null) {
-                out += if (i % 3 == 0) {
-                    makeVocabChoice(item, toEnglish = (i / 3) % 2 == 0, lesson)
-                } else if (caps.listeningUnlocked() && random.nextInt(100) < 35) {
-                    makeListenTap(s1, toEnglish = true, focus = listOf("w:$item"))
-                } else {
-                    makeChoice(s1, toEnglish = true, focus = listOf("w:$item"))
-                }
-            }
+            active += item
+            introduced += item
+            lastExample = example
 
-            val s2 = usages.getOrNull(1) ?: usages.getOrNull(0)
-            if (s2 != null) {
-                if (s2.tokens.size in MIN_TOKENS..MAX_BANK_TOKENS) out += makeBank(s2, listOf("w:$item"))
-                else out += makeChoice(s2, toEnglish = false, focus = listOf("w:$item"))
-            }
-            val s3 = usages.getOrNull(2)
-            if (s3 != null && random.nextInt(100) < 60) {
-                val speakOk = caps.speakUnlocked() && s3.tokens.size in MIN_TOKENS..8
-                out += when {
-                    speakOk && random.nextInt(100) < 50 -> makeSpeak(s3, listOf("w:$item"))
-                    caps.listeningUnlocked() -> makeListenTap(s3, toEnglish = true, focus = listOf("w:$item"))
-                    else -> makeChoice(s3, toEnglish = true, focus = listOf("w:$item"))
-                }
+            val s = activeSentence(lesson, active, usedSentences, item)
+            if (s != null) {
+                usedSentences += s.id
+                out += adaptiveExercise(s, item, caps, out.size)
             }
         }
 
-        val exclude = out.mapNotNull { it.sentenceId }.toSet()
-        val review = buildReview(REVIEW_SLOTS_NEW, exclude, caps)
+        // Keep the subunit full: every extra exercise uses only active entries.
+        var guard = 0
+        while (out.size < 16 && guard < 40) {
+            guard++
+            val s = activeSentence(lesson, active, usedSentences, null) ?: break
+            usedSentences += s.id
+            out += adaptiveExercise(s, null, caps, out.size)
+        }
+
+        // If the lesson's active-only sentence pool is still tiny (very first
+        // lessons), make sure each new entry gets at least one recognition item.
+        for (item in introduced) {
+            if (out.size >= 12) break
+            out += makeVocabChoice(item, toEnglish = true, lesson)
+        }
+
+        val review = buildReview(if (out.size < 14) REVIEW_SLOTS_NEW else 1, usedSentences, caps)
         val merged = interleave(out, review)
         return if (merged.size > MAX_SESSION + 2) merged.take(MAX_SESSION + 2) else merged
+    }
+
+    /** Prefer an item that actually occurred in the previous WordCard example. */
+    private fun pickNextItem(remaining: List<String>, lastExample: Sentence?): String {
+        val fromExample = lastExample?.let { s ->
+            remaining.firstOrNull { it in s.words || it in s.tokens }
+        }
+        return fromExample ?: remaining.first()
+    }
+
+    /**
+     * Example line for a WordCard: ideally it uses only already-active entries
+     * plus the new item, so the learner can parse it immediately.  If the lesson
+     * has no such line yet, fall back to any attested use of the item.
+     */
+    private fun adaptiveExample(item: String, lesson: Int, active: Set<String>): Sentence? {
+        val candidates = (content.sentencesByLesson[lesson] ?: emptyList()).filter {
+            !it.headword && item in it.words && it.tokens.size in 2..MAX_TOKENS &&
+                it.words.all { w -> w == item || active.contains(w) }
+        }
+        if (candidates.isNotEmpty()) {
+            val short = candidates.sortedBy { it.tokens.size }.take(4)
+            return short[random.nextInt(short.size)]
+        }
+        return content.usageSentences(item, lesson, 1).firstOrNull()
+    }
+
+    /**
+     * A sentence from this lesson that uses only entries in [active].  [must]
+     * pins a sentence containing the just-introduced entry; null asks for any
+     * unused sentence, which fills the rest of the subunit.
+     */
+    private fun activeSentence(
+        lesson: Int,
+        active: Set<String>,
+        used: Set<String>,
+        must: String?
+    ): Sentence? {
+        val candidates = (content.sentencesByLesson[lesson] ?: emptyList()).filter {
+            !it.headword && it.id !in used && it.words.isNotEmpty() &&
+                it.tokens.size in MIN_TOKENS..MAX_TOKENS &&
+                it.words.all { w -> active.contains(w) } &&
+                (must == null || must in it.words)
+        }
+        if (candidates.isEmpty()) return null
+        return candidates[random.nextInt(candidates.size)]
+    }
+
+    private fun adaptiveExercise(s: Sentence, item: String?, caps: Caps, serial: Int): Exercise {
+        val lessonFocus = s.words
+            .filter { content.words[it]?.firstLesson == s.lesson }
+            .map { "w:$it" }
+        val focus = item?.let { listOf("w:$it") } ?: lessonFocus.ifEmpty { s.words.map { "w:$it" } }
+        return when (serial % 6) {
+            0 -> makeChoice(s, toEnglish = true, focus)
+            1 -> if (s.tokens.size <= MAX_BANK_TOKENS) makeBank(s, focus)
+                 else makeChoice(s, toEnglish = false, focus)
+            2 -> if (caps.listeningUnlocked()) makeListenTap(s, toEnglish = true, focus)
+                 else makeChoice(s, toEnglish = true, focus)
+            3 -> makeChoice(s, toEnglish = false, focus)
+            4 -> if (caps.speakUnlocked() && s.tokens.size <= 8) makeSpeak(s, focus)
+                 else makeChoice(s, toEnglish = true, focus)
+            else -> if (s.tokens.size <= MAX_BANK_TOKENS) makeBank(s, focus)
+                    else makeChoice(s, toEnglish = false, focus)
+        }
     }
 
     /**

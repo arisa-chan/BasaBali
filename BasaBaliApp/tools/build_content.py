@@ -20,7 +20,7 @@ Outputs (to app/src/main/assets/content/):
 The tokenizer/matcher mirrors validate*.py: greedy longest-entry match over the
 cumulative vocabulary pool, plus suffix rules (-ne / -e / -n) and a name list.
 """
-import json, os, re, sys, unicodedata
+import collections, json, os, re, sys, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from stories_src import STORIES
 
@@ -294,8 +294,41 @@ SENTENCE_PATTERNS = [
     ('P-politeness-agree', _politeness_agreement),
 ]
 
-CHUNK_OVERRIDES = {8: 6, 22: 6, 41: 6, 68: 4}   # numbers: bigger; idioms: smaller
 DEFAULT_CHUNK = 5
+
+def cluster_chunks(items, lesson_sents, size=DEFAULT_CHUNK):
+    """Group five new entries that actually co-occur in the lesson sentences.
+
+    A U1 subunit introduces its five entries one by one.  If a chunk is a slice
+    of the vocabulary list, the first two words often have no sentence that uses
+    only the active subset.  Grouping by co-occurrence makes the first active
+    sentences available after two or three cards, and keeps the adaptive U1
+    flow moving (see SessionBuilder.newChunkSession).
+    """
+    items = list(dict.fromkeys(items))
+    freq = collections.Counter()
+    co = collections.Counter()
+    for s in lesson_sents:
+        ws = sorted(set(s['words']) & set(items))
+        for w in ws:
+            freq[w] += 1
+        for i, a in enumerate(ws):
+            for b in ws[i + 1:]:
+                co[(a, b)] += 1
+                co[(b, a)] += 1
+    remaining = set(items)
+    chunks = []
+    while remaining:
+        seed = max(remaining, key=lambda x: (freq[x], -items.index(x), x))
+        group = [seed]
+        remaining.remove(seed)
+        while len(group) < size and remaining:
+            nxt = max(remaining, key=lambda x: (
+                sum(co[(x, y)] for y in group), freq[x], -items.index(x), x))
+            group.append(nxt)
+            remaining.remove(nxt)
+        chunks.append(group)
+    return chunks
 
 # ---------------------------------------------------------------- matcher
 class Matcher:
@@ -562,14 +595,8 @@ def main():
             missing = vocab_set - set(items)
             if missing:
                 items += sorted(missing)
-            size = CHUNK_OVERRIDES.get(L, DEFAULT_CHUNK)
-            n = len(items)
-            k = max(1, (n + size - 1) // size)
-            base, rem = n // k, n % k
-            chunks, idx = [], 0
-            for c in range(k):
-                sz = base + (1 if c < rem else 0)
-                chunks.append(items[idx:idx + sz]); idx += sz
+            lesson_sents = [x for x in sentences_out if x['lesson'] == L and not x['headword']]
+            chunks = cluster_chunks(items, lesson_sents, DEFAULT_CHUNK)
             lessons_json.append({
                 'id': L,
                 'title': all_lessons[L]['title'],

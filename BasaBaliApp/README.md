@@ -48,7 +48,7 @@ No network needed at runtime — course content, SRS, leagues and quests are all
 
 ### v3 additions (this revision)
 
-**Lesson = 5 units** (e.g. a 25-word lesson → U1: 5 subunits × 5 words · U2: 5 × 5 · U3: 3 · U4: 3 · U5: 1):
+**Lesson = 5 units** (e.g. a 30-word lesson → U1: 6 subunits × 5 words · U2: 6 × 5 · U3: 3 · U4: 3 · U5: 1):
 
 | Unit | Content | Sessions |
 |---|---|---|

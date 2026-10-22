@@ -1,185 +1,31 @@
 {
   "retired": [
     {
-      "id": "nyai",
-      "lesson": 1,
-      "gloss": "you (female)",
-      "register": "Andap",
-      "reason": "redundant with kept 'ragane' (same meaning / register)"
-    },
-    {
-      "id": "inggih",
-      "lesson": 1,
-      "gloss": "yes",
-      "register": "Alus (Very formal)",
-      "reason": "redundant with kept 'nggih' (same meaning / register)"
-    },
-    {
-      "id": "saja",
-      "lesson": 1,
-      "gloss": "yes (true)",
-      "register": "Andap",
-      "reason": "redundant with kept 'nggih' (same meaning / register)"
-    },
-    {
-      "id": "beneh",
-      "lesson": 1,
-      "gloss": "correct",
-      "register": "Andap",
-      "reason": "redundant with kept 'patut' (same meaning / register)"
-    },
-    {
-      "id": "tusing",
-      "lesson": 1,
-      "gloss": "no",
-      "register": "Andap",
-      "reason": "redundant with kept 'ten' (same meaning / register)"
-    },
-    {
       "id": "miwah",
       "lesson": 1,
-      "gloss": "and",
-      "register": "Alus",
-      "reason": "redundant with kept 'lan' (same meaning / register)"
+      "gloss": "",
+      "register": "",
+      "reason": "not selected in the 30-entry course cap"
     },
     {
       "id": "nanging",
       "lesson": 1,
-      "gloss": "but",
-      "register": "Mider",
-      "reason": "redundant with kept 'sakewanten' (same meaning / register)"
-    },
-    {
-      "id": "siang",
-      "lesson": 2,
-      "gloss": "afternoon (loan)",
-      "register": "Mider",
-      "reason": "redundant with kept 'tengai' (same meaning / register)"
-    },
-    {
-      "id": "sore",
-      "lesson": 2,
-      "gloss": "evening (loan)",
-      "register": "Mider",
-      "reason": "redundant with kept 'sanja' (same meaning / register)"
-    },
-    {
-      "id": "kabar",
-      "lesson": 2,
-      "gloss": "news",
-      "register": "Mider",
-      "reason": "redundant with kept 'gatra' (same meaning / register)"
-    },
-    {
-      "id": "tiang becik",
-      "lesson": 2,
-      "gloss": "I am fine",
-      "register": "Alus",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "mepamit",
-      "lesson": 2,
-      "gloss": "to take one's leave",
-      "register": "Alus",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
+      "gloss": "",
+      "register": "",
+      "reason": "not selected in the 30-entry course cap"
     },
     {
       "id": "dumogi rahayu",
       "lesson": 2,
-      "gloss": "may you be safe",
-      "register": "Mider",
-      "reason": "derived multi-word phrase; its parts stay in the course"
+      "gloss": "",
+      "register": "",
+      "reason": "not selected in the 30-entry course cap"
     },
     {
       "id": "lantang yusa",
       "lesson": 2,
       "gloss": "long life",
       "register": "Mider",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "sinampura",
-      "lesson": 3,
-      "gloss": "apologies",
-      "register": "Alus",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "ngidih tulung",
-      "lesson": 3,
-      "gloss": "ask for help",
-      "register": "Andap",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "raris",
-      "lesson": 3,
-      "gloss": "please go ahead",
-      "register": "Alus",
-      "reason": "redundant with kept 'durus' (same meaning / register)"
-    },
-    {
-      "id": "sing ada",
-      "lesson": 3,
-      "gloss": "there is none / no problem",
-      "register": "Andap",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "nunas ampura",
-      "lesson": 3,
-      "gloss": "please forgive me; I apologize",
-      "register": "Alus",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "parab",
-      "lesson": 4,
-      "gloss": "name",
-      "register": "Alus (Singgih)",
-      "reason": "redundant with kept 'pesengan' (same meaning / register)"
-    },
-    {
-      "id": "wastan tiang",
-      "lesson": 4,
-      "gloss": "my name is...",
-      "register": "Alus",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "gumi",
-      "lesson": 4,
-      "gloss": "world/country",
-      "register": "Andap",
-      "reason": "redundant with kept 'jagat' (same meaning / register)"
-    },
-    {
-      "id": "toris",
-      "lesson": 4,
-      "gloss": "tourist",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "basa bali",
-      "lesson": 4,
-      "gloss": "Balinese language",
-      "register": "Mider",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "ten uning",
-      "lesson": 4,
-      "gloss": "don't know",
-      "register": "Alus",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "sing nawang",
-      "lesson": 4,
-      "gloss": "don't know",
-      "register": "Andap",
       "reason": "derived multi-word phrase; its parts stay in the course"
     },
     {
@@ -190,39 +36,18 @@
       "reason": "lower-frequency item trimmed to keep the lesson at 25"
     },
     {
-      "id": "neda",
-      "lesson": 5,
-      "gloss": "eat (for oneself)",
+      "id": "sing nawang",
+      "lesson": 4,
+      "gloss": "",
+      "register": "",
+      "reason": "not selected in the 30-entry course cap"
+    },
+    {
+      "id": "wastan tiang",
+      "lesson": 4,
+      "gloss": "my name is...",
       "register": "Alus",
-      "reason": "redundant with kept 'ajeng' (same meaning / register)"
-    },
-    {
-      "id": "nginem",
-      "lesson": 5,
-      "gloss": "drink (familiar)",
-      "register": "Andap",
-      "reason": "redundant with kept 'nginum' (same meaning / register)"
-    },
-    {
-      "id": "rayunan",
-      "lesson": 5,
-      "gloss": "food/meal (respectful)",
-      "register": "Alus",
-      "reason": "redundant with kept 'ajengan' (same meaning / register)"
-    },
-    {
-      "id": "padi",
-      "lesson": 5,
-      "gloss": "rice plant",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "susu",
-      "lesson": 5,
-      "gloss": "milk",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
+      "reason": "derived multi-word phrase; its parts stay in the course"
     },
     {
       "id": "becik pisan",
@@ -246,46 +71,11 @@
       "reason": "derived multi-word phrase; its parts stay in the course"
     },
     {
-      "id": "kucing",
-      "lesson": 6,
-      "gloss": "cat (loan)",
-      "register": "Mider",
-      "reason": "redundant with kept 'meong' (same meaning / register)"
-    },
-    {
-      "id": "wanara",
-      "lesson": 6,
-      "gloss": "monkey",
-      "register": "Alus",
-      "reason": "redundant with kept 'bojog' (same meaning / register)"
-    },
-    {
       "id": "jero ketut",
       "lesson": 6,
       "gloss": "mouse (polite term)",
       "register": "Alus",
       "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "lelipi",
-      "lesson": 6,
-      "gloss": "snake",
-      "register": "Andap",
-      "reason": "redundant with kept 'lipi' (same meaning / register)"
-    },
-    {
-      "id": "lawa",
-      "lesson": 6,
-      "gloss": "bat",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "yuyu",
-      "lesson": 6,
-      "gloss": "crab",
-      "register": "Andap",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
     },
     {
       "id": "lele",
@@ -295,53 +85,11 @@
       "reason": "lower-frequency item trimmed to keep the lesson at 25"
     },
     {
-      "id": "gelah icange",
-      "lesson": 7,
-      "gloss": "my (belonging)",
-      "register": "Andap",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "gelah nyaine",
-      "lesson": 7,
-      "gloss": "your (belonging, female)",
-      "register": "Andap",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "napi nika",
-      "lesson": 7,
-      "gloss": "what is that?",
-      "register": "Alus",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "apa ento",
-      "lesson": 7,
-      "gloss": "what is that?",
-      "register": "Andap",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "niki druwen tiang",
-      "lesson": 7,
-      "gloss": "this is mine",
-      "register": "Alus",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
       "id": "ene gelah cang",
       "lesson": 7,
       "gloss": "this is mine",
       "register": "Andap",
       "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "angka",
-      "lesson": 8,
-      "gloss": "number",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
     },
     {
       "id": "a",
@@ -351,32 +99,18 @@
       "reason": "redundant with kept 'besik' (same meaning / register)"
     },
     {
-      "id": "kalih",
+      "id": "abedik",
       "lesson": 8,
-      "gloss": "two",
-      "register": "Alus",
-      "reason": "redundant with kept 'dua' (same meaning / register)"
+      "gloss": "",
+      "register": "",
+      "reason": "not selected in the 30-entry course cap"
     },
     {
-      "id": "tiga",
+      "id": "agelas",
       "lesson": 8,
-      "gloss": "three",
-      "register": "Alus",
-      "reason": "redundant with kept 'telu' (same meaning / register)"
-    },
-    {
-      "id": "enam",
-      "lesson": 8,
-      "gloss": "six",
-      "register": "Alus",
-      "reason": "redundant with kept 'nenem' (same meaning / register)"
-    },
-    {
-      "id": "kude regane",
-      "lesson": 8,
-      "gloss": "how much is it?",
-      "register": "Andap",
-      "reason": "derived multi-word phrase; its parts stay in the course"
+      "gloss": "one glass",
+      "register": "Mider",
+      "reason": "lower-frequency item trimmed to keep the lesson at 25"
     },
     {
       "id": "akeh",
@@ -388,16 +122,9 @@
     {
       "id": "akidik",
       "lesson": 8,
-      "gloss": "just a little",
-      "register": "Alus",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "abedik",
-      "lesson": 8,
-      "gloss": "just a little",
-      "register": "Andap",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
+      "gloss": "",
+      "register": "",
+      "reason": "not selected in the 30-entry course cap"
     },
     {
       "id": "pragat",
@@ -421,144 +148,11 @@
       "reason": "redundant with kept 'telu' (same meaning / register)"
     },
     {
-      "id": "agelas",
-      "lesson": 8,
-      "gloss": "one glass",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "ibu",
-      "lesson": 9,
-      "gloss": "mother",
-      "register": "Mider",
-      "reason": "redundant with kept 'meme' (same meaning / register)"
-    },
-    {
-      "id": "nanang",
-      "lesson": 9,
-      "gloss": "father",
-      "register": "Andap (rural)",
-      "reason": "redundant with kept 'bapa' (same meaning / register)"
-    },
-    {
-      "id": "pianak",
-      "lesson": 9,
-      "gloss": "child",
-      "register": "Andap",
-      "reason": "redundant with kept 'panak' (same meaning / register)"
-    },
-    {
-      "id": "gek",
-      "lesson": 9,
-      "gloss": "younger woman (term of address)",
-      "register": "Andap",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "mesare",
-      "lesson": 11,
-      "gloss": "sleep",
-      "register": "Alus",
-      "reason": "redundant with kept 'sirep' (same meaning / register)"
-    },
-    {
-      "id": "maseh",
-      "lesson": 11,
-      "gloss": "bathe",
-      "register": "Andap",
-      "reason": "redundant with kept 'mandi' (same meaning / register)"
-    },
-    {
-      "id": "majan",
-      "lesson": 11,
-      "gloss": "to stand",
-      "register": "Andap",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "merajan",
-      "lesson": 12,
-      "gloss": "family temple",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "sanggah",
-      "lesson": 12,
-      "gloss": "family shrine",
-      "register": "Andap",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "rurung",
-      "lesson": 12,
-      "gloss": "alley/small street",
-      "register": "Andap",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "kota",
-      "lesson": 12,
-      "gloss": "city",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "galah",
-      "lesson": 14,
-      "gloss": "time",
-      "register": "Alus",
-      "reason": "redundant with kept 'waktu' (same meaning / register)"
-    },
-    {
-      "id": "ih puan",
-      "lesson": 14,
-      "gloss": "day after tomorrow",
-      "register": "Alus",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "buin mani",
-      "lesson": 14,
-      "gloss": "tomorrow",
-      "register": "Andap",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "makelo",
-      "lesson": 14,
-      "gloss": "long time",
-      "register": "Andap",
-      "reason": "redundant with kept 'suwe' (same meaning / register)"
-    },
-    {
       "id": "malih jebos",
       "lesson": 14,
-      "gloss": "later",
-      "register": "Alus",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "lawas",
-      "lesson": 15,
-      "gloss": "old (thing)",
-      "register": "Andap",
-      "reason": "redundant with kept 'kuna' (same meaning / register)"
-    },
-    {
-      "id": "wayah",
-      "lesson": 15,
-      "gloss": "old (mature)",
-      "register": "Andap",
-      "reason": "redundant with kept 'kuna' (same meaning / register)"
-    },
-    {
-      "id": "tua",
-      "lesson": 15,
-      "gloss": "old (person)",
-      "register": "Andap",
-      "reason": "redundant with kept 'kuna' (same meaning / register)"
+      "gloss": "",
+      "register": "",
+      "reason": "not selected in the 30-entry course cap"
     },
     {
       "id": "banyol",
@@ -568,74 +162,11 @@
       "reason": "lower-frequency item trimmed to keep the lesson at 25"
     },
     {
-      "id": "kendel",
-      "lesson": 16,
-      "gloss": "happy/glad",
-      "register": "Andap",
-      "reason": "redundant with kept 'liang' (same meaning / register)"
-    },
-    {
-      "id": "takut",
-      "lesson": 16,
-      "gloss": "scared",
-      "register": "Andap",
-      "reason": "redundant with kept 'jejeh' (same meaning / register)"
-    },
-    {
-      "id": "paling",
-      "lesson": 16,
-      "gloss": "confused; at a loss",
-      "register": "Andap",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "be bawi",
-      "lesson": 17,
-      "gloss": "pork",
-      "register": "Alus",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
       "id": "madaging celeng",
       "lesson": 17,
       "gloss": "containing pork",
       "register": "Andap",
       "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "peningalan",
-      "lesson": 18,
-      "gloss": "eye",
-      "register": "Alus",
-      "reason": "redundant with kept 'mata' (same meaning / register)"
-    },
-    {
-      "id": "cangkem",
-      "lesson": 18,
-      "gloss": "mouth",
-      "register": "Alus",
-      "reason": "redundant with kept 'bibih' (same meaning / register)"
-    },
-    {
-      "id": "karna",
-      "lesson": 18,
-      "gloss": "ear",
-      "register": "Alus",
-      "reason": "redundant with kept 'kuping' (same meaning / register)"
-    },
-    {
-      "id": "cokor",
-      "lesson": 18,
-      "gloss": "foot/leg (very high)",
-      "register": "Alus",
-      "reason": "redundant with kept 'batis' (same meaning / register)"
-    },
-    {
-      "id": "untu",
-      "lesson": 18,
-      "gloss": "tooth",
-      "register": "Alus",
-      "reason": "redundant with kept 'gigi' (same meaning / register)"
     },
     {
       "id": "prabu",
@@ -645,46 +176,11 @@
       "reason": "redundant with kept 'sirah' (same meaning / register)"
     },
     {
-      "id": "gadang nguda",
-      "lesson": 19,
-      "gloss": "light green",
-      "register": "Andap",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "selem kotor",
-      "lesson": 19,
-      "gloss": "dark and dirty",
-      "register": "Andap",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "destar",
-      "lesson": 20,
-      "gloss": "male headdress",
+      "id": "untu",
+      "lesson": 18,
+      "gloss": "tooth",
       "register": "Alus",
-      "reason": "redundant with kept 'udeng' (same meaning / register)"
-    },
-    {
-      "id": "senteng",
-      "lesson": 20,
-      "gloss": "sash",
-      "register": "Mider",
-      "reason": "redundant with kept 'anteng' (same meaning / register)"
-    },
-    {
-      "id": "ali ali",
-      "lesson": 20,
-      "gloss": "ring",
-      "register": "Alus",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "mabaju",
-      "lesson": 20,
-      "gloss": "wearing a shirt",
-      "register": "Andap",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
+      "reason": "redundant with kept 'gigi' (same meaning / register)"
     },
     {
       "id": "makamben",
@@ -694,95 +190,11 @@
       "reason": "lower-frequency item trimmed to keep the lesson at 25"
     },
     {
-      "id": "enembelas",
-      "lesson": 22,
-      "gloss": "sixteen",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "pitulas",
-      "lesson": 22,
-      "gloss": "seventeen",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "pelekutus",
-      "lesson": 22,
-      "gloss": "eighteen",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "siangolas",
-      "lesson": 22,
-      "gloss": "nineteen",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "kalih dasa",
-      "lesson": 22,
-      "gloss": "twenty",
-      "register": "Alus",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
       "id": "pitung dasa lima",
       "lesson": 22,
       "gloss": "seventy-five",
       "register": "Mider",
       "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "guisi",
-      "lesson": 23,
-      "gloss": "drizzle",
-      "register": "Andap",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "lempuyeng",
-      "lesson": 23,
-      "gloss": "dizzy (from heat)",
-      "register": "Andap",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "masan",
-      "lesson": 23,
-      "gloss": "season",
-      "register": "Andap",
-      "reason": "redundant with kept 'musim' (same meaning / register)"
-    },
-    {
-      "id": "masan ujan",
-      "lesson": 23,
-      "gloss": "rainy season",
-      "register": "Andap",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "mapanggih",
-      "lesson": 24,
-      "gloss": "to meet",
-      "register": "Alus",
-      "reason": "redundant with kept 'matemu' (same meaning / register)"
-    },
-    {
-      "id": "ban",
-      "lesson": 25,
-      "gloss": "tire",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "nyewa",
-      "lesson": 25,
-      "gloss": "to rent",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
     },
     {
       "id": "penumpang",
@@ -799,88 +211,11 @@
       "reason": "lower-frequency item trimmed to keep the lesson at 25"
     },
     {
-      "id": "perawat",
-      "lesson": 33,
-      "gloss": "nurse",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
       "id": "nganggur",
       "lesson": 33,
       "gloss": "unemployed",
       "register": "Mider",
       "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "canang sari",
-      "lesson": 35,
-      "gloss": "daily flower offering",
-      "register": "Mider",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "sembahyang",
-      "lesson": 35,
-      "gloss": "to pray",
-      "register": "Mider",
-      "reason": "redundant with kept 'muspa' (same meaning / register)"
-    },
-    {
-      "id": "gebogan",
-      "lesson": 35,
-      "gloss": "tall fruit offering",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "toya tirta",
-      "lesson": 35,
-      "gloss": "holy water",
-      "register": "Alus",
-      "reason": "derived multi-word phrase; its parts stay in the course"
-    },
-    {
-      "id": "sasajen",
-      "lesson": 35,
-      "gloss": "offerings",
-      "register": "Mider",
-      "reason": "lower-frequency item trimmed to keep the lesson at 25"
-    },
-    {
-      "id": "ngumbah",
-      "lesson": 37,
-      "gloss": "washing clothes",
-      "register": "Andap",
-      "reason": "redundant with kept 'numbah' (same meaning / register)"
-    },
-    {
-      "id": "nari",
-      "lesson": 37,
-      "gloss": "dancing",
-      "register": "Alus",
-      "reason": "redundant with kept 'ngigel' (same meaning / register)"
-    },
-    {
-      "id": "mait",
-      "lesson": 46,
-      "gloss": "to carve (wood)",
-      "register": "Andap",
-      "reason": "redundant with kept 'ngukir' (same meaning / register)"
-    },
-    {
-      "id": "makaput",
-      "lesson": 46,
-      "gloss": "to wrap (food)",
-      "register": "Andap",
-      "reason": "redundant with kept 'ngaput' (same meaning / register)"
-    },
-    {
-      "id": "nunjel",
-      "lesson": 46,
-      "gloss": "to burn",
-      "register": "Andap",
-      "reason": "redundant with kept 'meborbor' (same meaning / register)"
     },
     {
       "id": "negul",

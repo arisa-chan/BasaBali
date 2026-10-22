@@ -920,7 +920,7 @@ private fun SettingsTab(
         }
 
         Text(
-            "BasaBali — 70 lessons · 5-unit path · 7,468 exercise sentences · 20 stories",
+            "BasaBali — 70 lessons · 5-unit path · 7,079 exercise sentences · 20 stories",
             fontSize = 11.sp, color = InkSoft,
             textAlign = androidx.compose.ui.text.style.TextAlign.Center,
             modifier = Modifier.fillMaxWidth().padding(top = 4.dp)
